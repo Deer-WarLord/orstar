@@ -103,16 +103,11 @@ if ( function_exists( 'add_image_size' ) ) {
 
 if ( !is_admin() ) { // instruction to only load if it is not the admin area
    // register your script location, dependencies and version
-
     wp_deregister_script( 'jquery' );
-    wp_register_script( 'jquery', 
-       get_bloginfo('template_direcory') . '/assets/js/jquery.min.js');
-    wp_register_script('cycle',
-       get_bloginfo('template_directory') . '/assets/js/cycle.min.js');
-   wp_register_script('functions',
-       get_bloginfo('template_directory') . '/assets/js/functions.js');    
-	 wp_register_script('lightbox',
-	     get_bloginfo('template_directory') . '/assets/js/lightbox_me.js');
+    wp_register_script( 'jquery',  THEME_JS .'/jquery.min.js');
+    wp_register_script('cycle',   get_bloginfo('template_directory') . '/assets/js/cycle.min.js');
+   wp_register_script('functions', get_bloginfo('template_directory') . '/assets/js/functions.js');    
+	 wp_register_script('lightbox', get_bloginfo('template_directory') . '/assets/js/lightbox_me.js');
  
    // enqueue the script
    wp_enqueue_script('jquery');
