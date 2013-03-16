@@ -105,7 +105,7 @@ if ( !is_admin() ) { // instruction to only load if it is not the admin area
    // register your script location, dependencies and version
 
     wp_deregister_script( 'jquery' );
-    wp_register_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js');
+    wp_register_script( 'jquery', '/assets/js/jquery.min.js');
 	   wp_register_script('cycle',
        get_bloginfo('template_directory') . '/assets/js/cycle.min.js');
    wp_register_script('functions',
