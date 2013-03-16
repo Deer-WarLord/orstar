@@ -11,16 +11,6 @@
 		</div>
 
 	</div>
-	<?php if(is_home()) { ?>
-	<span class="powered-by-salesforce">
-		Дизайн <a href="http://www.salesforce.com" target="_blank">Salesforce CRM</a>. Перевод <a href="http://fito-sbor.ru/"
-title="Фиточаи и лечебные сборы">Фито</a>
-	</span>
-	<?php } else { ?>    
-   <span class="powered-by-salesforce">
-		<?php bloginfo('description'); ?>
-	</span>
-	<?php } ?>
 	<span class="social-footer group">
 		<strong>Следите за нами</strong>
 				<?php if( $options['facebook'] != '' ): ?>
