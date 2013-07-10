@@ -11,6 +11,9 @@ Template Name: Blog Template 2
 
 
 <div id="content" class="group <?php echo $options['numcols']; ?>">
+
+    <?php get_sidebar('left'); ?>
+
 	<div id="main-content" class="single-<?php the_ID(); ?>">
 		<h1> <?php the_title(); ?> </h1>					
 			  
@@ -72,9 +75,9 @@ Template Name: Blog Template 2
 		         
         						</div><!-- #main-content -->
                                  
-								<?php get_sidebar(); ?>
+	<?php get_sidebar('right'); ?>
 
-					</div>
+</div>
  
 
 <!-- End Blog -->
