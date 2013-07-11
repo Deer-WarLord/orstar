@@ -3,7 +3,7 @@
 
 <?php if($options['showPosts'] == false && is_home() ) {} else { ?>
 <div id="content" class="blog-entries group <?php if( $options['numcols'] != null ) { echo $options['numcols']; } else { echo 'two-col'; } ?>">
-	<h2 class="updates">
+	<!--h2 class="updates">
 		<?php if(is_home()) { ?>Новое на сайте
 		<?php /* If this is a category archive */ } elseif (is_category()) { ?>
 		Рубрика: <?php single_cat_title(); ?>
@@ -21,9 +21,12 @@
 		Результаты поиска &laquo;<?php the_search_query(); ?>&raquo;
 		<?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
 		Архив сайта
-		<?php } ?></h2>
+		<?php } ?></h2-->
+
+        <?php get_sidebar('left'); ?>
+
 	<div id="main-content">
-	
+	<? query_posts( 'cat=[-5,-6]' ); ?>
 	<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 	
 		<div <?php post_class('group'); ?> id="post-<?php the_ID(); ?>">
@@ -74,7 +77,7 @@
 	
 	</div><!-- #main-content -->
 
-	<?php get_sidebar(); ?>
+	<?php get_sidebar('right'); ?>
 
 </div>
 <?php } ?>

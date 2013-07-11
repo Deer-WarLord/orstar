@@ -9,7 +9,6 @@ Template Name: Blog Template 2
 
 <?php get_header(); $options = get_option('stimulus_theme_options'); ?>
 
-
 <div id="content" class="group <?php echo $options['numcols']; ?>">
 
     <?php get_sidebar('left'); ?>
@@ -24,7 +23,7 @@ Template Name: Blog Template 2
 				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				$wp_query= null;
 				$wp_query = new WP_Query();
-				$wp_query->query('showposts=' . $limit . '&paged=' . $paged);
+				$wp_query->query('cat=-5,-6&showposts=' . $limit . '&paged=' . $paged);
 				$wp_query->is_home = false;
 				?>
 
@@ -46,7 +45,8 @@ Template Name: Blog Template 2
 											<?php the_post_thumbnail('post-thumb-onetwocol'); ?>
 										<?php } 
 										the_excerpt(); ?>
-										<?php echo get_the_content(); ?>
+										<!-- ?php echo get_the_content(); ? -->
+                                                                                   <?php the_content(); ?>
 										</div><!-- .post-text -->	
 									</div><!-- .post-content-container -->	
 									<div class="post-meta group">

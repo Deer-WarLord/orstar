@@ -2,6 +2,239 @@ iFeature Changelog
 
 ****************************
 
+Version 5.1.22 (6-27-13)
+-Updated twitter API to v1.1
+
+Version 5.1.21 (6-21-13)
+-Replaced headlines tags from h2 to h1 at required places.
+
+Version 5.1.20 (6-13-13)
+Removed the unused global variable from boxes.php.
+
+Version 5.1.19 (6-6-13)
+-Updated meta in pot file.
+-Added updated class to the time tag in cyberchimps_posted_on() function.
+-Fixed custom css sanitization at php and js levels.
+-Updated woocommerce styling.
+-Improved comments schema for microformats.
+
+Version 5.1.18 (5-30-13)
+-Removed modal welcome note on theme install.
+-Boxes - added filter for default number 
+
+Version 5.1.17 (5-23-13)
+-Added function cyberchimps_posted_by() to display author link.
+-Modified function cyberchimps_posted_on(), tags containing date fields are made to be printed only when date toggle is on.
+-Added function call to cyberchimps_posted_by().
+
+Version 5.1.16 (5-17-13)
+-Updated slimbox to latest version.
+-Prevented default click action on mobile level slimbox.
+-Added the functionality to prevent the image to load in lightbox for mobile devices.
+-Updated Dutch and German Languages.
+-Fixed the double sliders issue.
+-Added filter cyberchimps_sidebar_before_widget to add markup before widget.
+-Updated footer image logo.
+
+Version 5.1.15 (5-9-13)
+-Replaced get_template_directory_uri() with the variable already declared locally in the function in cyberchimps/functions.php.
+
+Version 5.1.14 (5-2-13)
+-Woocommerce layout fix
+
+Version 5.1.13 (4-26-13)
+-Replaced cyberchimps_option() with cyberchimps_get_option().
+
+Version 5.1.12 (4-19-13)
+-Removed elements using custom post type
+-Added boxes lite to theme and page options
+
+Version 5.1.11 (4-12-13)
+-Framework improvements.
+
+Version 5.1.10 (4-2-13)
+-Framework improvements.
+
+Version 5.1.9 (3-22-13)
+-Framework improvements.
+
+Version 5.1.8 (3-14-13)
+-Framework improvements.
+
+Version 5.1.7 (3-8-13)
+-Framework improvements.
+-Updated language file.
+
+Version 5.1.6 (3-1-13)
+-Framework improvements.
+
+Version 5.1.5 (2-21-13)
+-Moved wpfooter.
+-Updated language definitions.
+
+Version 5.1.4 (2-14-13)
+-IE8 container fix.
+
+Version 5.1.3 (2-6-13)
+-Added style for 3rd level menu items.
+
+Version 5.1.2 (1-30-13)
+-Added embed to video.js
+
+Version 5.1.0.0 (1-25-13)
+-Fix upload bug
+
+Version 5.0.9 (1-23-13)
+-js improvements, meta tag-links classes fix.
+
+Version 5.0.8 (1-14-13)
+-POT file updated, framework updates.
+
+Version 5.0.7 (1-6-13)
+-3rd tier menu.
+-Framework improvements.
+
+Version 5.0.6 (12-29-12)
+-Code cleanup.
+
+Version 5.0.5 (12-22-12)
+-CSS bug fixes.
+-Core framework updates.
+
+Version 5.0.4 (12-13-12)
+-Comments fix.
+-Menu options.
+
+Version 5.0.3 (12-12-12)
+-3.5 fixes, and bugs.
+
+Version 5.0.2 (12-7-12)
+-Background color/image fix.
+
+Version 5.0.1 (12-6-12)
+-3.5 fixes.
+
+Version 5.0 (12-4-12)
+-Initial Release
+
+Version 4.5.30 (11-07-12)
+-Added password protection for elements.
+-Styles for shortcodes.
+
+Version 4.5.29 (10-31-12)
+-Updated Presstrends.
+-Google font fix.
+
+Version 4.5.28 (10-23-12)
+-Comments hidden when protect page / post.
+-French support added.
+
+Version 4.5.27 (10-15-12)
+-Quick edit fix.
+
+Version 4.5.26 (10-08-12)
+-Archive actions fix.
+
+Version 4.5.25 (10-01-12)
+-Printf call to echo variable.
+
+Version 4.5.24 (09-24-12)
+-Setup pie.php file.
+
+Version 4.5.23 (09-18-12)
+-Changed how translations are laid out.
+
+Version 4.5.22 (09-10-12)
+-Fixed language files.
+
+Version 4.5.21 (09-04-12)
+-Fixed responsive slider in IE and Firefox.
+-Fixed float IE issue.
+
+Version 4.5.20 (08-27-12)
+-Logo url on / off option added.
+
+Version 4.5.19 (08-21-12)
+-Custom URL support.
+
+Version 4.5.18 (08-15-12)
+-Twitter bar border radius implemented.
+-wp_title fix.
+-Made meta tag language dynamic.
+
+Version 4.5.17 (08-14-12)
+-Chrome sidebar and decimal fix.
+-Presstrends fix.
+-Theme check fixes.
+
+Version 4.5.16 (08-08-12)
+-Favicon added (off by default).
+
+Version 4.5.15 (07-30-12)
+-Apple-touch icon off by default.
+
+Version 4.5.14 (07-23-12)
+-Upgrade bar improvements, added Facebook like.
+-Apple touch icon implemented.
+
+Version 4.5.13 (07-16-12)
+-German translation fix.
+-Improved marketing copy.
+-Upgrade bar added to theme options.
+-Sticky push div fix.
+
+Version 4.5.12 (07-06-12)
+-Twitter embed fix.
+-z-index nav fix.
+-Inactive element fix.
+-Sticky footer push div.
+
+Version 4.5.11 (07-02-12)
+-Added ability to turn off mobile search.
+-Fixed search bar issue when responsive design was disabled.
+-Implemented footer CSS fix.
+
+Version 4.5.10 (06-24-12)
+-Search for mobile was missing. Removed .searchform {display:none} from foundation.css
+added hide-on-phones for original search and created a new search just for phones below nav bar in header-actions.php. Centered search.
+
+Version 4.5.9 (06-20-12)
+-Fixed validation error with "Read more..."  link.
+
+Version 4.5.8 (06-15-12)
+-Replaced wp_theme_data() (deprecated) with wp_get_theme() in opt-in PressTrends function, backwards compatible with 3.3 and below.
+
+Version 4.5.7 (06-12-12)
+-Fixed breadcrumb issue related to single posts/media attachments. 
+-Fix for random "no tweets to display" message for the Twitterbar. 
+-Added code to prevent direct access to PHP files.
+
+Version 4.5.6 (06-06-12)
+-Added Czech language files.
+-Responsive design tweak for social icons.
+
+Version 4.5.5 (05-30-12)
+-Added Hindi language files.
+-Removed unused theme options and cleaned up related theme code.
+-Code cleanup in comments-actions.php.
+
+Version 4.5.4 (05-24-12)
+-Bug fix for sidebars related to last update. 
+
+Version 4.5.3 (05-22-12)
+-Added prefixes for all custom post meta data options.
+-Added function to convert previous custom post meta values to new ones.
+-Added Danish language files.
+-Added Catalan language files.
+
+Version 4.5.2 (05-15-12)
+-Removed call for unnecessary JS file causing errors for some users.  
+-Updated some copy in the stylesheet. 
+
+Version 4.5.1 (05-14-12)
+-Added option for responsive video embeds (Youtube/Vimeo).
+-Added Polish language files.
+
 Version 4.5 (05-08-12)
 -Added Product Element.
 -Updated styling of Twitter Bar and Breadcrumb Elements.
@@ -51,7 +284,7 @@ Version 4.1.1 (03-28-12)
 -Fixed strange quotes around HTML elements in Google +1 button code.
 -Only enqueue Google +1 script if enabled in theme options.
 -Fix for Facebook Like and Google +1 alignment on Single and Archive templates.
--Changed <!--more--> link text to "Read more…" when the_content() is used.
+-Changed <!--more--> link text to "Read moreâ€¦" when the_content() is used.
 -Fixed several translation functions.
 -Updated core.pot.
 
