@@ -42,8 +42,19 @@ If you'd like to customize this theme with css, please use the custom.css file l
 }
 
 #main-content {
-    width: 500px!important;
     border-width: 0px!important;
+}
+
+.two-col #main-content {
+    width: 500px;
+}
+
+.one-col {
+    width: 800px;
+}
+
+.one-col h1{
+    width: 900px;
 }
 
 h3 {
@@ -60,4 +71,8 @@ text-align: center;
 
 .post .date {
   display: none!important;
+}
+
+.single-content iframe, .gde-text{
+  margin-left: 135px;
 }

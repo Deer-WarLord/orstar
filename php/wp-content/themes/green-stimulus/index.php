@@ -25,8 +25,11 @@
 
         <?php get_sidebar('left'); ?>
 
+<?php if(is_home()) {
+   query_posts( 'cat=[-5,-6]' );
+}?>
 	<div id="main-content">
-	<? query_posts( 'cat=[-5,-6]' ); ?>
+	
 	<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 	
 		<div <?php post_class('group'); ?> id="post-<?php the_ID(); ?>">

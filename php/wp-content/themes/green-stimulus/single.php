@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="content" class="blog-entries group two-col">
+<div id="content" class="blog-entries group one-col">
 	<div id="main-content" class="single-<?php the_ID(); ?>">
 		<h1> <?php the_title(); ?> </h1>
 		<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
@@ -49,7 +49,7 @@
 	
 	</div><!-- #main-content -->
 
-	<?php get_sidebar(); ?>
+	<!-- ?php get_sidebar(); ? -->
 
 </div>
 
