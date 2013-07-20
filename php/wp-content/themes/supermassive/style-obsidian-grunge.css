@@ -1,0 +1,25 @@
+@import url(style-obsidian.css);
+
+
+/*************************** General Styling ***************************/
+
+/* Page Styling */
+body {
+background: #fff url(lib/images/page-bg-obsidian-grunge.png) repeat-x;
+}
+
+
+/*************************** Content Areas ***************************/
+
+/* Page Wrap*/
+#page-wrapper {
+background: url(lib/images/header-veins.png) no-repeat center top;
+}
+
+
+/*************************** Footer ***************************/
+
+/* Footer Bottom */
+#footer-bottom-outer {
+background: #000;
+}

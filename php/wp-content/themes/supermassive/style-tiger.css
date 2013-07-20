@@ -1,0 +1,405 @@
+/*************************** General Styling ***************************/
+
+/* Page Styling */
+body {
+color: #999;
+background: #000 url(lib/images/page-bg-tiger.png) repeat-x;
+}
+
+/* Text Styling */
+a,
+#nav ul li > a:hover,
+#nav ul .current-menu-item > a,
+#nav ul .current-menu-ancestor > a,
+#nav .sub-menu a:hover,
+#nav .sub-menu li:first-child a:hover,
+#nav .current-menu-item .sub-menu a:hover,
+#nav .current-menu-ancestor .sub-menu a:hover {
+color: #a17439;
+}
+a:hover,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+.post h2 a:hover,
+.portfolio-item h2 a:hover {
+color: #935213;
+}
+h1, h2, h3, h4, h5, h6 {
+color: #c0c0c0;
+}
+
+/* List Styling */
+ul li,
+.recentcomments,
+.slider-button,
+.slide-prev,
+.slide-next,
+h3.accordion-title,
+h3.toggle,
+h3.comments {
+background-image: url(lib/images/sprite-tiger.png);
+}
+ul li {
+border-top-color: #4a4a4a;
+border-bottom-color: #212121;
+}
+
+/* Form Styling */
+input,
+input[type="password"],
+textarea,
+select,
+#content-wrapper #searchform {
+color: #999;
+border-color: #333;
+background-color: #3a3a3a;
+background-image: -moz-linear-gradient(#303030, #3a3a3a);
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#303030), to(#3a3a3a));
+background-image: -webkit-linear-gradient(#303030, #3a3a3a);
+background-image: -o-linear-gradient(#303030, #3a3a3a);
+background-image: -ms-linear-gradient(#303030, #3a3a3a);
+-pie-background: linear-gradient(#303030, #3a3a3a);
+}
+select {
+background-image: none;
+-pie-background: none;
+}
+fieldset {
+border-color: #333;
+}
+
+/* Table Styling */
+.gp-table {
+border-top-color: #202020;
+border-left-color: #202020;
+border-right-color: #202020;
+}
+.gp-table th {
+background: #202020;
+}
+.gp-table td {
+background: #333;
+border-top-color: #404040;
+border-bottom-color: #202020;
+}
+
+/* Other Styling */
+hr {
+clear: both;
+border-top-color: #202020;
+}
+pre {
+background: #404040;
+border-color: #202020;
+}
+code {
+background: #404040;
+border-color: #202020;
+}
+
+
+/*************************** Gradients ***************************/
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.wp-pagenavi .current,
+.wp-pagenavi.cat-navi a:hover,
+.wp-pagenavi.comment-navi a:hover,
+.wp-pagenavi.post-navi span,
+.wp-pagenavi.post-navi a span:hover {
+border-color: #935213;
+background-color: #a17439;
+background-image: -moz-linear-gradient(#a17439, #935213);
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a17439), to(#935213));
+background-image: -webkit-linear-gradient(#a17439, #935213);
+background-image: -o-linear-gradient(#a17439, #935213);
+background-image: -ms-linear-gradient(#a17439, #935213);
+-pie-background: linear-gradient(#a17439, #935213);
+color: #fff;
+}
+
+.separate > div,
+.joint > div,
+.accordion .panel,
+.ui-tabs-panel,
+.wp-pagenavi span,
+.wp-pagenavi.cat-navi a,
+.wp-pagenavi.comment-navi a,
+.wp-pagenavi.post-navi a span {
+border-color: #202020;
+background-color: #303030;
+background-image: -moz-linear-gradient(#4a4a4a, #303030);
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4a4a4a), to(#303030));
+background-image: -webkit-linear-gradient(#4a4a4a, #303030);
+background-image: -o-linear-gradient(#4a4a4a, #303030);
+background-image: -ms-linear-gradient(#4a4a4a, #303030);
+-pie-background: linear-gradient(#4a4a4a, #303030);
+-webkit-box-shadow:1px 1px 5px rgba(0,0,0,0.7);
+-moz-box-shadow:1px 1px 5px rgba(0,0,0,0.7);
+box-shadow:1px 1px 5px rgba(0,0,0,0.7);
+color: #999;
+}
+
+
+/*************************** Content Areas ***************************/
+
+/* Page Wrap*/
+#page-wrapper {
+background: url(lib/images/header-glass.png) no-repeat center top;
+}
+
+/* Frame */
+.frame.sb-left #content-wrapper {
+background: url(lib/images/frame-sb-left-dark.png) repeat-y;
+}
+.frame.sb-right #content-wrapper {
+background: url(lib/images/frame-sb-right-dark.png) repeat-y;
+}
+.frame.fullwidth #content-wrapper {
+background: url(lib/images/frame-fullwidth-dark.png) repeat-y;
+}
+.frame #content-wrapper {
+border-color: #202020;
+-webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+-moz-box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+
+/*************************** Header ***************************/
+
+/* User Panel */
+#user-panel {
+border-color: #444;
+-webkit-box-shadow:inset 0 -1px 3px #111;
+-moz-box-shadow:inset 0 1px 3px #111;
+box-shadow:inset 0 -1px 3px #111;
+}
+
+
+/*************************** Page/Post Styling ***************************/
+
+/* Breadcrumbs */
+#breadcrumbs,
+#breadcrumbs a {
+color: #666;
+}
+
+/* Posts */
+.post h2 a {
+color: #c0c0c0;
+}
+
+/* Post Meta */
+.post-meta {
+color: #666;
+}
+.post-meta a {
+color: #666;
+}
+
+
+/*************************** Lightbox ***************************/
+
+.hover-image {
+background: url(lib/images/zoom-dark.png) no-repeat center center;
+}
+.hover-video {
+background: url(lib/images/play-dark.png) no-repeat center center;
+}
+
+
+/*************************** Shortcodes: Accordion ***************************/
+
+h3.accordion-title a {
+color: #c0c0c0;
+}
+
+
+/*************************** Shortcodes: Author Info ***************************/
+
+.author-info {
+border-color: #202020;
+background: #111;
+}
+.author-info .author-links {
+color: #666;
+}
+
+
+/*************************** Shortcodes: Blockquotes ***************************/
+
+blockquote, .blockquote-right, .blockquote-left {
+background: url(lib/images/bq-dark.png) no-repeat;
+}
+
+
+/*************************** Shortcodes: Buttons ***************************/
+
+.sc-button,
+.sc-button:hover {
+-webkit-box-shadow:1px 1px 5px rgba(0,0,0,0.5);
+-moz-box-shadow:1px 1px 5px rgba(0,0,0,0.5);
+box-shadow:1px 1px 5px rgba(0,0,0,0.5);
+}
+
+
+/*************************** Shortcodes: Columns ***************************/
+
+/* Joint Columns */
+.middle.joint > div {
+border-left-color: #494949;
+}
+.last.joint > div {
+border-left-color: #494949;
+}
+
+
+/*************************** Shortcodes: Contact Form ***************************/
+
+#contact-form .loader {
+background: url(lib/images/loader-dark.gif) no-repeat right bottom;
+}
+
+
+/*************************** Shortcodes: Dividers ***************************/
+
+.sc-divider {
+border-color: #333;
+}
+.sc-divider.top a {
+color: #666;
+}
+.no-frame.sb-right .sc-divider.curved,
+.no-frame.sb-left .sc-divider.curved,
+.frame.sb-right .sc-divider.curved,
+.frame.sb-left .sc-divider.curved {
+background: url(lib/images/dividers-dark.png) no-repeat 0 -100px;
+}
+.no-frame.fullwidth .sc-divider.curved,
+.frame.fullwidth .sc-divider.curved {
+background: url(lib/images/dividers-dark.png) no-repeat 0 -150px;
+}
+
+
+/*************************** Shortcodes: Galleries ***************************/
+
+.gallery img {
+border-color: #333 !important;
+background: #111;
+}
+
+
+/*************************** Shortcodes: Images ***************************/
+
+/* Image */
+.sc-image.image-border {
+padding: 5px;
+border: 1px solid #333;
+background: #3a3a3a;
+}
+
+
+/*************************** Shortcodes: Portfolios ***************************/
+
+/* Portfolio */
+.portfolio-item h2 a {
+color: #c0c0c0;
+}
+
+
+/*************************** Shortcodes: Slider ***************************/
+
+/* Slider */
+.slider {
+background: #000;
+}
+
+/* Slider Nav */
+.nav-type-1.slider-nav-wrapper {
+background: url(lib/images/slider-nav-dark.png) no-repeat top center;
+}
+
+
+/*************************** Shortcodes: Tabs ***************************/
+
+.ui-tabs .ui-tabs-nav li {
+border-color: #202020;
+background: #4a4a4a;
+}
+.ui-tabs .ui-tabs-nav li a {
+color: #999;
+}
+.ui-tabs .ui-tabs-nav li:hover { 
+background: #404040;
+}
+.ui-tabs .ui-tabs-nav li a:hover {
+color: #999;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active { 
+background: #4a4a4a;
+}
+
+
+/*************************** Footer ***************************/
+
+/* Footer Container */
+#footer-top-inner {
+background: #1c1c1c url(lib/images/footer-container-dark.png) repeat-x;
+-webkit-box-shadow:1px 1px 5px rgba(0,0,0,0.7);
+-moz-box-shadow:1px 1px 5px rgba(0,0,0,0.7);
+box-shadow:1px 1px 5px rgba(0,0,0,0.7);
+}
+#footer-curve {
+background: url(lib/images/footer-curve-dark.png) no-repeat center top;
+}
+
+/* Footer Bottom */
+#footer-bottom-outer {
+background: url(lib/images/footer-bottom-tiger.png) repeat-x;
+}
+#footer-bottom-inner {
+color: #c0c0c0;
+}
+#footer-bottom-inner a {
+color: #c0c0c0;
+}
+
+
+/*************************** Widgets ***************************/
+
+/* General Widget Styling */
+.widget {
+border-color: #202020;
+}
+.widget .widgettitle {
+color: #999;
+}
+.widget ul li {
+border-top-color: #202020;
+border-bottom-color: #000;
+}
+
+/* Search Widget */
+#searchbar {
+color: #999;
+}
+#searchsubmit {
+background: transparent url(lib/images/sprite-tiger.png) no-repeat -81px -100px;
+}
+
+
+/*************************** Comments Section ***************************/
+
+/* Comment Box */
+#commentlist .comment-box {
+border-color: #404040;
+}
+.comment-date {
+color: #666;
+}

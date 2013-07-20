@@ -1,0 +1,96 @@
+/*************************** General Styling ***************************/
+
+/* Page Styling */
+body {
+background: #eee url(lib/images/page-bg-arcticfox.png) repeat-x;
+}
+
+/* Text Styling */
+a,
+#nav ul li > a:hover,
+#nav ul .current-menu-item > a,
+#nav ul .current-menu-ancestor > a,
+#nav .sub-menu a:hover,
+#nav .sub-menu li:first-child a:hover,
+#nav .current-menu-item .sub-menu a:hover,
+#nav .current-menu-ancestor .sub-menu a:hover {
+color: #486573;
+}
+a:hover,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+color: #4a819b;
+}
+
+/* List Styling */
+ul li,
+.recentcomments,
+.slider-button,
+.slide-prev,
+.slide-next,
+h3.accordion-title,
+h3.toggle,
+h3.comments {
+background-image: url(lib/images/sprite-arcticfox.png);
+}
+
+
+/*************************** Gradients ***************************/
+
+input[type="submit"],
+input[type="reset"],
+.wp-pagenavi .current,
+.wp-pagenavi.cat-navi a:hover,
+.wp-pagenavi.comment-navi a:hover,
+.wp-pagenavi .page:hover,
+.wp-pagenavi.post-navi span,
+.wp-pagenavi.post-navi a span:hover {
+border: 1px solid #87999d;
+background-color: #cbd4d6;
+background-image: -moz-linear-gradient(#cbd4d6, #87999d);
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cbd4d6), to(#87999d));
+background-image: -webkit-linear-gradient(#cbd4d6, #87999d);
+background-image: -o-linear-gradient(#cbd4d6, #87999d);
+background-image: -ms-linear-gradient(#cbd4d6, #87999d);
+-pie-background: linear-gradient(#cbd4d6, #87999d);
+color: #fff;
+}
+
+
+/*************************** Content Areas ***************************/
+
+/* Page Wrap*/
+#page-wrapper {
+background: url(lib/images/header-glass.png) no-repeat center top;
+}
+
+
+/*************************** Header ***************************/
+
+/* User Panel */
+#user-panel {
+border-color: #A3ADB0;
+-webkit-box-shadow:inset 0 -1px 3px #6a7071;
+-moz-box-shadow:inset 0 1px 3px #6a7071;
+box-shadow:inset 0 -1px 3px #6a7071;
+}
+
+
+/*************************** Page/Post Styling ***************************/
+
+/* Breadcrumbs */
+#breadcrumbs, #breadcrumbs a {
+color: #666;
+}
+
+
+/*************************** Footer ***************************/
+
+/* Footer Bottom */
+#footer-bottom-outer {
+background: url(lib/images/footer-bottom-arcticfox.png) repeat-x;
+}
