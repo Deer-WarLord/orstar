@@ -12,6 +12,31 @@ Tags: buddypress, dark, black, gray, green, brown, blue, one-column, two-columns
 
 /*************************** General Styling ***************************/
 
+
+@font-face
+{
+    font-family: AlexandraZeferino;
+    src: url('lib/fonts/AlexandraZeferinoOne.ttf');
+}
+
+@font-face
+{
+    font-family: BickhamScript;
+    src: url('lib/fonts/Bickham_Script_One.ttf');
+}
+
+@font-face
+{
+    font-family: EkaterinaVelikaya;
+    src: url('lib/fonts/Ekaterina_Velikaya_Two.ttf');
+}
+
+@font-face
+{
+    font-family: BickhamScr;
+    src: url('lib/fonts/bickhamscr2.ttf');
+}
+
 /* Page Styling */
 * {
 font-family: "Lucida Sans Unicode", "Lucida Grande", Arial;
@@ -431,8 +456,8 @@ display: none;
 
 /* Header */
 #header-top {
-position: relative;
-float: left;
+/*position: relative;
+float: left;*/
 width: 100%;
 padding-bottom: 14px;
 }
@@ -470,17 +495,20 @@ margin-left: 15px;
 
 /* Logo */
 #logo {
-float: left;
-position: relative;
+/*float: left;
+position: relative;*/
 overflow: hidden;
 margin: 0;
 line-height: 0;
 }
 #logo a {
-line-height: 0;
+/*line-height: 0;*/
+display: block;
+float: left;
+width: 200px;
 }
 #logo img {
-position: relative;
+/*position: relative;*/
 }
 .default-logo {
 position: relative;
@@ -491,10 +519,14 @@ height: 70px;
 }
 .logo-details {
 display: block;
-margin-top: -1px;
+/*margin-top: -1px;
 width: 1px;
 height: 1px;
-text-indent: -9999px;
+text-indent: -9999px;*/
+float: left;
+width: 270px;
+height: 40px;
+margin-top: 50px;
 }
 
 /* Contact Info */
@@ -583,7 +615,7 @@ margin-left: 5px;
 background: url(lib/images/nav-container.png) no-repeat;
 width: 980px;
 height: 52px;
-position: relative;
+/*position: relative;*/
 z-index: 100;
 font-size: 14px;
 }
