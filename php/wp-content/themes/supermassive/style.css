@@ -523,6 +523,9 @@ display: block;
 width: 1px;
 height: 1px;
 text-indent: -9999px;*/
+margin-left: -80px;
+font-family: BickhamScript;
+font-size: 50px;
 float: left;
 width: 270px;
 height: 40px;
@@ -648,6 +651,8 @@ margin: 0;
 padding: 0 2px 0 0;
 display: block;
 border: 0;
+min-width: 128px;
+text-align: center;
 }
 #nav ul a {
 color: #000;
@@ -665,6 +670,11 @@ background: #d8d8d8;
 #nav ul li:first-child.current-menu-ancestor > a {
 background: transparent url(lib/images/nav-hover.png) no-repeat left center;
 }
+
+#nav ul li:last-child {
+background: none;
+}
+
 #nav span {
 margin-left: 5px;
 color: #a9a9a9;
