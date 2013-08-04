@@ -82,7 +82,7 @@
 		
 			<div class="right">
 				
-				<div id="copyright"><?php if($theme_footer_content) { echo stripslashes($theme_footer_content); } else { ?><?php _e('Copyright &copy;', 'gp_lang'); ?> <?php echo date('Y'); ?> <?php echo $themename; ?>. <?php _e('All rights reserved.', 'gp_lang'); ?><?php } ?></div>
+				<div id="copyright"><?php if($theme_footer_content) { echo stripslashes($theme_footer_content); } else { ?><?php _e('Copyright &copy;', 'gp_lang'); ?> <?php echo date('Y'); ?> <?php echo $themename; ?>. <?php _e('Центр гражданских инициатив "Звезда Ора".', 'gp_lang'); ?><?php } ?></div>
 	
 				<?php if($theme_social_icons != "Header") { require('social-icons.php'); } ?>
 				
