@@ -15,6 +15,18 @@ Tags: buddypress, dark, black, gray, green, brown, blue, one-column, two-columns
 
 @font-face
 {
+    font-family: MarkizDeSad;
+    src: url('lib/fonts/Markiz_de_Sad_script.ttf');
+}
+
+@font-face
+{
+    font-family: Manuscript;
+    src: url('lib/fonts/Manuscript.ttf');
+}
+
+@font-face
+{
     font-family: AlexandraZeferino;
     src: url('lib/fonts/AlexandraZeferinoOne.ttf');
 }
