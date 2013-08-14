@@ -1379,7 +1379,7 @@ if( ! function_exists( 'cntctfrm_display_form' ) ) {
 					';
 			}
 
-			$content .= '<div class="cntctfrm_title">
+			$content .= '<div class="cntctfrm_row"><div class="cntctfrm_title">
 					<label for="cntctfrm_contact_email">'. $cntctfrm_options['cntctfrm_email_label'][$lang] . ( $cntctfrm_options['cntctfrm_required_email_field'] == 1 ? '<span class="required"> *</span></label>' : '</label>' ) . '
 				</div>';
 			if( isset( $error_message['error_email'] ) ) {
@@ -1387,7 +1387,7 @@ if( ! function_exists( 'cntctfrm_display_form' ) ) {
 			}
 			$content .= '<div class="cntctfrm_email">
 					<input class="text" type="text" value="'.$email.'" name="cntctfrm_contact_email" id="cntctfrm_contact_email" />
-				</div>
+				</div></div>
 			';
 
 			if( $cntctfrm_options['cntctfrm_display_phone_field'] == 1 ) { 
@@ -1408,7 +1408,7 @@ if( ! function_exists( 'cntctfrm_display_form' ) ) {
 //			if( isset( $error_message['error_subject'] ) ) {
 //				$content .= '<div style="text-align: left; color: red;">'.$error_message['error_subject'].'</div>';
 //			}
-			$content .= '<div class="cntctfrm_title">
+			$content .= '<div class="cntctfrm_row"><div class="cntctfrm_title">
 					<label for="cntctfrm_contact_message">'. $cntctfrm_options['cntctfrm_message_label'][$lang] . ( $cntctfrm_options['cntctfrm_required_message_field'] == 1 ? '<span class="required"> *</span></label>' : '</label>' ) . '
 				</div>';
 			if( isset( $error_message['error_message'] ) ) {
@@ -1416,7 +1416,7 @@ if( ! function_exists( 'cntctfrm_display_form' ) ) {
 			}
 			$content .= '<div class="cntctfrm_send_message">
 					<textarea rows="5" cols="30" name="cntctfrm_contact_message" id="cntctfrm_contact_message">'.$message.'</textarea>
-				</div>';
+				</div></div>';
 			if($cntctfrm_options['cntctfrm_attachment'] == 1 ) {
 				$content .= '<div style="text-align: left;">
 						<label for="cntctfrm_contact_attachment">'. $cntctfrm_options['cntctfrm_attachment_label'][$lang] . '</label>
@@ -1443,7 +1443,7 @@ if( ! function_exists( 'cntctfrm_display_form' ) ) {
 				$content .= apply_filters( 'cntctfrm_display_captcha' , $error_message );
 			}
 				
-			$content .= '<div style="text-align: left; padding-top: 8px;">
+			$content .= '<div style="send-block">
 					<input type="hidden" value="send" name="cntctfrm_contact_action"><input type="hidden" value="Version: 3.30" />
 					<input type="hidden" value="'.$lang.'" name="cntctfrm_language">
 					<input type="submit" value="'. $cntctfrm_options['cntctfrm_submit_label'][$lang]. '" style="cursor: pointer; margin: 0pt; text-align: center;margin-bottom:10px;" /> 
