@@ -3405,19 +3405,19 @@ msgstr ""
 
 #: ../lib/admin/inc/shortcodes/contact-form.php:18
 msgid "Thanks"
-msgstr ""
+msgstr "Спасибо"
 
 #: ../lib/admin/inc/shortcodes/contact-form.php:18
 msgid "Your message was successfully sent."
-msgstr ""
+msgstr "Ваше сообщение успешно отправлено"
 
 #: ../lib/admin/inc/shortcodes/contact-form.php:24
 msgid "There was an error submitting this message."
-msgstr ""
+msgstr "Произошла ошибка при отправке сообщения"
 
 #: ../lib/admin/inc/shortcodes/contact-form.php:96
 msgid "Send"
-msgstr ""
+msgstr "Отправить"
 
 #: ../lib/admin/inc/shortcodes/dividers.php:11
 msgid "Back To Top"
