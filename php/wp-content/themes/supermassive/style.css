@@ -369,7 +369,7 @@ margin: 0 auto;
 width: 980px;
 padding: 25px 30px;
 text-align: left;
-min-height: 90px;
+min-height: 900px;
 }
 
 /* Frame */
@@ -531,17 +531,13 @@ height: 70px;
 }
 .logo-details {
 display: block;
-/*margin-top: -1px;
-width: 1px;
-height: 1px;
-text-indent: -9999px;*/
 margin-left: -80px;
-font-family: BickhamScript;
-font-size: 50px;
+font-family: Manuscript;
+font-size: 32px;
 float: left;
-width: 270px;
 height: 40px;
 margin-top: 50px;
+letter-spacing: 1px;
 }
 
 /* Contact Info */
