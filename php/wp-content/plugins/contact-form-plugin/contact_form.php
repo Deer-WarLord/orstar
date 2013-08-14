@@ -1414,7 +1414,7 @@ if( ! function_exists( 'cntctfrm_display_form' ) ) {
 			if( isset( $error_message['error_message'] ) ) {
 				$content .= '<div class="cntctfrm_title error">'.$error_message['error_message'].'</div>';
 			}
-			$content .= '<div class="cntctfrm_message">
+			$content .= '<div class="cntctfrm_send_message">
 					<textarea rows="5" cols="30" name="cntctfrm_contact_message" id="cntctfrm_contact_message">'.$message.'</textarea>
 				</div>';
 			if($cntctfrm_options['cntctfrm_attachment'] == 1 ) {
