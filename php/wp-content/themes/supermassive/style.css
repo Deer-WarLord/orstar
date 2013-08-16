@@ -843,6 +843,7 @@ padding-bottom: 40px;
 /* Post Meta */
 .page-title {
 margin-bottom: 20px;
+text-align: center;
 }
 .post-cats {
 margin-bottom: 10px;
@@ -2497,4 +2498,51 @@ border-radius: 4px;
 #wpadminbar ul li {
 border-bottom: 0;
 border-top: 0;
+}
+
+/*custom*/
+
+#cntctfrm_contact_form {
+margin-left: 20px;
+}
+
+.cntctfrm_row {
+display: inline-block;
+width: 900px;
+margin-bottom: 20px;
+}
+
+#cntctfrm_contact_message {
+  width: 500px!important;
+}
+
+.cntctfrm_title {
+  width:115px;
+}
+
+.cntctfrm_row div {
+float: left;
+}
+
+.cntctfrm_title.error {
+width: 600px;
+margin-bottom: 15px;
+color: red;
+}
+
+.cntctfrm_row .cntctfrm_title.error{
+ width: 150px;
+ margin-top: -5px;
+}
+
+.cntctfrm_email, 
+.cntctfrm_send_message {
+margin-top: -5px;
+}
+
+#cntctfrm_contact_form .cptch_block {
+margin-top: -25px;
+}
+#menu-top-menu li:last-child > ul {
+left: -90px;
 }

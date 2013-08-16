@@ -465,6 +465,12 @@ function ghostpool_attachment_fields_to_save($post, $attachment) {
 }
 add_filter("attachment_fields_to_save", "ghostpool_attachment_fields_to_save", null , 2);
 
+function remove_comment_fields($fields) {
+    unset($fields['url']);
+    return $fields;
+}
+add_filter('comment_form_default_fields','remove_comment_fields');
+
 
 /////////////////////////////////////// Redirect to Theme Options after Activation ///////////////////////////////////////
 

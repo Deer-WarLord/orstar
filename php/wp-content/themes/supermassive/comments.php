@@ -118,7 +118,7 @@ $GLOBALS['comment'] = $comment; ?>
 			
 						<p><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> /> <label for="email"><?php _e('Email', 'gp_lang'); ?> <span class="required"><?php if ($req) echo "*"; ?></span></label></p>
 						
-						<p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" /> <label for="url"><?php _e('Website', 'gp_lang'); ?></label></p>
+						<!--p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" /> <label for="url"><?php _e('Website', 'gp_lang'); ?></label></p-->
 						
 					<?php } ?>
 						
