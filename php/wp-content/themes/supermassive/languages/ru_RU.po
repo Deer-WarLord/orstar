@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SuperMassive (shared on wplocker.com) v4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-24 17:42+0200\n"
-"PO-Revision-Date: 2013-09-02 10:32+0200\n"
+"POT-Creation-Date: 2013-09-02 10:32+0200\n"
+"PO-Revision-Date: 2013-09-02 10:37+0200\n"
 "Last-Translator: GhostPool\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,385 +20,396 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 
 # @ gp_lang
-#: 404.php:35 functions.php:369
+#: ../404.php:35 ../functions.php:369
 msgid "Page Not Found"
 msgstr "Страница не найдена"
 
 # @ gp_lang
-#: 404.php:40
+#: ../404.php:40
 msgid ""
 "SM theme shared on W P L O C K E R .C O M - Oops, it looks like this page "
 "does not exist. If you are lost try using the search box."
 msgstr ""
 
 # @ gp_lang
-#: 404.php:44 post-loop.php:178
+#: ../404.php:44 ../post-loop.php:178
 msgid "Search The Site"
 msgstr "Поиск по сайту"
 
 # @ gp_lang
-#: attachment.php:51 lib/admin/inc/shortcodes/blogs.php:238
-#: lib/admin/inc/shortcodes/blogs.php:242
-#: lib/admin/inc/shortcodes/related-posts.php:225
-#: lib/admin/inc/shortcodes/slider.php:128
-#: lib/admin/inc/shortcodes/slider.php:177
-#: lib/admin/inc/shortcodes/slider.php:186 login.php:64 page.php:59
-#: post-loop.php:132 post-loop.php:136 register.php:63 single.php:77
+#: ../attachment.php:51 ../login.php:64 ../page.php:59 ../post-loop.php:132
+#: ../post-loop.php:136 ../register.php:63 ../single.php:77
+#: ../lib/admin/inc/shortcodes/blogs.php:238
+#: ../lib/admin/inc/shortcodes/blogs.php:242
+#: ../lib/admin/inc/shortcodes/related-posts.php:225
+#: ../lib/admin/inc/shortcodes/slider.php:128
+#: ../lib/admin/inc/shortcodes/slider.php:177
+#: ../lib/admin/inc/shortcodes/slider.php:186
 msgid "Read More &raquo;"
 msgstr "Далее"
 
 # @ gp_lang
-#: comments.php:28
+#: ../comments.php:28
 msgid "Author"
 msgstr "Автор"
 
 # @ gp_lang
-#: comments.php:34
+#: ../comments.php:34
 #, php-format
 msgid "%s"
 msgstr ""
 
 # @ gp_lang
-#: comments.php:45
+#: ../comments.php:45
 msgid "Your comment is awaiting moderation."
 msgstr "Ваш комментарий ожидает модерации"
 
 # @ buddypress
 # @ gp_lang
-#: activity/comment.php:37 comments.php:51 groups/single/forum/edit.php:10
+#: ../comments.php:51 ../activity/comment.php:37
+#: ../groups/single/forum/edit.php:10
 msgid "Reply"
 msgstr "Повтор"
 
 # @ gp_lang
-#: comments.php:69 lib/admin/inc/shortcodes/blogs.php:227
-#: lib/admin/inc/shortcodes/related-posts.php:214 post-loop.php:119
-#: single.php:54
+#: ../comments.php:69 ../post-loop.php:119 ../single.php:54
+#: ../lib/admin/inc/shortcodes/blogs.php:227
+#: ../lib/admin/inc/shortcodes/related-posts.php:214
 msgid "No Comments"
 msgstr "Нет комментариве"
 
 # @ gp_lang
-#: comments.php:69 lib/admin/inc/shortcodes/blogs.php:227
-#: lib/admin/inc/shortcodes/related-posts.php:214 post-loop.php:119
-#: single.php:54
+#: ../comments.php:69 ../post-loop.php:119 ../single.php:54
+#: ../lib/admin/inc/shortcodes/blogs.php:227
+#: ../lib/admin/inc/shortcodes/related-posts.php:214
 msgid "1 Comment"
 msgstr "1 Комментарий"
 
 # @ gp_lang
-#: comments.php:69 lib/admin/inc/shortcodes/blogs.php:227
-#: lib/admin/inc/shortcodes/related-posts.php:214 post-loop.php:119
-#: single.php:54
+#: ../comments.php:69 ../post-loop.php:119 ../single.php:54
+#: ../lib/admin/inc/shortcodes/blogs.php:227
+#: ../lib/admin/inc/shortcodes/related-posts.php:214
 msgid "% Comments"
 msgstr "% Комментариев"
 
 # @ gp_lang
-#: comments.php:83
+#: ../comments.php:83
 msgid "Comments are now closed on this post."
 msgstr "Комментарии закрыты"
 
 # @ gp_lang
-#: comments.php:99
+#: ../comments.php:99
 msgid "Leave a Reply"
 msgstr "Оставить комментарий"
 
 # @ gp_lang
-#: comments.php:99
+#: ../comments.php:99
 #, php-format
 msgid "Respond to %s"
 msgstr "Ответить на %s"
 
 # @ gp_lang
-#: comments.php:101
+#: ../comments.php:101
 msgid "Cancel Reply"
 msgstr "Отменить Ответ"
 
 # @ gp_lang
-#: comments.php:105
+#: ../comments.php:105
 msgid "You must be logged in to post a comment."
 msgstr ""
 
 # @ gp_lang
-#: comments.php:113
+#: ../comments.php:113
 msgid "Logged in as"
 msgstr ""
 
 # @ gp_lang
-#: comments.php:113 header.php:60
+#: ../comments.php:113 ../header.php:60
 msgid "Logout"
 msgstr ""
 
 # @ gp_lang
 # @ buddypress
-#: comments.php:117 lib/admin/inc/custom-sidebars/views/edit.php:36
-#: lib/admin/inc/custom-sidebars/views/settings.php:16
-#: lib/admin/inc/custom-sidebars/views/settings.php:54
-#: lib/admin/inc/shortcodes/contact-form.php:42
-#: members/single/profile/profile-wp.php:15
+#: ../comments.php:117 ../lib/admin/inc/custom-sidebars/views/edit.php:36
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:16
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:54
+#: ../lib/admin/inc/shortcodes/contact-form.php:42
+#: ../members/single/profile/profile-wp.php:15
 msgid "Name"
 msgstr "Имя"
 
 # @ gp_lang
-#: comments.php:119 lib/admin/inc/shortcodes/contact-form.php:58
-#: lib/admin/inc/shortcodes/register-form.php:8 register.php:86
+#: ../comments.php:119 ../register.php:86
+#: ../lib/admin/inc/shortcodes/contact-form.php:58
+#: ../lib/admin/inc/shortcodes/register-form.php:8
 msgid "Email"
 msgstr "Эл. адресс"
 
 # @ gp_lang
 # @ buddypress
-#: comments.php:121 members/single/profile/profile-wp.php:33
+#: ../comments.php:121 ../members/single/profile/profile-wp.php:33
 msgid "Website"
 msgstr "Веб сайт"
 
 # @ buddypress
 # @ gp_lang
-#: activity/entry.php:104 comments.php:127
+#: ../comments.php:127 ../activity/entry.php:104
 msgid "Post"
 msgstr "Запись"
 
 # @ gp_lang
-#: footer.php:85
+#: ../footer.php:85
 msgid "Copyright &copy;"
 msgstr ""
 
 # @ gp_lang
-#: functions.php:223
+#: ../footer.php:85
+msgid "Центр гражданских инициатив \"Звезда Ора\"."
+msgstr ""
+
+# @ gp_lang
+#: ../functions.php:223
 msgid "Header Navigation"
 msgstr ""
 
 # @ gp_lang
-#: functions.php:224
+#: ../functions.php:224
 msgid "Footer Navigation"
 msgstr ""
 
 # @ gp_lang
-#: functions.php:335
+#: ../functions.php:335
 msgid "Home"
 msgstr "Главная"
 
 # @ gp_lang
-#: functions.php:351
+#: ../functions.php:351
 msgid "Search"
 msgstr "Поиск"
 
 # @ buddypress
 # @ gp_lang
-#: activity/index.php:99 forums/forums-loop.php:40 functions.php:365
-#: members/single/activity.php:27
+#: ../functions.php:365 ../activity/index.php:99 ../forums/forums-loop.php:40
+#: ../members/single/activity.php:27
 msgid "Posts"
 msgstr "Записи"
 
 # @ gp_lang
-#: functions.php:408 lib/admin/inc/theme-meta-options.php:45
-#: lib/admin/inc/theme-meta-options.php:171
+#: ../functions.php:408 ../lib/admin/inc/theme-meta-options.php:45
+#: ../lib/admin/inc/theme-meta-options.php:171
 msgid "Page"
 msgstr "Страница"
 
 # @ gp_lang
-#: functions.php:408
+#: ../functions.php:408
 msgid "of"
 msgstr "из"
 
 # @ gp_lang
-#: functions.php:451
+#: ../functions.php:451
 msgid "Audio/Video URL"
 msgstr ""
 
 # @ gp_lang
-#: functions.php:454 lib/admin/inc/theme-meta-options.php:180
+#: ../functions.php:454 ../lib/admin/inc/theme-meta-options.php:180
 msgid "The URL of your video or audio file (YouTube/Vimeo/FLV/MP4/M4V/MP3)."
 msgstr ""
 
 # @ gp_lang
-#: header.php:58
+#: ../header.php:58
 msgid "Profile"
 msgstr "Профайл"
 
 # @ gp_lang
-#: header.php:64 login.php:90
+#: ../header.php:64 ../login.php:90
 msgid "Login"
 msgstr "Вход"
 
 # @ gp_lang
-#: header.php:66
+#: ../header.php:66
 msgid "Sign Up"
 msgstr "Регистрация"
 
 # @ gp_lang
-#: index.php:8
+#: ../index.php:8
 msgid "Why Am I Seeing This Page?"
 msgstr "Почему я вижу эту страницу?"
 
 # @ gp_lang
-#: index.php:12
+#: ../index.php:12
 msgid "Go to"
 msgstr "Прейти на"
 
 # @ gp_lang
-#: index.php:12
+#: ../index.php:12
 msgid "<em>Settings -> Reading</em>"
 msgstr ""
 
 # @ gp_lang
-#: index.php:12
+#: ../index.php:12
 msgid ""
 ", select \"A static page\" option and from the \"Front page\" drop down menu "
 "select the desired page (leave the Posts page drop down menu empty)."
 msgstr ""
 
 # @ gp_lang
-#: index.php:16
+#: ../index.php:16
 msgid "For more info on setting up the theme please read the"
 msgstr ""
 
 # @ gp_lang
-#: index.php:16
+#: ../index.php:16
 msgid "help file"
 msgstr ""
 
 # @ gp_lang
-#: login.php:74
+#: ../login.php:74
 msgid "You are already logged in."
 msgstr ""
 
 # @ gp_lang
 # @ buddypress
-#: lib/admin/inc/shortcodes/login-form.php:7
-#: lib/admin/inc/shortcodes/register-form.php:7 login.php:84 register.php:83
-#: registration/register.php:37
+#: ../login.php:84 ../register.php:83
+#: ../lib/admin/inc/shortcodes/login-form.php:7
+#: ../lib/admin/inc/shortcodes/register-form.php:7
+#: ../registration/register.php:37
 msgid "Username"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/shortcodes/login-form.php:8 login.php:87
+#: ../login.php:87 ../lib/admin/inc/shortcodes/login-form.php:8
 msgid "Password"
 msgstr ""
 
 # @ gp_lang
-#: login.php:91
+#: ../login.php:91
 msgid "Remember Me"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/shortcodes/register-form.php:27 login.php:101 register.php:91
+#: ../login.php:101 ../register.php:91
+#: ../lib/admin/inc/shortcodes/register-form.php:27
 msgid "Register"
 msgstr ""
 
 # @ gp_lang
-#: login.php:101
+#: ../login.php:101
 msgid "Lost Password"
 msgstr ""
 
 # @ gp_lang
-#: post-loop.php:37
+#: ../post-loop.php:37
 msgid "search results for"
 msgstr "результаты поиска"
 
 # @ gp_lang
-#: post-loop.php:45
+#: ../post-loop.php:45
 msgid "Archives"
 msgstr "Архивы"
 
 # @ gp_lang
-#: lib/admin/inc/shortcodes/blogs.php:223
-#: lib/admin/inc/shortcodes/related-posts.php:210 post-loop.php:115
-#: single.php:50
+#: ../post-loop.php:115 ../single.php:50
+#: ../lib/admin/inc/shortcodes/blogs.php:223
+#: ../lib/admin/inc/shortcodes/related-posts.php:210
 msgid "Posted by"
 msgstr "Размещено"
 
 # @ gp_lang
-#: post-loop.php:146
+#: ../post-loop.php:146
 msgid "Tags"
 msgstr ""
 
 # @ gp_lang
-#: post-loop.php:174
+#: ../post-loop.php:174
 msgid "Try searching again using the search form below."
 msgstr ""
 
 # @ gp_lang
-#: register.php:73
+#: ../register.php:73
 msgid "You are already registered."
 msgstr ""
 
 # @ gp_lang
-#: register.php:90
+#: ../register.php:90
 msgid "Your password will be emailed to you."
 msgstr ""
 
 # @ gp_lang
-#: searchform.php:3
+#: ../searchform.php:3
 msgid "search..."
 msgstr "поиск..."
 
 # @ default
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:373 single.php:94
+#: ../single.php:94
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:373
 msgid "Tags: "
 msgstr ""
 
 # @ gp_lang
-#: single.php:111
+#: ../single.php:111
 msgid "Related Posts"
 msgstr "Похожие Записи"
 
 # @ buddypress
 # @ gp_lang
-#: activity/index.php:87 groups/single/activity.php:3 social-icons.php:3
+#: ../social-icons.php:3 ../activity/index.php:87
+#: ../groups/single/activity.php:3
 msgid "RSS Feed"
 msgstr ""
 
 # @ gp_lang
-#: social-icons.php:5
+#: ../social-icons.php:5
 msgid "Twitter"
 msgstr ""
 
 # @ gp_lang
-#: social-icons.php:7
+#: ../social-icons.php:7
 msgid "Facebook"
 msgstr ""
 
 # @ gp_lang
-#: social-icons.php:9
+#: ../social-icons.php:9
 msgid "MySpace"
 msgstr ""
 
 # @ gp_lang
-#: social-icons.php:11
+#: ../social-icons.php:11
 msgid "Digg"
 msgstr ""
 
 # @ gp_lang
-#: social-icons.php:13
+#: ../social-icons.php:13
 msgid "Flickr"
 msgstr ""
 
 # @ gp_lang
-#: social-icons.php:15
+#: ../social-icons.php:15
 msgid "Delicious"
 msgstr ""
 
 # @ gp_lang
-#: social-icons.php:17
+#: ../social-icons.php:17
 msgid "YouTube"
 msgstr ""
 
 # @ gp_lang
-#: social-icons.php:19
+#: ../social-icons.php:19
 msgid "Google+"
 msgstr ""
 
 # @ buddypress
-#: activity/activity-loop.php:41
+#: ../activity/activity-loop.php:41
 msgid "Load More"
 msgstr ""
 
 # @ buddypress
-#: activity/activity-loop.php:55
+#: ../activity/activity-loop.php:55
 msgid "Sorry, there was no activity found. Please try a different filter."
 msgstr ""
 
 # @ buddypress
-#. translators: 1: user profile link, 2: user name, 3: activity permalink, 4: activity timestamp
-#: activity/comment.php:27
+#: ../activity/comment.php:27
 #, php-format
 msgid ""
 "<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-"
@@ -408,447 +419,447 @@ msgstr ""
 # @ buddypress
 # @ gp_lang
 # @ default
-#: activity/comment.php:43 lib/admin/inc/custom-sidebars/views/settings.php:73
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:320
-#: members/single/messages/messages-loop.php:51
-#: members/single/messages/single.php:24
+#: ../activity/comment.php:43
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:73
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:320
+#: ../members/single/messages/messages-loop.php:51
+#: ../members/single/messages/single.php:24
 msgid "Delete"
 msgstr ""
 
 # @ buddypress
-#: activity/entry.php:37
+#: ../activity/entry.php:37
 msgid "In reply to: "
 msgstr ""
 
 # @ buddypress
-#: activity/entry.php:37
+#: ../activity/entry.php:37
 msgid "View Thread / Permalink"
 msgstr ""
 
 # @ buddypress
 # @ gp_lang
-#: activity/entry.php:37 buddypress/functions-buddypress.php:108
+#: ../activity/entry.php:37 ../buddypress/functions-buddypress.php:108
 msgid "View"
 msgstr ""
 
 # @ buddypress
-#: activity/entry.php:60
+#: ../activity/entry.php:60
 #, php-format
 msgid "Comment <span>%s</span>"
 msgstr "Комментарий <span>%s</span>"
 
 # @ buddypress
 # @ gp_lang
-#: activity/entry.php:68 buddypress/functions-buddypress.php:109
+#: ../activity/entry.php:68 ../buddypress/functions-buddypress.php:109
 msgid "Favorite"
 msgstr ""
 
 # @ buddypress
 # @ gp_lang
-#: activity/entry.php:72 buddypress/functions-buddypress.php:110
+#: ../activity/entry.php:72 ../buddypress/functions-buddypress.php:110
 msgid "Remove Favorite"
 msgstr ""
 
 # @ buddypress
-#: activity/entry.php:104
+#: ../activity/entry.php:104
 msgid "or press esc to cancel."
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:21
+#: ../activity/index.php:21
 msgid "Site Activity"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:39
+#: ../activity/index.php:39
 msgid "The public activity for everyone on this site."
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:39 members/index.php:33
+#: ../activity/index.php:39 ../members/index.php:33
 #, php-format
 msgid "All Members <span>%s</span>"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:49
+#: ../activity/index.php:49
 msgid "The activity of my friends only."
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:49 members/index.php:37
+#: ../activity/index.php:49 ../members/index.php:37
 #, php-format
 msgid "My Friends <span>%s</span>"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:61
+#: ../activity/index.php:61
 msgid "The activity of groups I am a member of."
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:61 groups/index.php:39
+#: ../activity/index.php:61 ../groups/index.php:39
 #, php-format
 msgid "My Groups <span>%s</span>"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:71
+#: ../activity/index.php:71
 msgid "The activity I've marked as a favorite."
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:71
+#: ../activity/index.php:71
 #, php-format
 msgid "My Favorites <span>%s</span>"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:77
+#: ../activity/index.php:77
 msgid "Activity that I have been mentioned in."
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:77
+#: ../activity/index.php:77
 msgid "Mentions"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:77
+#: ../activity/index.php:77
 #, php-format
 msgid "<span>%s new</span>"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:87 groups/single/activity.php:3
+#: ../activity/index.php:87 ../groups/single/activity.php:3
 msgid "RSS"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:92 groups/single/activity.php:8
-#: members/single/activity.php:18
+#: ../activity/index.php:92 ../groups/single/activity.php:8
+#: ../members/single/activity.php:18
 msgid "Show:"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:94 groups/single/activity.php:10
-#: members/single/activity.php:20
+#: ../activity/index.php:94 ../groups/single/activity.php:10
+#: ../members/single/activity.php:20
 msgid "Everything"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:95 groups/single/activity.php:11
-#: members/single/activity.php:21
+#: ../activity/index.php:95 ../groups/single/activity.php:11
+#: ../members/single/activity.php:21
 msgid "Updates"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:100 members/single/activity.php:28
+#: ../activity/index.php:100 ../members/single/activity.php:28
 msgid "Comments"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:106 groups/single/activity.php:14
-#: members/single/activity.php:43
+#: ../activity/index.php:106 ../groups/single/activity.php:14
+#: ../members/single/activity.php:43
 msgid "Forum Topics"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:107 groups/single/activity.php:15
-#: members/single/activity.php:44
+#: ../activity/index.php:107 ../groups/single/activity.php:15
+#: ../members/single/activity.php:44
 msgid "Forum Replies"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:113 members/single/activity.php:50
+#: ../activity/index.php:113 ../members/single/activity.php:50
 msgid "New Groups"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:114 groups/single/activity.php:18
-#: members/single/activity.php:51
+#: ../activity/index.php:114 ../groups/single/activity.php:18
+#: ../members/single/activity.php:51
 msgid "Group Memberships"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:120 members/single/activity.php:35
+#: ../activity/index.php:120 ../members/single/activity.php:35
 msgid "Friendships"
 msgstr ""
 
 # @ buddypress
-#: activity/index.php:124
+#: ../activity/index.php:124
 msgid "New Members"
 msgstr ""
 
 # @ buddypress
-#: activity/post-form.php:23
+#: ../activity/post-form.php:23
 #, php-format
 msgid "What's new in %s, %s?"
 msgstr ""
 
 # @ buddypress
-#: activity/post-form.php:25
+#: ../activity/post-form.php:25
 #, php-format
 msgid "What's new, %s?"
 msgstr ""
 
 # @ buddypress
-#: activity/post-form.php:35
+#: ../activity/post-form.php:35
 msgid "Post Update"
 msgstr ""
 
 # @ buddypress
-#: activity/post-form.php:42
+#: ../activity/post-form.php:42
 msgid "Post in"
 msgstr ""
 
 # @ buddypress
-#: activity/post-form.php:45 members/single/profile/profile-wp.php:8
+#: ../activity/post-form.php:45 ../members/single/profile/profile-wp.php:8
 msgid "My Profile"
 msgstr ""
 
 # @ buddypress
-#: blogs/blogs-loop.php:90
+#: ../blogs/blogs-loop.php:90
 msgid "Sorry, there were no sites found."
 msgstr ""
 
 # @ buddypress
-#: blogs/create.php:21 blogs/index.php:21
+#: ../blogs/create.php:21 ../blogs/index.php:21
 msgid "Create a Site"
 msgstr ""
 
 # @ buddypress
-#: blogs/create.php:21 blogs/index.php:21
+#: ../blogs/create.php:21 ../blogs/index.php:21
 msgid "Site Directory"
 msgstr ""
 
 # @ buddypress
-#: blogs/create.php:32
+#: ../blogs/create.php:32
 msgid "Site registration is currently disabled"
 msgstr ""
 
 # @ buddypress
-#: blogs/index.php:33
+#: ../blogs/index.php:33
 #, php-format
 msgid "All Sites <span>%s</span>"
 msgstr ""
 
 # @ buddypress
-#: blogs/index.php:37
+#: ../blogs/index.php:37
 #, php-format
 msgid "My Sites <span>%s</span>"
 msgstr ""
 
 # @ buddypress
-#: blogs/index.php:53 forums/index.php:60 groups/index.php:55
-#: groups/single/forum.php:36 members/index.php:53 members/single/blogs.php:19
-#: members/single/forums.php:18 members/single/friends.php:20
-#: members/single/groups.php:20
+#: ../blogs/index.php:53 ../forums/index.php:60 ../groups/index.php:55
+#: ../groups/single/forum.php:36 ../members/index.php:53
+#: ../members/single/blogs.php:19 ../members/single/forums.php:18
+#: ../members/single/friends.php:20 ../members/single/groups.php:20
 msgid "Order By:"
 msgstr "Сортировать по:"
 
 # @ buddypress
-#: blogs/index.php:55 forums/index.php:62 groups/index.php:57
-#: groups/single/forum.php:38 members/index.php:55 members/single/blogs.php:21
-#: members/single/forums.php:20 members/single/friends.php:22
-#: members/single/groups.php:22
+#: ../blogs/index.php:55 ../forums/index.php:62 ../groups/index.php:57
+#: ../groups/single/forum.php:38 ../members/index.php:55
+#: ../members/single/blogs.php:21 ../members/single/forums.php:20
+#: ../members/single/friends.php:22 ../members/single/groups.php:22
 msgid "Last Active"
 msgstr ""
 
 # @ buddypress
-#: blogs/index.php:56 members/single/blogs.php:22
+#: ../blogs/index.php:56 ../members/single/blogs.php:22
 msgid "Newest"
 msgstr ""
 
 # @ buddypress
-#: blogs/index.php:57 groups/index.php:60 members/index.php:60
-#: members/single/blogs.php:23 members/single/friends.php:24
-#: members/single/groups.php:25
+#: ../blogs/index.php:57 ../groups/index.php:60 ../members/index.php:60
+#: ../members/single/blogs.php:23 ../members/single/friends.php:24
+#: ../members/single/groups.php:25
 msgid "Alphabetical"
 msgstr ""
 
 # @ gp_lang
-#: buddypress/functions-buddypress.php:86
+#: ../buddypress/functions-buddypress.php:86
 msgid "Started topic:"
 msgstr ""
 
 # @ gp_lang
-#: buddypress/functions-buddypress.php:87
+#: ../buddypress/functions-buddypress.php:87
 msgid "Posted on:"
 msgstr ""
 
 # @ gp_lang
-#: buddypress/functions-buddypress.php:88
+#: ../buddypress/functions-buddypress.php:88
 msgid "Created"
 msgstr "Создано"
 
 # @ gp_lang
-#: buddypress/functions-buddypress.php:89
+#: ../buddypress/functions-buddypress.php:89
 msgid "Posted"
 msgstr "Опубликовано"
 
 # @ gp_lang
-#: buddypress/functions-buddypress.php:90
+#: ../buddypress/functions-buddypress.php:90
 msgid "Started"
 msgstr ""
 
 # @ gp_lang
-#: buddypress/functions-buddypress.php:91
+#: ../buddypress/functions-buddypress.php:91
 msgid "in"
 msgstr "в"
 
 # @ gp_lang
-#: buddypress/functions-buddypress.php:101
+#: ../buddypress/functions-buddypress.php:101
 msgid "My Favorites"
 msgstr ""
 
 # @ gp_lang
-#: buddypress/functions-buddypress.php:102
+#: ../buddypress/functions-buddypress.php:102
 msgid "Accepted"
 msgstr ""
 
 # @ gp_lang
-#: buddypress/functions-buddypress.php:103
+#: ../buddypress/functions-buddypress.php:103
 msgid "Rejected"
 msgstr ""
 
 # @ gp_lang
-#: buddypress/functions-buddypress.php:104
+#: ../buddypress/functions-buddypress.php:104
 msgid "Show all comments for this thread"
 msgstr ""
 
 # @ gp_lang
-#: buddypress/functions-buddypress.php:105
+#: ../buddypress/functions-buddypress.php:105
 msgid "Show all"
 msgstr ""
 
 # @ gp_lang
-#: buddypress/functions-buddypress.php:106
+#: ../buddypress/functions-buddypress.php:106
 msgid "comments"
 msgstr "комментарии"
 
 # @ gp_lang
 # @ buddypress
-#: buddypress/functions-buddypress.php:107 members/single/profile/edit.php:128
-#: registration/register.php:169
+#: ../buddypress/functions-buddypress.php:107
+#: ../members/single/profile/edit.php:128 ../registration/register.php:169
 msgid "Close"
 msgstr ""
 
 # @ buddypress
-#: forums/forums-loop.php:39
+#: ../forums/forums-loop.php:39
 msgid "Topic"
 msgstr ""
 
 # @ buddypress
-#: forums/forums-loop.php:41
+#: ../forums/forums-loop.php:41
 msgid "Freshness"
 msgstr ""
 
 # @ buddypress
-#: forums/forums-loop.php:54
+#: ../forums/forums-loop.php:54
 msgid "Permalink"
 msgstr ""
 
 # @ buddypress
-#. translators: "started by [poster] in [forum]
-#: forums/forums-loop.php:61
+#: ../forums/forums-loop.php:61
 #, php-format
 msgid "Started by %1$s"
 msgstr ""
 
 # @ buddypress
-#. translators: "started by [poster] in [forum]
-#: forums/forums-loop.php:72
+#: ../forums/forums-loop.php:72
 #, php-format
 msgid "in %1$s"
 msgstr ""
 
 # @ buddypress
-#: forums/forums-loop.php:122
+#: ../forums/forums-loop.php:122
 msgid "Sorry, there were no forum topics found."
 msgstr ""
 
 # @ buddypress
-#: forums/index.php:23
+#: ../forums/index.php:23
 msgid "Forums Directory"
 msgstr ""
 
 # @ buddypress
-#: forums/index.php:23 groups/single/forum.php:19
+#: ../forums/index.php:23 ../groups/single/forum.php:19
 msgid "New Topic"
 msgstr ""
 
 # @ buddypress
-#: forums/index.php:40
+#: ../forums/index.php:40
 #, php-format
 msgid "All Topics <span>%s</span>"
 msgstr ""
 
 # @ buddypress
-#: forums/index.php:44
+#: ../forums/index.php:44
 #, php-format
 msgid "My Topics <span>%s</span>"
 msgstr ""
 
 # @ buddypress
-#: forums/index.php:63 groups/single/forum.php:39 members/single/forums.php:21
+#: ../forums/index.php:63 ../groups/single/forum.php:39
+#: ../members/single/forums.php:21
 msgid "Most Posts"
 msgstr ""
 
 # @ buddypress
-#: forums/index.php:64 groups/single/forum.php:40 members/single/forums.php:22
+#: ../forums/index.php:64 ../groups/single/forum.php:40
+#: ../members/single/forums.php:22
 msgid "Unreplied"
 msgstr ""
 
 # @ buddypress
-#: forums/index.php:100
+#: ../forums/index.php:100
 msgid "Create New Topic:"
 msgstr ""
 
 # @ buddypress
 # @ gp_lang
-#: forums/index.php:104 groups/single/forum/edit.php:47
-#: groups/single/forum.php:75 lib/admin/inc/theme-widgets.php:48
+#: ../forums/index.php:104 ../groups/single/forum.php:75
+#: ../groups/single/forum/edit.php:47 ../lib/admin/inc/theme-widgets.php:48
 msgid "Title:"
 msgstr ""
 
 # @ buddypress
 # @ gp_lang
-#: forums/index.php:107 groups/single/forum/edit.php:50
-#: groups/single/forum.php:78 lib/admin/inc/theme-widgets.php:52
+#: ../forums/index.php:107 ../groups/single/forum.php:78
+#: ../groups/single/forum/edit.php:50 ../lib/admin/inc/theme-widgets.php:52
 msgid "Content:"
 msgstr ""
 
 # @ buddypress
-#: forums/index.php:110 groups/single/forum/edit.php:53
-#: groups/single/forum.php:81
+#: ../forums/index.php:110 ../groups/single/forum.php:81
+#: ../groups/single/forum/edit.php:53
 msgid "Tags (comma separated):"
 msgstr ""
 
 # @ buddypress
-#: forums/index.php:113
+#: ../forums/index.php:113
 msgid "Post In Group Forum:"
 msgstr ""
 
 # @ buddypress
-#. translators: no option picked in select box
-#: forums/index.php:116
+#: ../forums/index.php:116
 msgid "----"
 msgstr ""
 
 # @ buddypress
-#: forums/index.php:133 groups/single/forum.php:87
+#: ../forums/index.php:133 ../groups/single/forum.php:87
 msgid "Post Topic"
 msgstr ""
 
 # @ buddypress
 # @ gp_lang
-#: forums/index.php:134 lib/admin/inc/tinymce/window_options.php:90
+#: ../forums/index.php:134 ../lib/admin/inc/tinymce/window_options.php:90
 msgid "Cancel"
 msgstr ""
 
 # @ buddypress
-#: forums/index.php:145
+#: ../forums/index.php:145
 #, php-format
 msgid ""
 "You are not a member of any groups so you don't have any group forums you "
@@ -859,127 +870,127 @@ msgid ""
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:18 groups/index.php:21
+#: ../groups/create.php:18 ../groups/index.php:21
 msgid "Create a Group"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:18 groups/index.php:21
+#: ../groups/create.php:18 ../groups/index.php:21
 msgid "Groups Directory"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:39 groups/single/admin.php:16
+#: ../groups/create.php:39 ../groups/single/admin.php:16
 msgid "Group Name (required)"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:42 groups/single/admin.php:19
+#: ../groups/create.php:42 ../groups/single/admin.php:19
 msgid "Group Description (required)"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:58 groups/single/admin.php:56
+#: ../groups/create.php:58 ../groups/single/admin.php:56
 msgid "Privacy Options"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:62 groups/single/admin.php:61
+#: ../groups/create.php:62 ../groups/single/admin.php:61
 msgid "This is a public group"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:64 groups/single/admin.php:63
+#: ../groups/create.php:64 ../groups/single/admin.php:63
 msgid "Any site member can join this group."
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:65 groups/create.php:74 groups/single/admin.php:64
-#: groups/single/admin.php:74
+#: ../groups/create.php:65 ../groups/create.php:74
+#: ../groups/single/admin.php:64 ../groups/single/admin.php:74
 msgid ""
 "This group will be listed in the groups directory and in search results."
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:66 groups/single/admin.php:65
+#: ../groups/create.php:66 ../groups/single/admin.php:65
 msgid "Group content and activity will be visible to any site member."
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:71 groups/single/admin.php:71
+#: ../groups/create.php:71 ../groups/single/admin.php:71
 msgid "This is a private group"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:73 groups/single/admin.php:73
+#: ../groups/create.php:73 ../groups/single/admin.php:73
 msgid "Only users who request membership and are accepted can join the group."
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:75 groups/create.php:84 groups/single/admin.php:75
-#: groups/single/admin.php:85
+#: ../groups/create.php:75 ../groups/create.php:84
+#: ../groups/single/admin.php:75 ../groups/single/admin.php:85
 msgid ""
 "Group content and activity will only be visible to members of the group."
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:80 groups/single/admin.php:81
+#: ../groups/create.php:80 ../groups/single/admin.php:81
 msgid "This is a hidden group"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:82 groups/single/admin.php:83
+#: ../groups/create.php:82 ../groups/single/admin.php:83
 msgid "Only users who are invited can join the group."
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:83 groups/single/admin.php:84
+#: ../groups/create.php:83 ../groups/single/admin.php:84
 msgid ""
 "This group will not be listed in the groups directory or search results."
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:89 groups/single/admin.php:92
+#: ../groups/create.php:89 ../groups/single/admin.php:92
 msgid "Group Invitations"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:91 groups/single/admin.php:94
+#: ../groups/create.php:91 ../groups/single/admin.php:94
 msgid "Which members of this group are allowed to invite others?"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:96 groups/single/admin.php:99
+#: ../groups/create.php:96 ../groups/single/admin.php:99
 msgid "All group members"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:101 groups/single/admin.php:104
+#: ../groups/create.php:101 ../groups/single/admin.php:104
 msgid "Group admins and mods only"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:106 groups/single/admin.php:109
+#: ../groups/create.php:106 ../groups/single/admin.php:109
 msgid "Group admins only"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:112
+#: ../groups/create.php:112
 msgid "Group Forums"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:116
+#: ../groups/create.php:116
 msgid "Should this group have a forum?"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:119 groups/single/admin.php:47
+#: ../groups/create.php:119 ../groups/single/admin.php:47
 msgid "Enable discussion forum"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:123
+#: ../groups/create.php:123
 #, php-format
 msgid ""
 "<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s"
@@ -987,58 +998,58 @@ msgid ""
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:149 groups/single/admin.php:127
+#: ../groups/create.php:149 ../groups/single/admin.php:127
 msgid ""
 "Upload an image to use as an avatar for this group. The image will be shown "
 "on the main group page, and in search results."
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:153 groups/single/admin.php:131
-#: members/single/profile/change-avatar.php:18
+#: ../groups/create.php:153 ../groups/single/admin.php:131
+#: ../members/single/profile/change-avatar.php:18
 msgid "Upload Image"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:157
+#: ../groups/create.php:157
 msgid "To skip the avatar upload process, hit the \"Next Step\" button."
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:164
+#: ../groups/create.php:164
 msgid "Crop Group Avatar"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:166 groups/single/admin.php:151
-#: members/single/profile/change-avatar.php:33
+#: ../groups/create.php:166 ../groups/single/admin.php:151
+#: ../members/single/profile/change-avatar.php:33
 msgid "Avatar to crop"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:169 groups/single/admin.php:154
-#: members/single/profile/change-avatar.php:36
+#: ../groups/create.php:169 ../groups/single/admin.php:154
+#: ../members/single/profile/change-avatar.php:36
 msgid "Avatar preview"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:172 groups/single/admin.php:157
-#: members/single/profile/change-avatar.php:39
+#: ../groups/create.php:172 ../groups/single/admin.php:157
+#: ../members/single/profile/change-avatar.php:39
 msgid "Crop Image"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:211 groups/single/send-invites.php:22
+#: ../groups/create.php:211 ../groups/single/send-invites.php:22
 msgid "Select people to invite from your friends list."
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:229 groups/single/send-invites.php:42
+#: ../groups/create.php:229 ../groups/single/send-invites.php:42
 msgid "Remove Invite"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:246 groups/single/send-invites.php:73
+#: ../groups/create.php:246 ../groups/single/send-invites.php:73
 msgid ""
 "Once you have built up friend connections you will be able to invite others "
 "to your group. You can send invites any time in the future by selecting the "
@@ -1046,1230 +1057,1299 @@ msgid ""
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:268
+#: ../groups/create.php:268
 msgid "Back to Previous Step"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:275
+#: ../groups/create.php:275
 msgid "Next Step"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:282
+#: ../groups/create.php:282
 msgid "Create Group and Continue"
 msgstr ""
 
 # @ buddypress
-#: groups/create.php:289
+#: ../groups/create.php:289
 msgid "Finish"
 msgstr ""
 
 # @ buddypress
-#: groups/groups-loop.php:47 groups/single/group-header.php:42
+#: ../groups/groups-loop.php:47 ../groups/single/group-header.php:42
 #, php-format
 msgid "active %s"
 msgstr ""
 
 # @ buddypress
-#: groups/groups-loop.php:95
+#: ../groups/groups-loop.php:95
 msgid "There were no groups found."
 msgstr ""
 
 # @ buddypress
-#: groups/index.php:35
+#: ../groups/index.php:35
 #, php-format
 msgid "All Groups <span>%s</span>"
 msgstr ""
 
 # @ buddypress
-#: groups/index.php:58 members/single/groups.php:23
+#: ../groups/index.php:58 ../members/single/groups.php:23
 msgid "Most Members"
 msgstr ""
 
 # @ buddypress
-#: groups/index.php:59 members/single/groups.php:24
+#: ../groups/index.php:59 ../members/single/groups.php:24
 msgid "Newly Created"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:25
+#: ../groups/single/admin.php:25
 msgid "Notify group members of changes via email"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:26 registration/register.php:227
+#: ../groups/single/admin.php:26 ../registration/register.php:227
 msgid "Yes"
 msgstr "Да"
 
 # @ buddypress
-#: groups/single/admin.php:27 registration/register.php:228
+#: ../groups/single/admin.php:27 ../registration/register.php:228
 msgid "No"
 msgstr "Нет"
 
 # @ buddypress
 # @ gp_lang
-#: groups/single/admin.php:32 groups/single/admin.php:117
-#: groups/single/forum/edit.php:58 groups/single/forum/edit.php:74
-#: lib/admin/inc/custom-sidebars/views/edit.php:49
-#: lib/admin/inc/theme-options.php:1484 lib/admin/inc/theme-options.php:1702
-#: members/single/profile/edit.php:146 members/single/settings/general.php:72
-#: members/single/settings/notifications.php:61
+#: ../groups/single/admin.php:32 ../groups/single/admin.php:117
+#: ../groups/single/forum/edit.php:58 ../groups/single/forum/edit.php:74
+#: ../lib/admin/inc/theme-options.php:1484
+#: ../lib/admin/inc/theme-options.php:1702
+#: ../lib/admin/inc/custom-sidebars/views/edit.php:49
+#: ../members/single/profile/edit.php:146
+#: ../members/single/settings/general.php:72
+#: ../members/single/settings/notifications.php:61
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
 # @ buddypress
-#: groups/single/admin.php:137
+#: ../groups/single/admin.php:137
 msgid ""
 "If you'd like to remove the existing avatar but not upload a new one, please "
 "use the delete avatar button."
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:139 members/single/profile/change-avatar.php:24
+#: ../groups/single/admin.php:139
+#: ../members/single/profile/change-avatar.php:24
 msgid "Delete Avatar"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:149
+#: ../groups/single/admin.php:149
 msgid "Crop Avatar"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:177
+#: ../groups/single/admin.php:177
 msgid "Administrators"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:185 groups/single/admin.php:212
+#: ../groups/single/admin.php:185 ../groups/single/admin.php:212
 #, php-format
 msgid "Profile picture of %s"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:190 groups/single/admin.php:217
+#: ../groups/single/admin.php:190 ../groups/single/admin.php:217
 msgid "Demote to Member"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:205
+#: ../groups/single/admin.php:205
 msgid "Moderators"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:216 groups/single/admin.php:272
+#: ../groups/single/admin.php:216 ../groups/single/admin.php:272
 msgid "Promote to Admin"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:231
+#: ../groups/single/admin.php:231
 msgid "Members"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:260
+#: ../groups/single/admin.php:260
 msgid "(banned)"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:266
+#: ../groups/single/admin.php:266
 msgid "Unban this member"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:266
+#: ../groups/single/admin.php:266
 msgid "Remove Ban"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:270
+#: ../groups/single/admin.php:270
 msgid "Kick and ban this member"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:270
+#: ../groups/single/admin.php:270
 msgid "Kick &amp; Ban"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:271
+#: ../groups/single/admin.php:271
 msgid "Promote to Mod"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:276
+#: ../groups/single/admin.php:276
 msgid "Remove this member"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:276
+#: ../groups/single/admin.php:276
 msgid "Remove from group"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:290 groups/single/members.php:87
+#: ../groups/single/admin.php:290 ../groups/single/members.php:87
 msgid "This group has no members."
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:320 members/single/friends/requests.php:37
-#: members/single/groups/invites.php:23
+#: ../groups/single/admin.php:320 ../members/single/friends/requests.php:37
+#: ../members/single/groups/invites.php:23
 msgid "Accept"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:322 members/single/friends/requests.php:38
-#: members/single/groups/invites.php:24
+#: ../groups/single/admin.php:322 ../members/single/friends/requests.php:38
+#: ../members/single/groups/invites.php:24
 msgid "Reject"
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:335
+#: ../groups/single/admin.php:335
 msgid "There are no pending membership requests."
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:352
+#: ../groups/single/admin.php:352
 msgid ""
 "WARNING: Deleting this group will completely remove ALL content associated "
 "with it. There is no way back, please be careful with this option."
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:355
+#: ../groups/single/admin.php:355
 msgid "I understand the consequences of deleting this group."
 msgstr ""
 
 # @ buddypress
-#: groups/single/admin.php:360
+#: ../groups/single/admin.php:360
 msgid "Delete Group"
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum/edit.php:16 groups/single/forum/topic.php:17
-#: groups/single/forum.php:27
+#: ../groups/single/forum.php:27 ../groups/single/forum/edit.php:16
+#: ../groups/single/forum/topic.php:17
 msgid "Forum Directory"
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum.php:69
+#: ../groups/single/forum.php:69
 msgid "You will auto join this group when you start a new topic."
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum.php:73
+#: ../groups/single/forum.php:73
 msgid "Post a New Topic:"
 msgstr ""
 
 # @ buddypress
-#: groups/single/group-header.php:11
+#: ../groups/single/group-header.php:11
 msgid "Group Admins"
 msgstr ""
 
 # @ buddypress
-#: groups/single/group-header.php:20
+#: ../groups/single/group-header.php:20
 msgid "Group Mods"
 msgstr ""
 
 # @ buddypress
-#: groups/single/request-membership.php:4
+#: ../groups/single/request-membership.php:4
 #, php-format
 msgid "You are requesting to become a member of the group '%s'."
 msgstr ""
 
 # @ buddypress
-#: groups/single/request-membership.php:7
+#: ../groups/single/request-membership.php:7
 msgid "Comments (optional)"
 msgstr ""
 
 # @ buddypress
-#: groups/single/request-membership.php:12
+#: ../groups/single/request-membership.php:12
 msgid "Send Request"
 msgstr ""
 
 # @ buddypress
-#: groups/single/send-invites.php:60
+#: ../groups/single/send-invites.php:60
 msgid "Send Invites"
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum/edit.php:25
+#: ../groups/single/forum/edit.php:25
 msgid "Edit:"
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum/edit.php:87
+#: ../groups/single/forum/edit.php:87
 msgid "This topic does not exist."
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum/topic.php:9
+#: ../groups/single/forum/topic.php:9
 msgid "New Reply"
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum/topic.php:32
+#: ../groups/single/forum/topic.php:32
 msgid "Topic tags:"
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum/topic.php:81
+#: ../groups/single/forum/topic.php:81
 #, php-format
 msgid "%1$s said %2$s:"
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum/topic.php:95
+#: ../groups/single/forum/topic.php:95
 msgid "Permanent link to this post"
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum/topic.php:119
+#: ../groups/single/forum/topic.php:119
 msgid "There are no posts for this topic."
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum/topic.php:134
+#: ../groups/single/forum/topic.php:134
 msgid "You will auto join this group when you reply to this topic."
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum/topic.php:139
+#: ../groups/single/forum/topic.php:139
 msgid "Add a reply:"
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum/topic.php:144
+#: ../groups/single/forum/topic.php:144
 msgid "Post Reply"
 msgstr ""
 
 # @ buddypress
-#: groups/single/forum/topic.php:155
+#: ../groups/single/forum/topic.php:155
 msgid "This topic is closed, replies are no longer accepted."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:9 lib/admin/inc/theme-options.php:461
-#: lib/admin/inc/theme-options.php:468
+#: ../lib/admin/inc/theme-meta-options.php:9
+#: ../lib/admin/inc/theme-options.php:461
+#: ../lib/admin/inc/theme-options.php:468
 msgid "Post Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:10 lib/admin/inc/theme-options.php:677
-#: lib/admin/inc/theme-options.php:684
+#: ../lib/admin/inc/theme-meta-options.php:10
+#: ../lib/admin/inc/theme-options.php:677
+#: ../lib/admin/inc/theme-options.php:684
 msgid "Page Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:11
+#: ../lib/admin/inc/theme-meta-options.php:11
 msgid "Slide Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:21
-#: lib/admin/inc/theme-meta-options.php:93
+#: ../lib/admin/inc/theme-meta-options.php:21
+#: ../lib/admin/inc/theme-meta-options.php:93
 msgid ""
 "Controls the thumbnails used on category, archive, tag and search result "
 "pages."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:21
-#: lib/admin/inc/theme-meta-options.php:93
+#: ../lib/admin/inc/theme-meta-options.php:21
+#: ../lib/admin/inc/theme-meta-options.php:93
 msgid "Thumbnail Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:23
-#: lib/admin/inc/theme-meta-options.php:95 lib/admin/inc/theme-options.php:285
+#: ../lib/admin/inc/theme-meta-options.php:23
+#: ../lib/admin/inc/theme-meta-options.php:95
+#: ../lib/admin/inc/theme-options.php:285
 msgid "Thumbnail Width"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:23
-#: lib/admin/inc/theme-meta-options.php:95
+#: ../lib/admin/inc/theme-meta-options.php:23
+#: ../lib/admin/inc/theme-meta-options.php:95
 msgid ""
 "The width to crop the thumbnail to (set to 0 to have a proportionate width)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:25
-#: lib/admin/inc/theme-meta-options.php:97 lib/admin/inc/theme-options.php:294
+#: ../lib/admin/inc/theme-meta-options.php:25
+#: ../lib/admin/inc/theme-meta-options.php:97
+#: ../lib/admin/inc/theme-options.php:294
 msgid "Thumbnail Height"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:25
-#: lib/admin/inc/theme-meta-options.php:97
+#: ../lib/admin/inc/theme-meta-options.php:25
+#: ../lib/admin/inc/theme-meta-options.php:97
 msgid ""
 "The height to crop the thumbnail to (set to 0 to have a proportionate "
 "height)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:30
-#: lib/admin/inc/theme-meta-options.php:102
+#: ../lib/admin/inc/theme-meta-options.php:30
+#: ../lib/admin/inc/theme-meta-options.php:102
 msgid "Controls the featured image displayed within this page."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:30
-#: lib/admin/inc/theme-meta-options.php:102
+#: ../lib/admin/inc/theme-meta-options.php:30
+#: ../lib/admin/inc/theme-meta-options.php:102
 msgid "Image Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:32
-#: lib/admin/inc/theme-meta-options.php:104
-#: lib/admin/inc/theme-options.php:477 lib/admin/inc/theme-options.php:693
+#: ../lib/admin/inc/theme-meta-options.php:32
+#: ../lib/admin/inc/theme-meta-options.php:104
+#: ../lib/admin/inc/theme-options.php:477
+#: ../lib/admin/inc/theme-options.php:693
 msgid "Featured Image"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:32
-#: lib/admin/inc/theme-meta-options.php:104
+#: ../lib/admin/inc/theme-meta-options.php:32
+#: ../lib/admin/inc/theme-meta-options.php:104
 msgid "Choose whether to display the featured image within your page."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:32
-#: lib/admin/inc/theme-meta-options.php:38
-#: lib/admin/inc/theme-meta-options.php:58
-#: lib/admin/inc/theme-meta-options.php:60
-#: lib/admin/inc/theme-meta-options.php:62
-#: lib/admin/inc/theme-meta-options.php:66
-#: lib/admin/inc/theme-meta-options.php:68
-#: lib/admin/inc/theme-meta-options.php:70
-#: lib/admin/inc/theme-meta-options.php:104
-#: lib/admin/inc/theme-meta-options.php:110
-#: lib/admin/inc/theme-meta-options.php:119
-#: lib/admin/inc/theme-meta-options.php:121
-#: lib/admin/inc/theme-meta-options.php:123
-#: lib/admin/inc/theme-meta-options.php:127
-#: lib/admin/inc/theme-meta-options.php:129
-#: lib/admin/inc/theme-meta-options.php:131
+#: ../lib/admin/inc/theme-meta-options.php:32
+#: ../lib/admin/inc/theme-meta-options.php:38
+#: ../lib/admin/inc/theme-meta-options.php:58
+#: ../lib/admin/inc/theme-meta-options.php:60
+#: ../lib/admin/inc/theme-meta-options.php:62
+#: ../lib/admin/inc/theme-meta-options.php:66
+#: ../lib/admin/inc/theme-meta-options.php:68
+#: ../lib/admin/inc/theme-meta-options.php:70
+#: ../lib/admin/inc/theme-meta-options.php:104
+#: ../lib/admin/inc/theme-meta-options.php:110
+#: ../lib/admin/inc/theme-meta-options.php:119
+#: ../lib/admin/inc/theme-meta-options.php:121
+#: ../lib/admin/inc/theme-meta-options.php:123
+#: ../lib/admin/inc/theme-meta-options.php:127
+#: ../lib/admin/inc/theme-meta-options.php:129
+#: ../lib/admin/inc/theme-meta-options.php:131
 msgid "Default"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:32
-#: lib/admin/inc/theme-meta-options.php:62
-#: lib/admin/inc/theme-meta-options.php:66
-#: lib/admin/inc/theme-meta-options.php:68
-#: lib/admin/inc/theme-meta-options.php:104
-#: lib/admin/inc/theme-meta-options.php:123
-#: lib/admin/inc/theme-meta-options.php:127
-#: lib/admin/inc/theme-meta-options.php:129
-#: lib/admin/inc/theme-options.php:363 lib/admin/inc/theme-options.php:373
-#: lib/admin/inc/theme-options.php:383 lib/admin/inc/theme-options.php:481
-#: lib/admin/inc/theme-options.php:563 lib/admin/inc/theme-options.php:573
-#: lib/admin/inc/theme-options.php:583 lib/admin/inc/theme-options.php:697
-#: lib/admin/inc/theme-options.php:779 lib/admin/inc/theme-options.php:789
-#: lib/admin/inc/theme-options.php:799
+#: ../lib/admin/inc/theme-meta-options.php:32
+#: ../lib/admin/inc/theme-meta-options.php:62
+#: ../lib/admin/inc/theme-meta-options.php:66
+#: ../lib/admin/inc/theme-meta-options.php:68
+#: ../lib/admin/inc/theme-meta-options.php:104
+#: ../lib/admin/inc/theme-meta-options.php:123
+#: ../lib/admin/inc/theme-meta-options.php:127
+#: ../lib/admin/inc/theme-meta-options.php:129
+#: ../lib/admin/inc/theme-options.php:363
+#: ../lib/admin/inc/theme-options.php:373
+#: ../lib/admin/inc/theme-options.php:383
+#: ../lib/admin/inc/theme-options.php:481
+#: ../lib/admin/inc/theme-options.php:563
+#: ../lib/admin/inc/theme-options.php:573
+#: ../lib/admin/inc/theme-options.php:583
+#: ../lib/admin/inc/theme-options.php:697
+#: ../lib/admin/inc/theme-options.php:779
+#: ../lib/admin/inc/theme-options.php:789
+#: ../lib/admin/inc/theme-options.php:799
 msgid "Show"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:32
-#: lib/admin/inc/theme-meta-options.php:62
-#: lib/admin/inc/theme-meta-options.php:66
-#: lib/admin/inc/theme-meta-options.php:68
-#: lib/admin/inc/theme-meta-options.php:104
-#: lib/admin/inc/theme-meta-options.php:123
-#: lib/admin/inc/theme-meta-options.php:127
-#: lib/admin/inc/theme-meta-options.php:129
-#: lib/admin/inc/theme-options.php:363 lib/admin/inc/theme-options.php:373
-#: lib/admin/inc/theme-options.php:383 lib/admin/inc/theme-options.php:481
-#: lib/admin/inc/theme-options.php:563 lib/admin/inc/theme-options.php:573
-#: lib/admin/inc/theme-options.php:583 lib/admin/inc/theme-options.php:697
-#: lib/admin/inc/theme-options.php:779 lib/admin/inc/theme-options.php:789
-#: lib/admin/inc/theme-options.php:799
+#: ../lib/admin/inc/theme-meta-options.php:32
+#: ../lib/admin/inc/theme-meta-options.php:62
+#: ../lib/admin/inc/theme-meta-options.php:66
+#: ../lib/admin/inc/theme-meta-options.php:68
+#: ../lib/admin/inc/theme-meta-options.php:104
+#: ../lib/admin/inc/theme-meta-options.php:123
+#: ../lib/admin/inc/theme-meta-options.php:127
+#: ../lib/admin/inc/theme-meta-options.php:129
+#: ../lib/admin/inc/theme-options.php:363
+#: ../lib/admin/inc/theme-options.php:373
+#: ../lib/admin/inc/theme-options.php:383
+#: ../lib/admin/inc/theme-options.php:481
+#: ../lib/admin/inc/theme-options.php:563
+#: ../lib/admin/inc/theme-options.php:573
+#: ../lib/admin/inc/theme-options.php:583
+#: ../lib/admin/inc/theme-options.php:697
+#: ../lib/admin/inc/theme-options.php:779
+#: ../lib/admin/inc/theme-options.php:789
+#: ../lib/admin/inc/theme-options.php:799
 msgid "Hide"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:34
-#: lib/admin/inc/theme-meta-options.php:106
-#: lib/admin/inc/theme-options.php:485 lib/admin/inc/theme-options.php:649
-#: lib/admin/inc/theme-options.php:701
+#: ../lib/admin/inc/theme-meta-options.php:34
+#: ../lib/admin/inc/theme-meta-options.php:106
+#: ../lib/admin/inc/theme-options.php:485
+#: ../lib/admin/inc/theme-options.php:649
+#: ../lib/admin/inc/theme-options.php:701
 msgid "Image Width"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:34
-#: lib/admin/inc/theme-meta-options.php:106
-#: lib/admin/inc/theme-options.php:650
+#: ../lib/admin/inc/theme-meta-options.php:34
+#: ../lib/admin/inc/theme-meta-options.php:106
+#: ../lib/admin/inc/theme-options.php:650
 msgid ""
 "The width to crop the image to (set to 0 to have a proportionate width)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:36
-#: lib/admin/inc/theme-meta-options.php:108
-#: lib/admin/inc/theme-options.php:494 lib/admin/inc/theme-options.php:658
-#: lib/admin/inc/theme-options.php:710
+#: ../lib/admin/inc/theme-meta-options.php:36
+#: ../lib/admin/inc/theme-meta-options.php:108
+#: ../lib/admin/inc/theme-options.php:494
+#: ../lib/admin/inc/theme-options.php:658
+#: ../lib/admin/inc/theme-options.php:710
 msgid "Image Height"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:36
-#: lib/admin/inc/theme-meta-options.php:108
-#: lib/admin/inc/theme-options.php:659
+#: ../lib/admin/inc/theme-meta-options.php:36
+#: ../lib/admin/inc/theme-meta-options.php:108
+#: ../lib/admin/inc/theme-options.php:659
 msgid ""
 "The height to crop the image to (set to 0 to have a proportionate height)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:38
-#: lib/admin/inc/theme-meta-options.php:110
-#: lib/admin/inc/theme-options.php:303 lib/admin/inc/theme-options.php:503
-#: lib/admin/inc/theme-options.php:719
+#: ../lib/admin/inc/theme-meta-options.php:38
+#: ../lib/admin/inc/theme-meta-options.php:110
+#: ../lib/admin/inc/theme-options.php:303
+#: ../lib/admin/inc/theme-options.php:503
+#: ../lib/admin/inc/theme-options.php:719
 msgid "Image Wrap"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:38
-#: lib/admin/inc/theme-meta-options.php:110
-#: lib/admin/inc/theme-options.php:304
+#: ../lib/admin/inc/theme-meta-options.php:38
+#: ../lib/admin/inc/theme-meta-options.php:110
+#: ../lib/admin/inc/theme-options.php:304
 msgid "Choose whether the page content wraps around the featured image."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:38
-#: lib/admin/inc/theme-meta-options.php:60
-#: lib/admin/inc/theme-meta-options.php:110
-#: lib/admin/inc/theme-meta-options.php:121 lib/admin/inc/theme-options.php:81
-#: lib/admin/inc/theme-options.php:107 lib/admin/inc/theme-options.php:134
-#: lib/admin/inc/theme-options.php:264 lib/admin/inc/theme-options.php:307
-#: lib/admin/inc/theme-options.php:353 lib/admin/inc/theme-options.php:414
-#: lib/admin/inc/theme-options.php:424 lib/admin/inc/theme-options.php:432
-#: lib/admin/inc/theme-options.php:440 lib/admin/inc/theme-options.php:448
-#: lib/admin/inc/theme-options.php:456 lib/admin/inc/theme-options.php:507
-#: lib/admin/inc/theme-options.php:553 lib/admin/inc/theme-options.php:593
-#: lib/admin/inc/theme-options.php:601 lib/admin/inc/theme-options.php:609
-#: lib/admin/inc/theme-options.php:617 lib/admin/inc/theme-options.php:625
-#: lib/admin/inc/theme-options.php:635 lib/admin/inc/theme-options.php:645
-#: lib/admin/inc/theme-options.php:723 lib/admin/inc/theme-options.php:769
-#: lib/admin/inc/theme-options.php:809 lib/admin/inc/theme-options.php:817
-#: lib/admin/inc/theme-options.php:825 lib/admin/inc/theme-options.php:835
+#: ../lib/admin/inc/theme-meta-options.php:38
+#: ../lib/admin/inc/theme-meta-options.php:60
+#: ../lib/admin/inc/theme-meta-options.php:110
+#: ../lib/admin/inc/theme-meta-options.php:121
+#: ../lib/admin/inc/theme-options.php:81
+#: ../lib/admin/inc/theme-options.php:107
+#: ../lib/admin/inc/theme-options.php:134
+#: ../lib/admin/inc/theme-options.php:264
+#: ../lib/admin/inc/theme-options.php:307
+#: ../lib/admin/inc/theme-options.php:353
+#: ../lib/admin/inc/theme-options.php:414
+#: ../lib/admin/inc/theme-options.php:424
+#: ../lib/admin/inc/theme-options.php:432
+#: ../lib/admin/inc/theme-options.php:440
+#: ../lib/admin/inc/theme-options.php:448
+#: ../lib/admin/inc/theme-options.php:456
+#: ../lib/admin/inc/theme-options.php:507
+#: ../lib/admin/inc/theme-options.php:553
+#: ../lib/admin/inc/theme-options.php:593
+#: ../lib/admin/inc/theme-options.php:601
+#: ../lib/admin/inc/theme-options.php:609
+#: ../lib/admin/inc/theme-options.php:617
+#: ../lib/admin/inc/theme-options.php:625
+#: ../lib/admin/inc/theme-options.php:635
+#: ../lib/admin/inc/theme-options.php:645
+#: ../lib/admin/inc/theme-options.php:723
+#: ../lib/admin/inc/theme-options.php:769
+#: ../lib/admin/inc/theme-options.php:809
+#: ../lib/admin/inc/theme-options.php:817
+#: ../lib/admin/inc/theme-options.php:825
+#: ../lib/admin/inc/theme-options.php:835
 msgid "Enable"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:38
-#: lib/admin/inc/theme-meta-options.php:60
-#: lib/admin/inc/theme-meta-options.php:110
-#: lib/admin/inc/theme-meta-options.php:121 lib/admin/inc/theme-options.php:81
-#: lib/admin/inc/theme-options.php:107 lib/admin/inc/theme-options.php:134
-#: lib/admin/inc/theme-options.php:264 lib/admin/inc/theme-options.php:307
-#: lib/admin/inc/theme-options.php:353 lib/admin/inc/theme-options.php:414
-#: lib/admin/inc/theme-options.php:424 lib/admin/inc/theme-options.php:432
-#: lib/admin/inc/theme-options.php:440 lib/admin/inc/theme-options.php:448
-#: lib/admin/inc/theme-options.php:456 lib/admin/inc/theme-options.php:507
-#: lib/admin/inc/theme-options.php:553 lib/admin/inc/theme-options.php:593
-#: lib/admin/inc/theme-options.php:601 lib/admin/inc/theme-options.php:609
-#: lib/admin/inc/theme-options.php:617 lib/admin/inc/theme-options.php:625
-#: lib/admin/inc/theme-options.php:635 lib/admin/inc/theme-options.php:645
-#: lib/admin/inc/theme-options.php:723 lib/admin/inc/theme-options.php:769
-#: lib/admin/inc/theme-options.php:809 lib/admin/inc/theme-options.php:817
-#: lib/admin/inc/theme-options.php:825 lib/admin/inc/theme-options.php:835
+#: ../lib/admin/inc/theme-meta-options.php:38
+#: ../lib/admin/inc/theme-meta-options.php:60
+#: ../lib/admin/inc/theme-meta-options.php:110
+#: ../lib/admin/inc/theme-meta-options.php:121
+#: ../lib/admin/inc/theme-options.php:81
+#: ../lib/admin/inc/theme-options.php:107
+#: ../lib/admin/inc/theme-options.php:134
+#: ../lib/admin/inc/theme-options.php:264
+#: ../lib/admin/inc/theme-options.php:307
+#: ../lib/admin/inc/theme-options.php:353
+#: ../lib/admin/inc/theme-options.php:414
+#: ../lib/admin/inc/theme-options.php:424
+#: ../lib/admin/inc/theme-options.php:432
+#: ../lib/admin/inc/theme-options.php:440
+#: ../lib/admin/inc/theme-options.php:448
+#: ../lib/admin/inc/theme-options.php:456
+#: ../lib/admin/inc/theme-options.php:507
+#: ../lib/admin/inc/theme-options.php:553
+#: ../lib/admin/inc/theme-options.php:593
+#: ../lib/admin/inc/theme-options.php:601
+#: ../lib/admin/inc/theme-options.php:609
+#: ../lib/admin/inc/theme-options.php:617
+#: ../lib/admin/inc/theme-options.php:625
+#: ../lib/admin/inc/theme-options.php:635
+#: ../lib/admin/inc/theme-options.php:645
+#: ../lib/admin/inc/theme-options.php:723
+#: ../lib/admin/inc/theme-options.php:769
+#: ../lib/admin/inc/theme-options.php:809
+#: ../lib/admin/inc/theme-options.php:817
+#: ../lib/admin/inc/theme-options.php:825
+#: ../lib/admin/inc/theme-options.php:835
 msgid "Disable"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:43
+#: ../lib/admin/inc/theme-meta-options.php:43
 msgid ""
 "Can be used when your posts are displayed in <code>[posts]</code> shortcodes."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:43
+#: ../lib/admin/inc/theme-meta-options.php:43
 msgid "Portfolio Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:45
-#: lib/admin/inc/theme-meta-options.php:171
+#: ../lib/admin/inc/theme-meta-options.php:45
+#: ../lib/admin/inc/theme-meta-options.php:171
 msgid "Link Type"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:45
+#: ../lib/admin/inc/theme-meta-options.php:45
 msgid "Choose how your portfolio link opens."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:45
-#: lib/admin/inc/theme-meta-options.php:171
+#: ../lib/admin/inc/theme-meta-options.php:45
+#: ../lib/admin/inc/theme-meta-options.php:171
 msgid "Lightbox Image"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:45
-#: lib/admin/inc/theme-meta-options.php:171
+#: ../lib/admin/inc/theme-meta-options.php:45
+#: ../lib/admin/inc/theme-meta-options.php:171
 msgid "Lightbox Video"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:45
-#: lib/admin/inc/theme-meta-options.php:171
-#: lib/admin/inc/theme-meta-options.php:192
-#: lib/admin/inc/theme-meta-options.php:199
-#: lib/admin/inc/theme-meta-options.php:214
-#: lib/admin/inc/theme-options.php:315 lib/admin/inc/theme-options.php:323
-#: lib/admin/inc/theme-options.php:515 lib/admin/inc/theme-options.php:523
-#: lib/admin/inc/theme-options.php:731 lib/admin/inc/theme-options.php:739
-#: lib/admin/inc/theme-options.php:1600
+#: ../lib/admin/inc/theme-meta-options.php:45
+#: ../lib/admin/inc/theme-meta-options.php:171
+#: ../lib/admin/inc/theme-meta-options.php:192
+#: ../lib/admin/inc/theme-meta-options.php:199
+#: ../lib/admin/inc/theme-meta-options.php:214
+#: ../lib/admin/inc/theme-options.php:315
+#: ../lib/admin/inc/theme-options.php:323
+#: ../lib/admin/inc/theme-options.php:515
+#: ../lib/admin/inc/theme-options.php:523
+#: ../lib/admin/inc/theme-options.php:731
+#: ../lib/admin/inc/theme-options.php:739
+#: ../lib/admin/inc/theme-options.php:1600
 msgid "None"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:47
+#: ../lib/admin/inc/theme-meta-options.php:47
 msgid "Custom URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:47
+#: ../lib/admin/inc/theme-meta-options.php:47
 msgid ""
 "A custom URL which your image links to (overrides the default post URL)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:49
+#: ../lib/admin/inc/theme-meta-options.php:49
 msgid "Lightbox Content"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:49
+#: ../lib/admin/inc/theme-meta-options.php:49
 msgid "Upload images/audio/videos that will be opened in the lightbox."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:54
-#: lib/admin/inc/theme-meta-options.php:115
+#: ../lib/admin/inc/theme-meta-options.php:54
+#: ../lib/admin/inc/theme-meta-options.php:115
 msgid "General formatting settings."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:54
-#: lib/admin/inc/theme-meta-options.php:115
-#: lib/admin/inc/theme-meta-options.php:163
+#: ../lib/admin/inc/theme-meta-options.php:54
+#: ../lib/admin/inc/theme-meta-options.php:115
+#: ../lib/admin/inc/theme-meta-options.php:163
 msgid "Format Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:56
-#: lib/admin/inc/theme-meta-options.php:117
-#: lib/admin/inc/theme-options.php:329 lib/admin/inc/theme-options.php:529
-#: lib/admin/inc/theme-options.php:745
+#: ../lib/admin/inc/theme-meta-options.php:56
+#: ../lib/admin/inc/theme-meta-options.php:117
+#: ../lib/admin/inc/theme-options.php:329
+#: ../lib/admin/inc/theme-options.php:529
+#: ../lib/admin/inc/theme-options.php:745
 msgid "Sidebar"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:56
-#: lib/admin/inc/theme-meta-options.php:117
+#: ../lib/admin/inc/theme-meta-options.php:56
+#: ../lib/admin/inc/theme-meta-options.php:117
 msgid "Choose which sidebar area to display on this page."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:58
-#: lib/admin/inc/theme-meta-options.php:119
-#: lib/admin/inc/theme-options.php:339 lib/admin/inc/theme-options.php:539
-#: lib/admin/inc/theme-options.php:755
+#: ../lib/admin/inc/theme-meta-options.php:58
+#: ../lib/admin/inc/theme-meta-options.php:119
+#: ../lib/admin/inc/theme-options.php:339
+#: ../lib/admin/inc/theme-options.php:539
+#: ../lib/admin/inc/theme-options.php:755
 msgid "Layout"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:58
-#: lib/admin/inc/theme-meta-options.php:119
+#: ../lib/admin/inc/theme-meta-options.php:58
+#: ../lib/admin/inc/theme-meta-options.php:119
 msgid "Choose the layout for this page."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:58
-#: lib/admin/inc/theme-meta-options.php:119
-#: lib/admin/inc/theme-options.php:343 lib/admin/inc/theme-options.php:543
-#: lib/admin/inc/theme-options.php:759
+#: ../lib/admin/inc/theme-meta-options.php:58
+#: ../lib/admin/inc/theme-meta-options.php:119
+#: ../lib/admin/inc/theme-options.php:343
+#: ../lib/admin/inc/theme-options.php:543
+#: ../lib/admin/inc/theme-options.php:759
 msgid "Sidebar Left"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:58
-#: lib/admin/inc/theme-meta-options.php:119
-#: lib/admin/inc/theme-options.php:343 lib/admin/inc/theme-options.php:543
-#: lib/admin/inc/theme-options.php:759
+#: ../lib/admin/inc/theme-meta-options.php:58
+#: ../lib/admin/inc/theme-meta-options.php:119
+#: ../lib/admin/inc/theme-options.php:343
+#: ../lib/admin/inc/theme-options.php:543
+#: ../lib/admin/inc/theme-options.php:759
 msgid "Sidebar Right"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:58
-#: lib/admin/inc/theme-meta-options.php:119
-#: lib/admin/inc/theme-options.php:343 lib/admin/inc/theme-options.php:543
-#: lib/admin/inc/theme-options.php:759
+#: ../lib/admin/inc/theme-meta-options.php:58
+#: ../lib/admin/inc/theme-meta-options.php:119
+#: ../lib/admin/inc/theme-options.php:343
+#: ../lib/admin/inc/theme-options.php:543
+#: ../lib/admin/inc/theme-options.php:759
 msgid "Fullwidth"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:60
-#: lib/admin/inc/theme-meta-options.php:121
-#: lib/admin/inc/theme-options.php:349 lib/admin/inc/theme-options.php:549
-#: lib/admin/inc/theme-options.php:765
+#: ../lib/admin/inc/theme-meta-options.php:60
+#: ../lib/admin/inc/theme-meta-options.php:121
+#: ../lib/admin/inc/theme-options.php:349
+#: ../lib/admin/inc/theme-options.php:549
+#: ../lib/admin/inc/theme-options.php:765
 msgid "Frame"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:60
-#: lib/admin/inc/theme-meta-options.php:121
+#: ../lib/admin/inc/theme-meta-options.php:60
+#: ../lib/admin/inc/theme-meta-options.php:121
 msgid "Choose whether to display a page frame."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:62
-#: lib/admin/inc/theme-meta-options.php:123
-#: lib/admin/inc/theme-options.php:359 lib/admin/inc/theme-options.php:559
-#: lib/admin/inc/theme-options.php:775 lib/admin/inc/theme-post-types.php:62
+#: ../lib/admin/inc/theme-meta-options.php:62
+#: ../lib/admin/inc/theme-meta-options.php:123
+#: ../lib/admin/inc/theme-options.php:359
+#: ../lib/admin/inc/theme-options.php:559
+#: ../lib/admin/inc/theme-options.php:775
+#: ../lib/admin/inc/theme-post-types.php:62
 msgid "Title"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:62
-#: lib/admin/inc/theme-meta-options.php:123
+#: ../lib/admin/inc/theme-meta-options.php:62
+#: ../lib/admin/inc/theme-meta-options.php:123
 msgid "Choose whether to display the title on this page."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:66
-#: lib/admin/inc/theme-meta-options.php:127
-#: lib/admin/inc/theme-options.php:369 lib/admin/inc/theme-options.php:569
-#: lib/admin/inc/theme-options.php:785
+#: ../lib/admin/inc/theme-meta-options.php:66
+#: ../lib/admin/inc/theme-meta-options.php:127
+#: ../lib/admin/inc/theme-options.php:369
+#: ../lib/admin/inc/theme-options.php:569
+#: ../lib/admin/inc/theme-options.php:785
 msgid "Breadcrumbs"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:66
-#: lib/admin/inc/theme-meta-options.php:127
+#: ../lib/admin/inc/theme-meta-options.php:66
+#: ../lib/admin/inc/theme-meta-options.php:127
 msgid "Choose whether to display breadcrumbs on this page."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:68
-#: lib/admin/inc/theme-meta-options.php:129
-#: lib/admin/inc/theme-options.php:379 lib/admin/inc/theme-options.php:579
-#: lib/admin/inc/theme-options.php:795
+#: ../lib/admin/inc/theme-meta-options.php:68
+#: ../lib/admin/inc/theme-meta-options.php:129
+#: ../lib/admin/inc/theme-options.php:379
+#: ../lib/admin/inc/theme-options.php:579
+#: ../lib/admin/inc/theme-options.php:795
 msgid "Search Bar"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:68
-#: lib/admin/inc/theme-meta-options.php:129
-#: lib/admin/inc/theme-options.php:380
+#: ../lib/admin/inc/theme-meta-options.php:68
+#: ../lib/admin/inc/theme-meta-options.php:129
+#: ../lib/admin/inc/theme-options.php:380
 msgid "Choose whether to display the search bar."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:70
-#: lib/admin/inc/theme-meta-options.php:131
+#: ../lib/admin/inc/theme-meta-options.php:70
+#: ../lib/admin/inc/theme-meta-options.php:131
 msgid "Page Skin"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:70
-#: lib/admin/inc/theme-meta-options.php:131
+#: ../lib/admin/inc/theme-meta-options.php:70
+#: ../lib/admin/inc/theme-meta-options.php:131
 msgid "Choose the skin of this page."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:70
-#: lib/admin/inc/theme-meta-options.php:131 lib/admin/inc/theme-options.php:27
+#: ../lib/admin/inc/theme-meta-options.php:70
+#: ../lib/admin/inc/theme-meta-options.php:131
+#: ../lib/admin/inc/theme-options.php:27
 msgid "Obsidian"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:70
-#: lib/admin/inc/theme-meta-options.php:131 lib/admin/inc/theme-options.php:27
+#: ../lib/admin/inc/theme-meta-options.php:70
+#: ../lib/admin/inc/theme-meta-options.php:131
+#: ../lib/admin/inc/theme-options.php:27
 msgid "Obsidian Grunge"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:70
-#: lib/admin/inc/theme-meta-options.php:131 lib/admin/inc/theme-options.php:27
+#: ../lib/admin/inc/theme-meta-options.php:70
+#: ../lib/admin/inc/theme-meta-options.php:131
+#: ../lib/admin/inc/theme-options.php:27
 msgid "Chocolate"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:70
-#: lib/admin/inc/theme-meta-options.php:131 lib/admin/inc/theme-options.php:27
+#: ../lib/admin/inc/theme-meta-options.php:70
+#: ../lib/admin/inc/theme-meta-options.php:131
+#: ../lib/admin/inc/theme-options.php:27
 msgid "Arctic Fox"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:70
-#: lib/admin/inc/theme-meta-options.php:131 lib/admin/inc/theme-options.php:27
+#: ../lib/admin/inc/theme-meta-options.php:70
+#: ../lib/admin/inc/theme-meta-options.php:131
+#: ../lib/admin/inc/theme-options.php:27
 msgid "Tiger"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:72
-#: lib/admin/inc/theme-meta-options.php:133
+#: ../lib/admin/inc/theme-meta-options.php:72
+#: ../lib/admin/inc/theme-meta-options.php:133
 msgid "Custom Stylesheet URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:72
-#: lib/admin/inc/theme-meta-options.php:133
+#: ../lib/admin/inc/theme-meta-options.php:72
+#: ../lib/admin/inc/theme-meta-options.php:133
 msgid ""
 "Enter the relative URL to your custom stylesheet e.g. <code>lib/css/custom-"
 "style.css</code>."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:76
-#: lib/admin/inc/theme-meta-options.php:137
+#: ../lib/admin/inc/theme-meta-options.php:76
+#: ../lib/admin/inc/theme-meta-options.php:137
 msgid "Top Content"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:76
-#: lib/admin/inc/theme-meta-options.php:137
+#: ../lib/admin/inc/theme-meta-options.php:76
+#: ../lib/admin/inc/theme-meta-options.php:137
 msgid ""
 "Add content above your main content and sidebar including text, images and "
 "shortcodes."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:154
+#: ../lib/admin/inc/theme-meta-options.php:154
 msgid "Slide Type Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:154
+#: ../lib/admin/inc/theme-meta-options.php:154
 msgid "Choose the slider type."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:156
-#: lib/admin/inc/theme-meta-options.php:165
+#: ../lib/admin/inc/theme-meta-options.php:156
+#: ../lib/admin/inc/theme-meta-options.php:165
 msgid "Slide Type"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:156
-#: lib/admin/inc/theme-meta-options.php:165
+#: ../lib/admin/inc/theme-meta-options.php:156
+#: ../lib/admin/inc/theme-meta-options.php:165
 msgid "Choose the slide type."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:156
-#: lib/admin/inc/theme-meta-options.php:165
+#: ../lib/admin/inc/theme-meta-options.php:156
+#: ../lib/admin/inc/theme-meta-options.php:165
 msgid "Image/Video Slide"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:156
-#: lib/admin/inc/theme-meta-options.php:165
+#: ../lib/admin/inc/theme-meta-options.php:156
+#: ../lib/admin/inc/theme-meta-options.php:165
 msgid "Custom Slide"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:158
-#: lib/admin/inc/theme-meta-options.php:167
+#: ../lib/admin/inc/theme-meta-options.php:158
+#: ../lib/admin/inc/theme-meta-options.php:167
 msgid "Slide Timeout"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:158
-#: lib/admin/inc/theme-meta-options.php:167
+#: ../lib/admin/inc/theme-meta-options.php:158
+#: ../lib/admin/inc/theme-meta-options.php:167
 msgid ""
 "The number of seconds this slide remains in view for (match the length of "
 "your video to the timeout value)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:158
-#: lib/admin/inc/theme-meta-options.php:167
+#: ../lib/admin/inc/theme-meta-options.php:158
+#: ../lib/admin/inc/theme-meta-options.php:167
 msgid "seconds"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:163
+#: ../lib/admin/inc/theme-meta-options.php:163
 msgid "General product slide settings."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:169
+#: ../lib/admin/inc/theme-meta-options.php:169
 msgid "Slide URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:169
+#: ../lib/admin/inc/theme-meta-options.php:169
 msgid "Enter the URL you want your slide to link to."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:171
+#: ../lib/admin/inc/theme-meta-options.php:171
 msgid "Choose how your slide links to the URL you provided to the left."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:173
-#: lib/admin/inc/theme-options.php:311 lib/admin/inc/theme-options.php:511
-#: lib/admin/inc/theme-options.php:727
+#: ../lib/admin/inc/theme-meta-options.php:173
+#: ../lib/admin/inc/theme-options.php:311
+#: ../lib/admin/inc/theme-options.php:511
+#: ../lib/admin/inc/theme-options.php:727
 msgid "Image Reflection"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:173
+#: ../lib/admin/inc/theme-meta-options.php:173
 msgid "Add a reflection to your image."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:178
+#: ../lib/admin/inc/theme-meta-options.php:178
 msgid "The settings for a video used in this slide."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:178
+#: ../lib/admin/inc/theme-meta-options.php:178
 msgid "Video Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:180
+#: ../lib/admin/inc/theme-meta-options.php:180
 msgid "Video URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:182
+#: ../lib/admin/inc/theme-meta-options.php:182
 msgid "HTML5 Video URL (Safari/Chrome)"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:182
+#: ../lib/admin/inc/theme-meta-options.php:182
 msgid "Enter your HTML5 video URL for Safari/Chrome (WEBM/MP4)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:184
+#: ../lib/admin/inc/theme-meta-options.php:184
 msgid "HTML5 Video URL (FireFox/Opera)"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:184
+#: ../lib/admin/inc/theme-meta-options.php:184
 msgid "Enter your HTML5 video URL for FireFox/Opera (OGG/OGV)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:186
+#: ../lib/admin/inc/theme-meta-options.php:186
 msgid "Autostart Video"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:186
+#: ../lib/admin/inc/theme-meta-options.php:186
 msgid ""
 "Plays the video automatically when the slide comes into view (works in the "
 "first slide only)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:190
+#: ../lib/admin/inc/theme-meta-options.php:190
 msgid "Video Priority"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:190
+#: ../lib/admin/inc/theme-meta-options.php:190
 msgid ""
 "If you have provided both flash and HTML5 videos, select which one will take "
 "priority if the browser can play both."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:190
+#: ../lib/admin/inc/theme-meta-options.php:190
 msgid "Flash"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:190
+#: ../lib/admin/inc/theme-meta-options.php:190
 msgid "HTML5"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:192
+#: ../lib/admin/inc/theme-meta-options.php:192
 msgid "Video Controls"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:192
+#: ../lib/admin/inc/theme-meta-options.php:192
 msgid ""
 "Choose how to display the video controls (does not apply to Vimeo videos)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:192
+#: ../lib/admin/inc/theme-meta-options.php:192
 msgid "Bottom"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:192
+#: ../lib/admin/inc/theme-meta-options.php:192
 msgid "Over"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:197
+#: ../lib/admin/inc/theme-meta-options.php:197
 msgid "The settings for a caption in this slide."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:197
+#: ../lib/admin/inc/theme-meta-options.php:197
 msgid "Caption Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:199
+#: ../lib/admin/inc/theme-meta-options.php:199
 msgid "Caption Type"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:199
+#: ../lib/admin/inc/theme-meta-options.php:199
 msgid "The type of caption for your slide."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:199
+#: ../lib/admin/inc/theme-meta-options.php:199
 msgid "Left Frame"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:199
+#: ../lib/admin/inc/theme-meta-options.php:199
 msgid "Right Frame"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:199
+#: ../lib/admin/inc/theme-meta-options.php:199
 msgid "Top Left Overlay"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:199
+#: ../lib/admin/inc/theme-meta-options.php:199
 msgid "Top Right Overlay"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:199
+#: ../lib/admin/inc/theme-meta-options.php:199
 msgid "Bottom Left Overlay"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:199
+#: ../lib/admin/inc/theme-meta-options.php:199
 msgid "Bottom Right Overlay"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:201
+#: ../lib/admin/inc/theme-meta-options.php:201
 msgid "Caption Style"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:201
+#: ../lib/admin/inc/theme-meta-options.php:201
 msgid "The style of caption for your slide."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:201
+#: ../lib/admin/inc/theme-meta-options.php:201
 msgid "Dark"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:201
+#: ../lib/admin/inc/theme-meta-options.php:201
 msgid "Light"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:203
+#: ../lib/admin/inc/theme-meta-options.php:203
 msgid "Hide Slider Title"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:203
+#: ../lib/admin/inc/theme-meta-options.php:203
 msgid "Hide the page title from appearing in the caption."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:208
+#: ../lib/admin/inc/theme-meta-options.php:208
 msgid "Custom Slide Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:208
+#: ../lib/admin/inc/theme-meta-options.php:208
 msgid "Add your own content (text/images/video) to the text box above."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:210
+#: ../lib/admin/inc/theme-meta-options.php:210
 msgid "Background Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:210
+#: ../lib/admin/inc/theme-meta-options.php:210
 msgid "Background color for the slide (e.g. #ff0000)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:212
+#: ../lib/admin/inc/theme-meta-options.php:212
 msgid "Background Image"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:212
+#: ../lib/admin/inc/theme-meta-options.php:212
 msgid "Background image for the slide (e.g. http://example.com/images/bg.jpg)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:214
+#: ../lib/admin/inc/theme-meta-options.php:214
 msgid "Background Image Repeat"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:214
+#: ../lib/admin/inc/theme-meta-options.php:214
 msgid "Choose how to repeat your background image."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:214
-#: lib/admin/inc/theme-options.php:867
+#: ../lib/admin/inc/theme-meta-options.php:214
+#: ../lib/admin/inc/theme-options.php:867
 msgid "Repeat"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:214
-#: lib/admin/inc/theme-options.php:867
+#: ../lib/admin/inc/theme-meta-options.php:214
+#: ../lib/admin/inc/theme-options.php:867
 msgid "Repeat Horizontally"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:214
-#: lib/admin/inc/theme-options.php:867
+#: ../lib/admin/inc/theme-meta-options.php:214
+#: ../lib/admin/inc/theme-options.php:867
 msgid "Repeat Vertically"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:420
-#: lib/admin/inc/theme-options.php:1461 lib/admin/inc/theme-options.php:1554
+#: ../lib/admin/inc/theme-meta-options.php:420
+#: ../lib/admin/inc/theme-options.php:1461
+#: ../lib/admin/inc/theme-options.php:1554
 msgid "Upload"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:497
-#: lib/admin/inc/theme-meta-options.php:500
+#: ../lib/admin/inc/theme-meta-options.php:497
+#: ../lib/admin/inc/theme-meta-options.php:500
 msgid "Add Media"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-meta-options.php:500
+#: ../lib/admin/inc/theme-meta-options.php:500
 msgid "View Media"
 msgstr ""
 
 # @ gp_lang
 # @ buddypress
-#: lib/admin/inc/theme-options.php:7 lib/admin/inc/theme-options.php:14
-#: members/single/settings/general.php:49
+#: ../lib/admin/inc/theme-options.php:7 ../lib/admin/inc/theme-options.php:14
+#: ../members/single/settings/general.php:49
 msgid "General Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:17
+#: ../lib/admin/inc/theme-options.php:17
 msgid ""
 "SM shared on W P L OC K E R .C O M - This section controls the general "
 "settings for the theme."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:23
+#: ../lib/admin/inc/theme-options.php:23
 msgid "Theme Skin"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:24
+#: ../lib/admin/inc/theme-options.php:24
 msgid "Choose the theme skin (can be overridden on individual posts/pages)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:31
+#: ../lib/admin/inc/theme-options.php:31
 msgid "Custom Stylesheet"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:32
+#: ../lib/admin/inc/theme-options.php:32
 msgid ""
 "Enter the relative URL to your custom stylesheet e.g. <code>lib/css/custom-"
 "style.css</code> (can be overridden on individual posts/pages)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:41
+#: ../lib/admin/inc/theme-options.php:41
 msgid "Custom Logo Image"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:42
+#: ../lib/admin/inc/theme-options.php:42
 msgid "Upload your own logo."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:48
+#: ../lib/admin/inc/theme-options.php:48
 msgid "Logo Top Margin"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:49
+#: ../lib/admin/inc/theme-options.php:49
 msgid "Enter the top margin of your logo."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:57
+#: ../lib/admin/inc/theme-options.php:57
 msgid "Logo Left Margin"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:58
+#: ../lib/admin/inc/theme-options.php:58
 msgid "Enter the left margin of your logo."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:66
+#: ../lib/admin/inc/theme-options.php:66
 msgid "Logo Bottom Margin"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:67
+#: ../lib/admin/inc/theme-options.php:67
 msgid "Enter the bottom margin of your logo."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:77
+#: ../lib/admin/inc/theme-options.php:77
 msgid "Login/Register/Profile Links"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:78
+#: ../lib/admin/inc/theme-options.php:78
 msgid "Choose whether to display the login, register and profile links."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:85
+#: ../lib/admin/inc/theme-options.php:85
 msgid "Login Page URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:86
+#: ../lib/admin/inc/theme-options.php:86
 msgid "Enter the URL of the page you have assigned the Login page template to."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:93
+#: ../lib/admin/inc/theme-options.php:93
 msgid "Register Page URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:94
+#: ../lib/admin/inc/theme-options.php:94
 msgid ""
 "Enter the URL of the page you have assigned the Register page template to "
 "(leave blank if you are using BuddyPress, as a register page will have "
@@ -2277,173 +2357,180 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:103
+#: ../lib/admin/inc/theme-options.php:103
 msgid "Search Form"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:104
+#: ../lib/admin/inc/theme-options.php:104
 msgid "Choose whether to display the search form in the navigation panel."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:113
+#: ../lib/admin/inc/theme-options.php:113
 msgid "Contact Info"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:114
+#: ../lib/admin/inc/theme-options.php:114
 msgid "Enter your contact info to display at the top of the page."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:122
+#: ../lib/admin/inc/theme-options.php:122
 msgid "Social Icons"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:123
+#: ../lib/admin/inc/theme-options.php:123
 msgid "Choose where to display your social icons."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:126
+#: ../lib/admin/inc/theme-options.php:126
 msgid "Header"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:126
+#: ../lib/admin/inc/theme-options.php:126
 msgid "Footer"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:126
+#: ../lib/admin/inc/theme-options.php:126
 msgid "Both"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:130
+#: ../lib/admin/inc/theme-options.php:130
 msgid "RSS Feed Button"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:131
+#: ../lib/admin/inc/theme-options.php:131
 msgid ""
 "Display the RSS feed button with the default RSS feed or enter a custom feed "
 "below."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:138
+#: ../lib/admin/inc/theme-options.php:138
 msgid "RSS URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:146
+#: ../lib/admin/inc/theme-options.php:146
 msgid "Twitter URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:154
+#: ../lib/admin/inc/theme-options.php:154
 msgid "Facebook URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:162
+#: ../lib/admin/inc/theme-options.php:162
 msgid "Myspace URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:170
+#: ../lib/admin/inc/theme-options.php:170
 msgid "Digg URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:178
+#: ../lib/admin/inc/theme-options.php:178
 msgid "Flickr URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:186
+#: ../lib/admin/inc/theme-options.php:186
 msgid "Delicious URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:194
+#: ../lib/admin/inc/theme-options.php:194
 msgid "YouTube URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:202
+#: ../lib/admin/inc/theme-options.php:202
 msgid "Google+ URL"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:210
+#: ../lib/admin/inc/theme-options.php:210
 msgid "Additional Social Icons"
 msgstr ""
 
+#: ../lib/admin/inc/theme-options.php:211
+msgid ""
+"Add additional social icons by entering the link and image HTML code e.g. "
+"<code>&lt;a href=&quot;http://social-link.com&quot; target=&quot;_blank&quot;"
+"&gt;&lt;img src=&quot;"
+msgstr ""
+
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:219
+#: ../lib/admin/inc/theme-options.php:219
 msgid "Favicon URL (.ico)"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:220
+#: ../lib/admin/inc/theme-options.php:220
 msgid "Type the URL of your favicon image (.ico, 16x16 or 32x32)"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:226
+#: ../lib/admin/inc/theme-options.php:226
 msgid "Favicon URL (.png)"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:227
+#: ../lib/admin/inc/theme-options.php:227
 msgid "Type the URL of your favicon image (.png, 16x16 or 32x32)"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:233
+#: ../lib/admin/inc/theme-options.php:233
 msgid "Apple Icon URL (.png)"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:234
+#: ../lib/admin/inc/theme-options.php:234
 msgid ""
 "Type the URL of your apple icon image (.png, 57x57), used for display on the "
 "Apple iPhone"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:242
+#: ../lib/admin/inc/theme-options.php:242
 msgid "Footer Content"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:243
+#: ../lib/admin/inc/theme-options.php:243
 msgid "Enter the content you want to display in your footer."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:251
+#: ../lib/admin/inc/theme-options.php:251
 msgid "Scripts"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:252
+#: ../lib/admin/inc/theme-options.php:252
 msgid ""
 "Enter any scripts that need to be embedded into your theme (e.g. Google "
 "Analytics)"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:260
+#: ../lib/admin/inc/theme-options.php:260
 msgid "Preload Effect"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:261
+#: ../lib/admin/inc/theme-options.php:261
 msgid ""
 "Choose whether to use the preload effect on content in category, archive, "
 "tag pages etc (this can be specified individually from shortcodes using "
@@ -2451,444 +2538,468 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:269 lib/admin/inc/theme-options.php:276
+#: ../lib/admin/inc/theme-options.php:269
+#: ../lib/admin/inc/theme-options.php:276
 msgid "Category Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:279
+#: ../lib/admin/inc/theme-options.php:279
 msgid ""
 "This section controls the global settings for all category, archive, tag and "
 "search result pages."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:286
+#: ../lib/admin/inc/theme-options.php:286
 msgid ""
 "The width to crop the thumbnail to (can be overridden on individual posts, "
 "set to 0 to have a proportionate width)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:295
+#: ../lib/admin/inc/theme-options.php:295
 msgid ""
 "The height to crop the thumbnail to (can be overridden on individual posts, "
 "set to 0 to have a proportionate height)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:312
+#: ../lib/admin/inc/theme-options.php:312
 msgid "Choose the size of the reflection on featured images."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:315 lib/admin/inc/theme-options.php:323
-#: lib/admin/inc/theme-options.php:515 lib/admin/inc/theme-options.php:523
-#: lib/admin/inc/theme-options.php:731 lib/admin/inc/theme-options.php:739
+#: ../lib/admin/inc/theme-options.php:315
+#: ../lib/admin/inc/theme-options.php:323
+#: ../lib/admin/inc/theme-options.php:515
+#: ../lib/admin/inc/theme-options.php:523
+#: ../lib/admin/inc/theme-options.php:731
+#: ../lib/admin/inc/theme-options.php:739
 msgid "Small"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:315 lib/admin/inc/theme-options.php:323
-#: lib/admin/inc/theme-options.php:515 lib/admin/inc/theme-options.php:523
-#: lib/admin/inc/theme-options.php:731 lib/admin/inc/theme-options.php:739
+#: ../lib/admin/inc/theme-options.php:315
+#: ../lib/admin/inc/theme-options.php:323
+#: ../lib/admin/inc/theme-options.php:515
+#: ../lib/admin/inc/theme-options.php:523
+#: ../lib/admin/inc/theme-options.php:731
+#: ../lib/admin/inc/theme-options.php:739
 msgid "Medium"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:315 lib/admin/inc/theme-options.php:323
-#: lib/admin/inc/theme-options.php:515 lib/admin/inc/theme-options.php:523
-#: lib/admin/inc/theme-options.php:731 lib/admin/inc/theme-options.php:739
+#: ../lib/admin/inc/theme-options.php:315
+#: ../lib/admin/inc/theme-options.php:323
+#: ../lib/admin/inc/theme-options.php:515
+#: ../lib/admin/inc/theme-options.php:523
+#: ../lib/admin/inc/theme-options.php:731
+#: ../lib/admin/inc/theme-options.php:739
 msgid "Large"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:319 lib/admin/inc/theme-options.php:519
-#: lib/admin/inc/theme-options.php:735
+#: ../lib/admin/inc/theme-options.php:319
+#: ../lib/admin/inc/theme-options.php:519
+#: ../lib/admin/inc/theme-options.php:735
 msgid "Image Shadow"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:320
+#: ../lib/admin/inc/theme-options.php:320
 msgid "Choose the size of the shadow on featured images."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:323 lib/admin/inc/theme-options.php:523
-#: lib/admin/inc/theme-options.php:739
+#: ../lib/admin/inc/theme-options.php:323
+#: ../lib/admin/inc/theme-options.php:523
+#: ../lib/admin/inc/theme-options.php:739
 msgid "Extra Small"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:323 lib/admin/inc/theme-options.php:523
-#: lib/admin/inc/theme-options.php:739
+#: ../lib/admin/inc/theme-options.php:323
+#: ../lib/admin/inc/theme-options.php:523
+#: ../lib/admin/inc/theme-options.php:739
 msgid "Extra Large"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:330 lib/admin/inc/theme-options.php:530
-#: lib/admin/inc/theme-options.php:746
+#: ../lib/admin/inc/theme-options.php:330
+#: ../lib/admin/inc/theme-options.php:530
+#: ../lib/admin/inc/theme-options.php:746
 msgid "Choose which sidebar area to display."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:340
+#: ../lib/admin/inc/theme-options.php:340
 msgid "Choose the page layout."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:350
+#: ../lib/admin/inc/theme-options.php:350
 msgid "Choose whether to display a frame."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:360
+#: ../lib/admin/inc/theme-options.php:360
 msgid "Choose whether to display the page title."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:370
+#: ../lib/admin/inc/theme-options.php:370
 msgid "Choose whether to display breadcrumbs."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:389
+#: ../lib/admin/inc/theme-options.php:389
 msgid "Content Display"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:390
+#: ../lib/admin/inc/theme-options.php:390
 msgid "Choose whether to display the full post content or an excerpt."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:393
+#: ../lib/admin/inc/theme-options.php:393
 msgid "Excerpt"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:393
+#: ../lib/admin/inc/theme-options.php:393
 msgid "Full Content"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:399
+#: ../lib/admin/inc/theme-options.php:399
 msgid "Excerpt Length"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:400
+#: ../lib/admin/inc/theme-options.php:400
 msgid "The number of characters in excerpts."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:410
+#: ../lib/admin/inc/theme-options.php:410
 msgid "Read More Link"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:411
+#: ../lib/admin/inc/theme-options.php:411
 msgid "Choose whether to display the read more links."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:420 lib/admin/inc/theme-options.php:597
+#: ../lib/admin/inc/theme-options.php:420
+#: ../lib/admin/inc/theme-options.php:597
 msgid "Post Date"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:421 lib/admin/inc/theme-options.php:598
+#: ../lib/admin/inc/theme-options.php:421
+#: ../lib/admin/inc/theme-options.php:598
 msgid "Choose whether to display the post date."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:428 lib/admin/inc/theme-options.php:589
+#: ../lib/admin/inc/theme-options.php:428
+#: ../lib/admin/inc/theme-options.php:589
 msgid "Post Author"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:429 lib/admin/inc/theme-options.php:590
+#: ../lib/admin/inc/theme-options.php:429
+#: ../lib/admin/inc/theme-options.php:590
 msgid "Choose whether to display the post author."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:436 lib/admin/inc/theme-options.php:605
+#: ../lib/admin/inc/theme-options.php:436
+#: ../lib/admin/inc/theme-options.php:605
 msgid "Post Categories"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:437 lib/admin/inc/theme-options.php:606
+#: ../lib/admin/inc/theme-options.php:437
+#: ../lib/admin/inc/theme-options.php:606
 msgid "Choose whether to display the post categories."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:444
+#: ../lib/admin/inc/theme-options.php:444
 msgid "Post Comments"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:445
+#: ../lib/admin/inc/theme-options.php:445
 msgid "Choose whether to display the post comments."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:452 lib/admin/inc/theme-options.php:621
+#: ../lib/admin/inc/theme-options.php:452
+#: ../lib/admin/inc/theme-options.php:621
 msgid "Post Tags"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:453 lib/admin/inc/theme-options.php:622
+#: ../lib/admin/inc/theme-options.php:453
+#: ../lib/admin/inc/theme-options.php:622
 msgid "Choose whether to display the post tags."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:471
+#: ../lib/admin/inc/theme-options.php:471
 msgid ""
 "This section controls the global settings for all posts, but most settings "
 "can be overridden on individual posts."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:478
+#: ../lib/admin/inc/theme-options.php:478
 msgid ""
 "Choose whether to display the featured image within your post (can be "
 "overridden on individual posts)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:486
+#: ../lib/admin/inc/theme-options.php:486
 msgid ""
 "The width to crop the image to (can be overridden on individual posts, set "
 "to 0 to have a proportionate width)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:495
+#: ../lib/admin/inc/theme-options.php:495
 msgid ""
 "The height to crop the image to (can be overridden on individual posts, set "
 "to 0 to have a proportionate height)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:504
+#: ../lib/admin/inc/theme-options.php:504
 msgid ""
 "Choose whether the page content wraps around the featured image (can be "
 "overridden on individual posts)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:512
+#: ../lib/admin/inc/theme-options.php:512
 msgid ""
 "Choose the size of the reflection on featured images (can be overridden on "
 "individual posts)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:520
+#: ../lib/admin/inc/theme-options.php:520
 msgid ""
 "Choose the size of the shadow on featured images (can be overridden on "
 "individual posts)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:540
+#: ../lib/admin/inc/theme-options.php:540
 msgid "Choose the page layout (can be overridden on individual posts)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:550
+#: ../lib/admin/inc/theme-options.php:550
 msgid ""
 "Choose whether to display a frame (can be overridden on individual posts)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:560
+#: ../lib/admin/inc/theme-options.php:560
 msgid ""
 "Choose whether to display the page title (can be overridden on individual "
 "posts)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:570
+#: ../lib/admin/inc/theme-options.php:570
 msgid ""
 "Choose whether to display breadcrumbs (can be overridden on individual "
 "posts)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:580
+#: ../lib/admin/inc/theme-options.php:580
 msgid ""
 "Choose whether to display the search bar (can be overridden on individual "
 "posts)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:613
+#: ../lib/admin/inc/theme-options.php:613
 msgid "Post Comment Number"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:614
+#: ../lib/admin/inc/theme-options.php:614
 msgid "Choose whether to display the number of post comments."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:631 lib/admin/inc/theme-options.php:831
+#: ../lib/admin/inc/theme-options.php:631
+#: ../lib/admin/inc/theme-options.php:831
 msgid "Author Info Panel"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:632
+#: ../lib/admin/inc/theme-options.php:632
 msgid ""
 "Choose whether to display the author info panel (can also be inserted in "
 "individual posts using the <code>[author]</code> shortcode)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:641
+#: ../lib/admin/inc/theme-options.php:641
 msgid "Related Items"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:642
+#: ../lib/admin/inc/theme-options.php:642
 msgid ""
 "Choose whether to display a related items section (can also be inserted in "
 "individual posts using the <code>[related_posts]</code> shortcode)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:667
+#: ../lib/admin/inc/theme-options.php:667
 msgid "Number Of Related Items"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:668
+#: ../lib/admin/inc/theme-options.php:668
 msgid "The number of related items."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:687
+#: ../lib/admin/inc/theme-options.php:687
 msgid ""
 "This section controls the global settings for all pages, but most settings "
 "can be overridden on individual pages."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:694
+#: ../lib/admin/inc/theme-options.php:694
 msgid ""
 "Choose whether to display the featured image within your page (can be "
 "overridden on individual posts)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:702
+#: ../lib/admin/inc/theme-options.php:702
 msgid ""
 "The width to crop the image to (can be overridden on individual pages, set "
 "to 0 to have a proportionate width)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:711
+#: ../lib/admin/inc/theme-options.php:711
 msgid ""
 "The height to crop the image to (can be overridden on individual pages, set "
 "to 0 to have a proportionate height)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:720
+#: ../lib/admin/inc/theme-options.php:720
 msgid ""
 "Choose whether the page content wraps around the featured image (can be "
 "overridden on individual pages)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:728
+#: ../lib/admin/inc/theme-options.php:728
 msgid ""
 "Choose the size of the reflection on featured images (can be overridden on "
 "individual pages)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:736
+#: ../lib/admin/inc/theme-options.php:736
 msgid ""
 "Choose the size of the shadow on featured images (can be overridden on "
 "individual pages)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:756
+#: ../lib/admin/inc/theme-options.php:756
 msgid "Choose the page layout (can be overridden on individual pages)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:766
+#: ../lib/admin/inc/theme-options.php:766
 msgid ""
 "Choose whether to display a frame (can be overridden on individual pages)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:776
+#: ../lib/admin/inc/theme-options.php:776
 msgid ""
 "Choose whether to display the page title (can be overridden on individual "
 "pages)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:786
+#: ../lib/admin/inc/theme-options.php:786
 msgid ""
 "Choose whether to display breadcrumbs (can be overridden on individual "
 "pages)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:796
+#: ../lib/admin/inc/theme-options.php:796
 msgid ""
 "Choose whether to display the search bar (can be overridden on individual "
 "pages)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:805
+#: ../lib/admin/inc/theme-options.php:805
 msgid "Page Author"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:806
+#: ../lib/admin/inc/theme-options.php:806
 msgid "Choose whether to display the page author."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:813
+#: ../lib/admin/inc/theme-options.php:813
 msgid "Page Date"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:814
+#: ../lib/admin/inc/theme-options.php:814
 msgid "Choose whether to display the page date."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:821
+#: ../lib/admin/inc/theme-options.php:821
 msgid "Page Comment Number"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:822
+#: ../lib/admin/inc/theme-options.php:822
 msgid "Choose whether to display the number of page comments."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:832
+#: ../lib/admin/inc/theme-options.php:832
 msgid "Choose whether to display an author info panel."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:840 lib/admin/inc/theme-options.php:847
+#: ../lib/admin/inc/theme-options.php:840
+#: ../lib/admin/inc/theme-options.php:847
 msgid "Style Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:850
+#: ../lib/admin/inc/theme-options.php:850
 msgid ""
 "This section provides you with some basic settings to change the look of the "
 "theme. If you want to customize the design of the theme further you can add "
@@ -2896,274 +3007,274 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:856
+#: ../lib/admin/inc/theme-options.php:856
 msgid "Header Background Image"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:857
+#: ../lib/admin/inc/theme-options.php:857
 msgid ""
 "Upload your header background image (will appear across the top of your page "
 "behind the logo and navigaiton)."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:863
+#: ../lib/admin/inc/theme-options.php:863
 msgid "Header Background Repeat"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:864
+#: ../lib/admin/inc/theme-options.php:864
 msgid "Choose how to repeat your header background."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:867
+#: ../lib/admin/inc/theme-options.php:867
 msgid "No Repeat"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:871
+#: ../lib/admin/inc/theme-options.php:871
 msgid "Header Background Position"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:872
+#: ../lib/admin/inc/theme-options.php:872
 msgid "Choose how to position your background."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:875
+#: ../lib/admin/inc/theme-options.php:875
 msgid "Centered"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:875
+#: ../lib/admin/inc/theme-options.php:875
 msgid "Left"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:875
+#: ../lib/admin/inc/theme-options.php:875
 msgid "Right"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:881
+#: ../lib/admin/inc/theme-options.php:881
 msgid "Body Text Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:888
+#: ../lib/admin/inc/theme-options.php:888
 msgid "Link Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:895
+#: ../lib/admin/inc/theme-options.php:895
 msgid "Link Hover Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:904
+#: ../lib/admin/inc/theme-options.php:904
 msgid "Heading Text Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:911
+#: ../lib/admin/inc/theme-options.php:911
 msgid "Heading Link Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:918
+#: ../lib/admin/inc/theme-options.php:918
 msgid "Heading Link Hover Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:927
+#: ../lib/admin/inc/theme-options.php:927
 msgid "Sidebar Heading Text Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:934
+#: ../lib/admin/inc/theme-options.php:934
 msgid "Sidebar Text Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:941
+#: ../lib/admin/inc/theme-options.php:941
 msgid "Sidebar Link Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:948
+#: ../lib/admin/inc/theme-options.php:948
 msgid "Sidebar Link Hover Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:957
+#: ../lib/admin/inc/theme-options.php:957
 msgid "Footer Text Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:964
+#: ../lib/admin/inc/theme-options.php:964
 msgid "Footer Link Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:971
+#: ../lib/admin/inc/theme-options.php:971
 msgid "Footer Link Hover Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:978
+#: ../lib/admin/inc/theme-options.php:978
 msgid "Footer Copyright Text Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:987
+#: ../lib/admin/inc/theme-options.php:987
 msgid "Navigation Link Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:994
+#: ../lib/admin/inc/theme-options.php:994
 msgid "Navigation Link Hover Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1003
+#: ../lib/admin/inc/theme-options.php:1003
 msgid "Contact Info Text Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1012
+#: ../lib/admin/inc/theme-options.php:1012
 msgid "Breadcrumbs Text Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1021
+#: ../lib/admin/inc/theme-options.php:1021
 msgid "Meta Text Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1028
+#: ../lib/admin/inc/theme-options.php:1028
 msgid "Meta Link Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1035
+#: ../lib/admin/inc/theme-options.php:1035
 msgid "Meta Link Hover Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1044
+#: ../lib/admin/inc/theme-options.php:1044
 msgid "Divider Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1053
+#: ../lib/admin/inc/theme-options.php:1053
 msgid "Gradient 1 Top Background Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1060
+#: ../lib/admin/inc/theme-options.php:1060
 msgid "Gradient 1 Bottom Background Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1067
+#: ../lib/admin/inc/theme-options.php:1067
 msgid "Gradient 1 Border Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1074
+#: ../lib/admin/inc/theme-options.php:1074
 msgid "Gradient 1 Text Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1083
+#: ../lib/admin/inc/theme-options.php:1083
 msgid "Gradient 2 Top Background Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1090
+#: ../lib/admin/inc/theme-options.php:1090
 msgid "Gradient 2 Bottom Background Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1097
+#: ../lib/admin/inc/theme-options.php:1097
 msgid "Gradient 2 Border Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1104
+#: ../lib/admin/inc/theme-options.php:1104
 msgid "Gradient 2 Text Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1113
+#: ../lib/admin/inc/theme-options.php:1113
 msgid "Input Boxes Top Background Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1120
+#: ../lib/admin/inc/theme-options.php:1120
 msgid "Input Boxes Bottom Background Color"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1127
+#: ../lib/admin/inc/theme-options.php:1127
 msgid "Input Boxes Text Background Colour"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1134
+#: ../lib/admin/inc/theme-options.php:1134
 msgid "Input Boxes Border Colour"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1143
+#: ../lib/admin/inc/theme-options.php:1143
 msgid "Cufon Fonts"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1144
+#: ../lib/admin/inc/theme-options.php:1144
 msgid "<span class=\"chunkfive\">Chunk Five</span>"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1151
+#: ../lib/admin/inc/theme-options.php:1151
 msgid "<span class=\"journal\">Journal</span>"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1158
+#: ../lib/admin/inc/theme-options.php:1158
 msgid "<span class=\"leaguegothic\">League Gothic</span>"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1165
+#: ../lib/admin/inc/theme-options.php:1165
 msgid "<span class=\"nevis\">Nevis</span>"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1172
+#: ../lib/admin/inc/theme-options.php:1172
 msgid "<span class=\"quicksand\">Quicksand</span>"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1179
+#: ../lib/admin/inc/theme-options.php:1179
 msgid "<span class=\"sansation\">Sansation</span>"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1186
+#: ../lib/admin/inc/theme-options.php:1186
 msgid "<span class=\"vegur\">Vegur</span>"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1194
+#: ../lib/admin/inc/theme-options.php:1194
 msgid "Cufon Replacement Code"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1195
+#: ../lib/admin/inc/theme-options.php:1195
 msgid ""
 "If you want to add cufon to other text or use more than one cufon font e.g. "
 "<code>Cufon.replace(\"h1,h2,h3,h4,h5,h6\", {fontFamily: \"Vegur\"});</"
@@ -3172,149 +3283,155 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1203
+#: ../lib/admin/inc/theme-options.php:1203
 msgid "Body Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1204 lib/admin/inc/theme-options.php:1280
-#: lib/admin/inc/theme-options.php:1300 lib/admin/inc/theme-options.php:1340
+#: ../lib/admin/inc/theme-options.php:1204
+#: ../lib/admin/inc/theme-options.php:1280
+#: ../lib/admin/inc/theme-options.php:1300
+#: ../lib/admin/inc/theme-options.php:1340
 msgid "Default value 13px."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1214
+#: ../lib/admin/inc/theme-options.php:1214
 msgid "H1 Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1215
+#: ../lib/admin/inc/theme-options.php:1215
 msgid "Default value 30px."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1223
+#: ../lib/admin/inc/theme-options.php:1223
 msgid "H2 Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1224
+#: ../lib/admin/inc/theme-options.php:1224
 msgid "Default value 25px."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1232
+#: ../lib/admin/inc/theme-options.php:1232
 msgid "H3 Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1233
+#: ../lib/admin/inc/theme-options.php:1233
 msgid "Default value 22px."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1241
+#: ../lib/admin/inc/theme-options.php:1241
 msgid "H4 Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1242 lib/admin/inc/theme-options.php:1271
+#: ../lib/admin/inc/theme-options.php:1242
+#: ../lib/admin/inc/theme-options.php:1271
 msgid "Default value 18px."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1250
+#: ../lib/admin/inc/theme-options.php:1250
 msgid "H5 Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1251
+#: ../lib/admin/inc/theme-options.php:1251
 msgid "Default value 15px."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1259
+#: ../lib/admin/inc/theme-options.php:1259
 msgid "H6 Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1260 lib/admin/inc/theme-options.php:1320
+#: ../lib/admin/inc/theme-options.php:1260
+#: ../lib/admin/inc/theme-options.php:1320
 msgid "Default value 14px."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1270
+#: ../lib/admin/inc/theme-options.php:1270
 msgid "Sidebar Heading Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1279
+#: ../lib/admin/inc/theme-options.php:1279
 msgid "Sidebar Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1290
+#: ../lib/admin/inc/theme-options.php:1290
 msgid "Footer Heading Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1291
+#: ../lib/admin/inc/theme-options.php:1291
 msgid "Default value 20px."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1299
+#: ../lib/admin/inc/theme-options.php:1299
 msgid "Footer Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1308
+#: ../lib/admin/inc/theme-options.php:1308
 msgid "Footer Copyright Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1309 lib/admin/inc/theme-options.php:1351
-#: lib/admin/inc/theme-options.php:1362
+#: ../lib/admin/inc/theme-options.php:1309
+#: ../lib/admin/inc/theme-options.php:1351
+#: ../lib/admin/inc/theme-options.php:1362
 msgid "Default value 11px."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1319
+#: ../lib/admin/inc/theme-options.php:1319
 msgid "Top Level Navigation Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1328
+#: ../lib/admin/inc/theme-options.php:1328
 msgid "Dropdown Navigation Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1329
+#: ../lib/admin/inc/theme-options.php:1329
 msgid "Default value 12px."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1339
+#: ../lib/admin/inc/theme-options.php:1339
 msgid "Contact Info Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1350
+#: ../lib/admin/inc/theme-options.php:1350
 msgid "Breadcrumbs Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1361
+#: ../lib/admin/inc/theme-options.php:1361
 msgid "Meta Text Size"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1371 lib/admin/inc/theme-options.php:1378
+#: ../lib/admin/inc/theme-options.php:1371
+#: ../lib/admin/inc/theme-options.php:1378
 msgid "CSS Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1381
+#: ../lib/admin/inc/theme-options.php:1381
 msgid ""
 "You can add your own CSS below to style the theme. This CSS will not be lost "
 "if you update the theme. For more information on how to find the names of "
@@ -3322,17 +3439,17 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1381
+#: ../lib/admin/inc/theme-options.php:1381
 msgid "here"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1387
+#: ../lib/admin/inc/theme-options.php:1387
 msgid "Custom CSS"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1388
+#: ../lib/admin/inc/theme-options.php:1388
 msgid ""
 "If you want to modify the theme style in some way add your own code here "
 "instead of editing the style sheets. Note: You may have to add <code>!"
@@ -3341,57 +3458,62 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1433 lib/admin/inc/theme-options.php:1450
+#: ../lib/admin/inc/theme-options.php:1433
+#: ../lib/admin/inc/theme-options.php:1450
 msgid "Theme Options"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1441
+#: ../lib/admin/inc/theme-options.php:1441
 msgid "Options Saved"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1442
+#: ../lib/admin/inc/theme-options.php:1442
 msgid "Options Reset"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1452 lib/admin/inc/theme-options.php:1816
+#: ../lib/admin/inc/theme-options.php:1452
+#: ../lib/admin/inc/theme-options.php:1816
 msgid "Help File"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1452 lib/admin/inc/theme-options.php:1816
+#: ../lib/admin/inc/theme-options.php:1452
+#: ../lib/admin/inc/theme-options.php:1816
 msgid "Changelog"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1452 lib/admin/inc/theme-options.php:1816
+#: ../lib/admin/inc/theme-options.php:1452
+#: ../lib/admin/inc/theme-options.php:1816
 msgid "Setup Help & Bug Fixes"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1452 lib/admin/inc/theme-options.php:1816
+#: ../lib/admin/inc/theme-options.php:1452
+#: ../lib/admin/inc/theme-options.php:1816
 msgid "Tweaks & Customizations"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1456
+#: ../lib/admin/inc/theme-options.php:1456
 msgid "Import Theme Options"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1457
+#: ../lib/admin/inc/theme-options.php:1457
 msgid "If you have a back up of your theme options you can import them below."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1467
+#: ../lib/admin/inc/theme-options.php:1467
 msgid "Export Theme Options"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1468
+#: ../lib/admin/inc/theme-options.php:1468
 msgid ""
 "If you want to create a back up of all your theme options click the Export "
 "button below (will only back up your theme options and not your post/page/"
@@ -3399,254 +3521,256 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1471
+#: ../lib/admin/inc/theme-options.php:1471
 msgid "Export Theme Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1482
+#: ../lib/admin/inc/theme-options.php:1482
 msgid "Import/Export Theme Options"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1707
+#: ../lib/admin/inc/theme-options.php:1707
 msgid "Are you sure you want to reset all the theme options&#63;"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-options.php:1708
+#: ../lib/admin/inc/theme-options.php:1708
 msgid "Reset"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:9 lib/admin/inc/theme-post-types.php:17
+#: ../lib/admin/inc/theme-post-types.php:9
+#: ../lib/admin/inc/theme-post-types.php:17
 msgid "Slides"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:10
+#: ../lib/admin/inc/theme-post-types.php:10
 msgid "Slide"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:11
+#: ../lib/admin/inc/theme-post-types.php:11
 msgid "All Slides"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:12
+#: ../lib/admin/inc/theme-post-types.php:12
 msgid "Add New Slide"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:13
+#: ../lib/admin/inc/theme-post-types.php:13
 msgid "Edit Slide"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:14
+#: ../lib/admin/inc/theme-post-types.php:14
 msgid "New Slide"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:15
+#: ../lib/admin/inc/theme-post-types.php:15
 msgid "View Slide"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:16
+#: ../lib/admin/inc/theme-post-types.php:16
 msgid "Search Slides"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:38 lib/admin/inc/theme-post-types.php:46
+#: ../lib/admin/inc/theme-post-types.php:38
+#: ../lib/admin/inc/theme-post-types.php:46
 msgid "Slide Categories"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:39
+#: ../lib/admin/inc/theme-post-types.php:39
 msgid "Slide Category"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:40
+#: ../lib/admin/inc/theme-post-types.php:40
 msgid "All Slide Categories"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:41
+#: ../lib/admin/inc/theme-post-types.php:41
 msgid "Add New Slide Category"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:42
+#: ../lib/admin/inc/theme-post-types.php:42
 msgid "Edit Slide Category"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:43
+#: ../lib/admin/inc/theme-post-types.php:43
 msgid "New Slide Category"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:44
+#: ../lib/admin/inc/theme-post-types.php:44
 msgid "View Slide Category"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:45
+#: ../lib/admin/inc/theme-post-types.php:45
 msgid "Search Slide Categories"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/edit.php:43
-#: lib/admin/inc/custom-sidebars/views/settings.php:24
-#: lib/admin/inc/custom-sidebars/views/settings.php:55
-#: lib/admin/inc/theme-post-types.php:63
+#: ../lib/admin/inc/theme-post-types.php:63
+#: ../lib/admin/inc/custom-sidebars/views/edit.php:43
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:24
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:55
 msgid "Description"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:64
+#: ../lib/admin/inc/theme-post-types.php:64
 msgid "Categories"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:65
+#: ../lib/admin/inc/theme-post-types.php:65
 msgid "Image"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:66
+#: ../lib/admin/inc/theme-post-types.php:66
 msgid "Date"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-post-types.php:105
-#: lib/admin/inc/theme-post-types.php:116
+#: ../lib/admin/inc/theme-post-types.php:105
+#: ../lib/admin/inc/theme-post-types.php:116
 msgid "Order Slides"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/settings.php:72
-#: lib/admin/inc/theme-post-types.php:143
+#: ../lib/admin/inc/theme-post-types.php:143
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:72
 msgid "Edit"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-sidebars.php:5
+#: ../lib/admin/inc/theme-sidebars.php:5
 msgid "Standard Sidebar"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-sidebars.php:11
+#: ../lib/admin/inc/theme-sidebars.php:11
 msgid "Contact Page Sidebar"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-sidebars.php:17
+#: ../lib/admin/inc/theme-sidebars.php:17
 msgid "Footer 1"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-sidebars.php:23
+#: ../lib/admin/inc/theme-sidebars.php:23
 msgid "Footer 2"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-sidebars.php:29
+#: ../lib/admin/inc/theme-sidebars.php:29
 msgid "Footer 3"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-sidebars.php:35
+#: ../lib/admin/inc/theme-sidebars.php:35
 msgid "Footer 4"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/theme-widgets.php:13
+#: ../lib/admin/inc/theme-widgets.php:13
 msgid "Display custom content such as Google ads, flash and javascript."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:114
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:180
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:462
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:114
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:180
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:462
 msgid "You do not have permission to delete sidebars"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:140
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:140
 #, php-format
 msgid "The sidebar \"%s\" has been deleted."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:142
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:142
 #, php-format
 msgid "There was not any sidebar called \"%s\" and it could not been deleted."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:219
-#: lib/admin/inc/custom-sidebars/views/edit.php:5
-#: lib/admin/inc/custom-sidebars/views/settings.php:5
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:219
+#: ../lib/admin/inc/custom-sidebars/views/edit.php:5
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:5
 msgid "Sidebars"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:270
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:270
 msgid "The custom sidebars settings has been updated successfully."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:277
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:277
 msgid "You have to fill all the fields to create a new sidebar."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:301
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:324
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:301
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:324
 msgid "The sidebar has been created successfully."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:306
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:306
 msgid ""
 "There is already a sidebar registered with that name, please choose a "
 "different one."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:343
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:346
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:343
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:346
 msgid "The operation is not secure and it cannot be completed."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:369
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:369
 #, php-format
 msgid "The sidebar \"%s\" has been updated successfully."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/custom-sidebars.php:493
+#: ../lib/admin/inc/custom-sidebars/custom-sidebars.php:493
 msgid "The custom sidebars data has been removed successfully,"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/edit.php:29
-#: lib/admin/inc/custom-sidebars/views/settings.php:56
+#: ../lib/admin/inc/custom-sidebars/views/edit.php:29
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:56
 msgid "ID"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/settings.php:11
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:11
 msgid "New Sidebar"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/settings.php:12
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:12
 msgid ""
 "Add your sidebars below and then you can assign one of these sidebars from "
 "the individual posts/pages. When a sidebar is created, it is shown on the "
@@ -3654,43 +3778,43 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/settings.php:19
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:19
 msgid "This name has to be unique."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/settings.php:30
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:30
 msgid "Create Sidebar"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/settings.php:44
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:44
 msgid "Are you sure to delete this sidebar?"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/settings.php:48
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:48
 msgid "Custom Sidebars"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/settings.php:71
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:71
 msgid "Configure Widgets"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/settings.php:77
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:77
 msgid "There are no custom sidebars available."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/settings.php:98
-#: lib/admin/inc/custom-sidebars/views/settings.php:101
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:98
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:101
 msgid "Reset Sidebars"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/settings.php:99
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:99
 msgid ""
 "Click on the button below to delete all the custom sidebars data from the "
 "database. Keep in mind that once the button is clicked you will have to "
@@ -3699,108 +3823,108 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/custom-sidebars/views/settings.php:101
+#: ../lib/admin/inc/custom-sidebars/views/settings.php:101
 msgid "Are you sure to reset the sidebars?"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:57
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:57
 msgid "Envato WordPress Toolkit"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:153
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:153
 msgid "Envato Toolkit"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:196
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:196
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:219
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:219
 msgid "User Settings Updated."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:220
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:220
 msgid "Theme Activated."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:221
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:221
 msgid "Theme Deleted."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:242
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:242
 msgid "Save Settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:300
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:300
 #, php-format
 msgid ""
 "You're about to delete the '%s' theme. 'Cancel' to stop, 'OK' to update."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:303
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:303
 msgid ""
 "Updating this theme will lose any customizations you have made. 'Cancel' to "
 "stop, 'OK' to update."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:318
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:318
 #, php-format
 msgid "Activate &#8220;%s&#8221;"
 msgstr ""
 
 # @ gp_lang
 # @ buddypress
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:318
-#: registration/activate.php:36
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:318
+#: ../registration/activate.php:36
 msgid "Activate"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:319
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:319
 #, php-format
 msgid "Preview &#8220;%s&#8221;"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:319
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:319
 msgid "Preview"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:320
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:320
 #, php-format
 msgid "Delete &#8220;%s&#8221;"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:321
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:321
 #, php-format
 msgid "View version %1$s details"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:323
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:356
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:323
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:356
 msgid "Download Backup"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:359
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:359
 msgid "Options:"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:365
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:365
 #, php-format
 msgid ""
 "The template files are located in <code>%2$s</code>. The stylesheet files "
@@ -3809,13 +3933,13 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:367
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:367
 #, php-format
 msgid "All of this theme&#8217;s files are located in <code>%2$s</code>."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:379
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:379
 #, php-format
 msgid ""
 "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox "
@@ -3823,7 +3947,7 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:381
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:381
 #, php-format
 msgid ""
 "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox "
@@ -3832,7 +3956,7 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:385
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:385
 #, php-format
 msgid ""
 "%1$s has not been installed. <a href=\"%2$s\" class=\"thickbox thickbox-"
@@ -3840,7 +3964,7 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:387
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:387
 #, php-format
 msgid ""
 "%1$s has not been installed. <a href=\"%2$s\" class=\"thickbox thickbox-"
@@ -3849,42 +3973,42 @@ msgid ""
 msgstr ""
 
 # @ default
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:425
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:425
 msgid "<h3>Current Theme</h3>"
 msgstr ""
 
 # @ default
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:432
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:432
 msgid "<h3>Available Themes</h3>"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:496
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:496
 msgid "User Account Information"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:497
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:497
 msgid "Marketplace Username"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:498
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:498
 msgid "Secret API Key"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:499
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:499
 msgid "Backup Information"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:500
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:500
 msgid "Skip Theme Backup"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:512
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:512
 msgid ""
 "To obtain your API Key, visit your \"My Settings\" page on any of the Envato "
 "Marketplaces. Once a valid connection has been made any changes to the API "
@@ -3896,7 +4020,7 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:550
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:550
 msgid ""
 "This plugin will automatically save your theme as a ZIP archive before it "
 "does an upgrade. The directory those backups get saved to is <code>wp-"
@@ -3907,375 +4031,375 @@ msgid ""
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:581
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:581
 #, php-format
 msgid "Return to %s"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:606
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:606
 msgid "You do not have sufficient permissions to install themes for this site."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:618
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:618
 #, php-format
 msgid "Installing Theme: %s"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:647
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:674
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:707
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:647
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:674
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:707
 msgid "You do not have sufficient permissions to update themes for this site."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:676
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:676
 msgid "Update Theme"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:710
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:710
 msgid "You do not have sufficient permissions to delete themes for this site."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/index.php:782
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/index.php:782
 msgid ""
 "This .htaccess file ensures that other people cannot download your backup "
 "files."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/includes/class-envato-api.php:67
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/includes/class-envato-api.php:67
 msgid "Please enter your Envato Marketplace Username."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/includes/class-envato-api.php:71
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/includes/class-envato-api.php:71
 msgid "Please enter your Envato Marketplace API Key."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/includes/class-envato-api.php:96
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/includes/class-envato-api.php:96
 msgid "The API \"set\" is a required parameter."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/includes/class-envato-api.php:167
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/includes/class-envato-api.php:167
 msgid "The Envato Marketplace \"item ID\" is a required parameter."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/includes/class-envato-backup.php:392
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/includes/class-envato-backup.php:392
 msgid "The backup file was not created"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/includes/class-envato-backup.php:465
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/includes/class-envato-backup.php:465
 msgid "The following files are unreadable and could not be backed up: "
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/includes/class-wp-upgrader.php:22
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/includes/class-wp-upgrader.php:22
 msgid "Downloading upgrade package from the Envato API&#8230;"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/includes/class-wp-upgrader.php:26
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/includes/class-wp-upgrader.php:26
 msgid "Backing up & removing the old version of the theme&#8230;"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/envato-wordpress-toolkit-master/includes/class-wp-upgrader.php:32
+#: ../lib/admin/inc/envato-wordpress-toolkit-master/includes/class-wp-upgrader.php:32
 msgid "Downloading install package from the Envato API&#8230;"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/shortcodes/author-info.php:9
+#: ../lib/admin/inc/shortcodes/author-info.php:9
 msgid "Visit My Website"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/shortcodes/author-info.php:24
+#: ../lib/admin/inc/shortcodes/author-info.php:24
 msgid "View My Other Posts"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/shortcodes/contact-form.php:18
+#: ../lib/admin/inc/shortcodes/contact-form.php:18
 msgid "Thanks"
 msgstr "Спасибо"
 
 # @ gp_lang
-#: lib/admin/inc/shortcodes/contact-form.php:18
+#: ../lib/admin/inc/shortcodes/contact-form.php:18
 msgid "Your message was successfully sent."
 msgstr "Ваше сообщение успешно отправлено"
 
 # @ gp_lang
-#: lib/admin/inc/shortcodes/contact-form.php:24
+#: ../lib/admin/inc/shortcodes/contact-form.php:24
 msgid "There was an error submitting this message."
 msgstr "Произошла ошибка при отправке сообщения"
 
 # @ gp_lang
-#: lib/admin/inc/shortcodes/contact-form.php:96
+#: ../lib/admin/inc/shortcodes/contact-form.php:96
 msgid "Send"
 msgstr "Отправить"
 
 # @ gp_lang
-#: lib/admin/inc/shortcodes/dividers.php:11
+#: ../lib/admin/inc/shortcodes/dividers.php:11
 msgid "Back To Top"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/shortcodes/portfolio-loop.php:39
-#: lib/admin/inc/shortcodes/related-posts.php:229
+#: ../lib/admin/inc/shortcodes/portfolio-loop.php:39
+#: ../lib/admin/inc/shortcodes/related-posts.php:229
 msgid "Read More"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/shortcodes/register-form.php:26
+#: ../lib/admin/inc/shortcodes/register-form.php:26
 msgid "A password will be emailed to you"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/tinymce/window_options.php:8
+#: ../lib/admin/inc/tinymce/window_options.php:8
 msgid "You are not allowed to be here"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/tinymce/window_options.php:13
+#: ../lib/admin/inc/tinymce/window_options.php:13
 msgid " Shortcodes"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/tinymce/window_options.php:25
+#: ../lib/admin/inc/tinymce/window_options.php:25
 msgid "Shortcodes"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/tinymce/window_options.php:34
+#: ../lib/admin/inc/tinymce/window_options.php:34
 msgid "Insert a shortcode from the drop down menu."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/tinymce/window_options.php:38
+#: ../lib/admin/inc/tinymce/window_options.php:38
 msgid "Select A Shortcode"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/tinymce/window_options.php:94
+#: ../lib/admin/inc/tinymce/window_options.php:94
 msgid "Insert"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:51
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:129
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:201
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:51
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:129
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:201
 msgid "Import Widgets"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:53
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:63
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:116
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:53
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:63
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:116
 msgid "Export Widgets"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:65
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:131
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:65
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:131
 msgid "Please select a widget to continue."
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:70
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:137
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:70
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:137
 msgid "Select All Active Widgets"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:71
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:138
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:71
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:138
 msgid "Un-Select All Active Widgets"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:207
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:207
 msgid "Select the file that contains widget settings"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:208
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:208
 msgid "No file chosen"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:209
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:209
 msgid "Choose file"
 msgstr ""
 
 # @ gp_lang
-#: lib/admin/inc/widget-settings-importexport/widget_data.php:213
+#: ../lib/admin/inc/widget-settings-importexport/widget_data.php:213
 msgid "Upload file and import"
 msgstr ""
 
 # @ gp_lang
-#: lib/inc/contact.php:49
+#: ../lib/inc/contact.php:49
 msgid "You have received a message from "
 msgstr ""
 
 # @ gp_lang
-#: lib/inc/contact.php:51
+#: ../lib/inc/contact.php:51
 msgid "Name: "
 msgstr ""
 
 # @ gp_lang
-#: lib/inc/contact.php:51
+#: ../lib/inc/contact.php:51
 msgid "Email: "
 msgstr ""
 
 # @ gp_lang
-#: lib/inc/contact.php:51
+#: ../lib/inc/contact.php:51
 msgid "Comment: "
 msgstr ""
 
 # @ gp_lang
-#: lib/inc/contact.php:52
+#: ../lib/inc/contact.php:52
 msgid "From: "
 msgstr ""
 
 # @ gp_lang
-#: lib/inc/contact.php:52
+#: ../lib/inc/contact.php:52
 msgid "Reply-To: "
 msgstr ""
 
 # @ gp_lang
-#: lib/inc/page-styling.php:6
+#: ../lib/inc/page-styling.php:6
 msgid "Please enter something in the search box!"
 msgstr ""
 
 # @ buddypress
-#: members/index.php:21
+#: ../members/index.php:21
 msgid "Members Directory"
 msgstr ""
 
 # @ buddypress
-#: members/index.php:56 members/single/friends.php:23
+#: ../members/index.php:56 ../members/single/friends.php:23
 msgid "Newest Registered"
 msgstr ""
 
 # @ buddypress
-#: members/members-loop.php:108
+#: ../members/members-loop.php:108
 msgid "Sorry, no members were found."
 msgstr ""
 
 # @ buddypress
-#: members/single/friends/requests.php:68
+#: ../members/single/friends/requests.php:68
 msgid "You have no pending friendship requests."
 msgstr ""
 
 # @ buddypress
-#: members/single/groups/invites.php:14
+#: ../members/single/groups/invites.php:14
 #, php-format
 msgid "%s members"
 msgstr ""
 
 # @ buddypress
-#: members/single/groups/invites.php:37
+#: ../members/single/groups/invites.php:37
 msgid "You have no outstanding group invites."
 msgstr ""
 
 # @ buddypress
-#: members/single/messages/compose.php:5
+#: ../members/single/messages/compose.php:5
 msgid "Send To (Username or Friend's Name)"
 msgstr ""
 
 # @ buddypress
-#: members/single/messages/compose.php:14
+#: ../members/single/messages/compose.php:14
 msgid "This is a notice to all users."
 msgstr ""
 
 # @ buddypress
-#: members/single/messages/compose.php:17
+#: ../members/single/messages/compose.php:17
 msgid "Subject"
 msgstr "Тема"
 
 # @ buddypress
-#: members/single/messages/compose.php:20
+#: ../members/single/messages/compose.php:20
 msgid "Message"
 msgstr "Сообщение"
 
 # @ buddypress
-#: members/single/messages/compose.php:28
+#: ../members/single/messages/compose.php:28
 msgid "Send Message"
 msgstr "Отправить Сообщение"
 
 # @ buddypress
-#: members/single/messages/messages-loop.php:32
+#: ../members/single/messages/messages-loop.php:32
 msgid "From:"
 msgstr "От кого:"
 
 # @ buddypress
-#: members/single/messages/messages-loop.php:37
+#: ../members/single/messages/messages-loop.php:37
 msgid "To:"
 msgstr "Кому:"
 
 # @ buddypress
-#: members/single/messages/messages-loop.php:43
+#: ../members/single/messages/messages-loop.php:43
 msgid "View Message"
 msgstr "Просмотреть Сообщение"
 
 # @ buddypress
-#: members/single/messages/messages-loop.php:51
-#: members/single/messages/notices-loop.php:43
-#: members/single/messages/single.php:24
+#: ../members/single/messages/messages-loop.php:51
+#: ../members/single/messages/notices-loop.php:43
+#: ../members/single/messages/single.php:24
 msgid "Delete Message"
 msgstr "Удалить Сообщение"
 
 # @ buddypress
-#: members/single/messages/messages-loop.php:69
+#: ../members/single/messages/messages-loop.php:69
 msgid "Sorry, no messages were found."
 msgstr "Извините, сообщений не найдено"
 
 # @ buddypress
-#: members/single/messages/notices-loop.php:36
+#: ../members/single/messages/notices-loop.php:36
 msgid "Sent:"
 msgstr "Отправить:"
 
 # @ buddypress
-#: members/single/messages/notices-loop.php:54
+#: ../members/single/messages/notices-loop.php:54
 msgid "Sorry, no notices were found."
 msgstr "Извините, никаких уведомлений не найдено"
 
 # @ buddypress
-#: members/single/messages/single.php:14
+#: ../members/single/messages/single.php:14
 msgid "You are alone in this conversation."
 msgstr ""
 
 # @ buddypress
-#: members/single/messages/single.php:18
+#: ../members/single/messages/single.php:18
 #, php-format
 msgid "Conversation between %s and you."
 msgstr "Разговор между %s и вами."
 
 # @ buddypress
-#: members/single/messages/single.php:75
+#: ../members/single/messages/single.php:75
 msgid "Send a Reply"
 msgstr "Отправить ответ"
 
 # @ buddypress
-#: members/single/messages/single.php:91
+#: ../members/single/messages/single.php:91
 msgid "Send Reply"
 msgstr "Оставить комментарий"
 
 # @ buddypress
-#: members/single/profile/change-avatar.php:1
+#: ../members/single/profile/change-avatar.php:1
 msgid "Change Avatar"
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/change-avatar.php:7
+#: ../members/single/profile/change-avatar.php:7
 msgid ""
 "Your avatar will be used on your profile and throughout the site. If there "
 "is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your "
@@ -4284,31 +4408,31 @@ msgid ""
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/change-avatar.php:14
+#: ../members/single/profile/change-avatar.php:14
 msgid ""
 "Click below to select a JPG, GIF or PNG format photo from your computer and "
 "then click 'Upload Image' to proceed."
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/change-avatar.php:23
+#: ../members/single/profile/change-avatar.php:23
 msgid ""
 "If you'd like to delete your current avatar but not upload a new one, please "
 "use the delete avatar button."
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/change-avatar.php:24
+#: ../members/single/profile/change-avatar.php:24
 msgid "Delete My Avatar"
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/change-avatar.php:31
+#: ../members/single/profile/change-avatar.php:31
 msgid "Crop Your New Avatar"
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/change-avatar.php:55
+#: ../members/single/profile/change-avatar.php:55
 msgid ""
 "Your avatar will be used on your profile and throughout the site. To change "
 "your avatar, please create an account with <a href=\"http://gravatar.com"
@@ -4317,277 +4441,278 @@ msgid ""
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/edit.php:10
+#: ../members/single/profile/edit.php:10
 #, php-format
 msgid "Editing '%s' Profile Group"
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/edit.php:26 members/single/profile/edit.php:33
-#: members/single/profile/edit.php:40 members/single/profile/edit.php:49
-#: members/single/profile/edit.php:67 members/single/profile/edit.php:83
-#: members/single/profile/edit.php:93 registration/register.php:37
-#: registration/register.php:41 registration/register.php:45
-#: registration/register.php:49 registration/register.php:76
-#: registration/register.php:84 registration/register.php:92
-#: registration/register.php:102 registration/register.php:113
-#: registration/register.php:128 registration/register.php:139
-#: registration/register.php:211 registration/register.php:220
+#: ../members/single/profile/edit.php:26 ../members/single/profile/edit.php:33
+#: ../members/single/profile/edit.php:40 ../members/single/profile/edit.php:49
+#: ../members/single/profile/edit.php:67 ../members/single/profile/edit.php:83
+#: ../members/single/profile/edit.php:93 ../registration/register.php:37
+#: ../registration/register.php:41 ../registration/register.php:45
+#: ../registration/register.php:49 ../registration/register.php:76
+#: ../registration/register.php:84 ../registration/register.php:92
+#: ../registration/register.php:102 ../registration/register.php:113
+#: ../registration/register.php:128 ../registration/register.php:139
+#: ../registration/register.php:211 ../registration/register.php:220
 msgid "(required)"
 msgstr "(обязательное)"
 
 # @ buddypress
-#: members/single/profile/edit.php:58 members/single/profile/edit.php:73
-#: registration/register.php:119
+#: ../members/single/profile/edit.php:58 ../members/single/profile/edit.php:73
+#: ../registration/register.php:119
 msgid "Clear"
 msgstr "Очистить"
 
 # @ buddypress
-#: members/single/profile/edit.php:118 members/single/profile/edit.php:132
-#: registration/register.php:159 registration/register.php:174
+#: ../members/single/profile/edit.php:118
+#: ../members/single/profile/edit.php:132 ../registration/register.php:159
+#: ../registration/register.php:174
 #, php-format
 msgid ""
 "This field can be seen by: <span class=\"current-visibility-level\">%s</span>"
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/edit.php:118
+#: ../members/single/profile/edit.php:118
 msgid "Change"
 msgstr "Изменить"
 
 # @ buddypress
-#: members/single/profile/edit.php:123 registration/register.php:164
+#: ../members/single/profile/edit.php:123 ../registration/register.php:164
 msgid "Who can see this field?"
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/profile-wp.php:8
+#: ../members/single/profile/profile-wp.php:8
 #, php-format
 msgid "%s's Profile"
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/profile-wp.php:24
+#: ../members/single/profile/profile-wp.php:24
 msgid "About Me"
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/profile-wp.php:42
+#: ../members/single/profile/profile-wp.php:42
 msgid "Jabber"
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/profile-wp.php:51
+#: ../members/single/profile/profile-wp.php:51
 msgid "AOL Messenger"
 msgstr ""
 
 # @ buddypress
-#: members/single/profile/profile-wp.php:60
+#: ../members/single/profile/profile-wp.php:60
 msgid "Yahoo Messenger"
 msgstr ""
 
 # @ buddypress
-#: members/single/settings/capabilities.php:49
+#: ../members/single/settings/capabilities.php:49
 msgid "Capabilities"
 msgstr ""
 
 # @ buddypress
-#: members/single/settings/capabilities.php:57
+#: ../members/single/settings/capabilities.php:57
 msgid "This user is a spammer."
 msgstr "Этот пользователь спамер."
 
 # @ buddypress
-#: members/single/settings/capabilities.php:61
+#: ../members/single/settings/capabilities.php:61
 msgid "Save"
 msgstr "Сохранить"
 
 # @ buddypress
-#: members/single/settings/delete-account.php:50
-#: members/single/settings/delete-account.php:76
+#: ../members/single/settings/delete-account.php:50
+#: ../members/single/settings/delete-account.php:76
 msgid "Delete Account"
 msgstr ""
 
 # @ buddypress
-#: members/single/settings/delete-account.php:56
+#: ../members/single/settings/delete-account.php:56
 msgid ""
 "Deleting your account will delete all of the content you have created. It "
 "will be completely irrecoverable."
 msgstr ""
 
 # @ buddypress
-#: members/single/settings/delete-account.php:60
+#: ../members/single/settings/delete-account.php:60
 msgid ""
 "Deleting this account will delete all of the content it has created. It will "
 "be completely irrecoverable."
 msgstr ""
 
 # @ buddypress
-#: members/single/settings/delete-account.php:72
+#: ../members/single/settings/delete-account.php:72
 msgid "I understand the consequences."
 msgstr ""
 
 # @ buddypress
-#: members/single/settings/general.php:57
+#: ../members/single/settings/general.php:57
 msgid ""
 "Current Password <span>(required to update email or change current password)"
 "</span>"
 msgstr ""
 
 # @ buddypress
-#: members/single/settings/general.php:58
+#: ../members/single/settings/general.php:58
 msgid "Password Lost and Found"
 msgstr ""
 
 # @ buddypress
-#: members/single/settings/general.php:58
+#: ../members/single/settings/general.php:58
 msgid "Lost your password?"
 msgstr ""
 
 # @ buddypress
-#: members/single/settings/general.php:62
+#: ../members/single/settings/general.php:62
 msgid "Account Email"
 msgstr ""
 
 # @ buddypress
-#: members/single/settings/general.php:65
+#: ../members/single/settings/general.php:65
 msgid "Change Password <span>(leave blank for no change)</span>"
 msgstr ""
 
 # @ buddypress
-#: members/single/settings/general.php:66
+#: ../members/single/settings/general.php:66
 msgid "New Password"
 msgstr "Новый пароль"
 
 # @ buddypress
-#: members/single/settings/general.php:67
+#: ../members/single/settings/general.php:67
 msgid "Repeat New Password"
 msgstr "Повторите новый пароль"
 
 # @ buddypress
-#: members/single/settings/notifications.php:49
+#: ../members/single/settings/notifications.php:49
 msgid "Email Notification"
 msgstr "Уведомление по эл. почте"
 
 # @ buddypress
-#: members/single/settings/notifications.php:54
+#: ../members/single/settings/notifications.php:54
 msgid "Send a notification by email when:"
 msgstr ""
 
 # @ buddypress
-#: registration/activate.php:12
+#: ../registration/activate.php:12
 msgid "Account Activated"
 msgstr ""
 
 # @ buddypress
-#: registration/activate.php:17
+#: ../registration/activate.php:17
 msgid ""
 "Your account was activated successfully! Your account details have been sent "
 "to you in a separate email."
 msgstr ""
 
 # @ buddypress
-#: registration/activate.php:19
+#: ../registration/activate.php:19
 msgid ""
 "Your account was activated successfully! You can now log in with the "
 "username and password you provided when you signed up."
 msgstr ""
 
 # @ buddypress
-#: registration/activate.php:24
+#: ../registration/activate.php:24
 msgid "Activate your Account"
 msgstr "Активируйте ваш аккаунт"
 
 # @ buddypress
-#: registration/activate.php:28
+#: ../registration/activate.php:28
 msgid "Please provide a valid activation key."
 msgstr "Пожалуйста предоставьте правильный код активации "
 
 # @ buddypress
-#: registration/activate.php:32
+#: ../registration/activate.php:32
 msgid "Activation Key:"
 msgstr "Код активации"
 
 # @ buddypress
-#: registration/register.php:16
+#: ../registration/register.php:16
 msgid "User registration is currently not allowed."
 msgstr "Регистрация пользователей в данный момент закрыта"
 
 # @ buddypress
-#: registration/register.php:23
+#: ../registration/register.php:23
 msgid "Create an Account"
 msgstr "Создать аккаунт"
 
 # @ buddypress
-#: registration/register.php:27
+#: ../registration/register.php:27
 msgid ""
 "Registering for this site is easy, just fill in the fields below and we'll "
 "get a new account set up for you in no time."
 msgstr ""
 
 # @ buddypress
-#: registration/register.php:35
+#: ../registration/register.php:35
 msgid "Account Details"
 msgstr "Детали профайла"
 
 # @ buddypress
-#: registration/register.php:41
+#: ../registration/register.php:41
 msgid "Email Address"
 msgstr "Эл. адрес "
 
 # @ buddypress
-#: registration/register.php:45
+#: ../registration/register.php:45
 msgid "Choose a Password"
 msgstr "Выберете пароль"
 
 # @ buddypress
-#: registration/register.php:49
+#: ../registration/register.php:49
 msgid "Confirm Password"
 msgstr "Подтвердите пароль"
 
 # @ buddypress
-#: registration/register.php:65
+#: ../registration/register.php:65
 msgid "Profile Details"
 msgstr ""
 
 # @ buddypress
-#: registration/register.php:205
+#: ../registration/register.php:205
 msgid "Blog Details"
 msgstr ""
 
 # @ buddypress
-#: registration/register.php:207
+#: ../registration/register.php:207
 msgid "Yes, I'd like to create a new site"
 msgstr ""
 
 # @ buddypress
-#: registration/register.php:211
+#: ../registration/register.php:211
 msgid "Blog URL"
 msgstr "URL Блога"
 
 # @ buddypress
-#: registration/register.php:220
+#: ../registration/register.php:220
 msgid "Site Title"
 msgstr "Заголовок Сайта"
 
 # @ buddypress
-#: registration/register.php:224
+#: ../registration/register.php:224
 msgid ""
 "I would like my site to appear in search engines, and in public listings "
 "around this network."
 msgstr ""
 
 # @ buddypress
-#: registration/register.php:241
+#: ../registration/register.php:241
 msgid "Complete Sign Up"
 msgstr ""
 
 # @ buddypress
-#: registration/register.php:252
+#: ../registration/register.php:252
 msgid "Sign Up Complete!"
 msgstr ""
 
 # @ buddypress
-#: registration/register.php:258
+#: ../registration/register.php:258
 msgid ""
 "You have successfully created your account! To begin using this site you "
 "will need to activate your account via the email we have just sent to your "
@@ -4595,18 +4720,8 @@ msgid ""
 msgstr ""
 
 # @ buddypress
-#: registration/register.php:260
+#: ../registration/register.php:260
 msgid ""
 "You have successfully created your account! Please log in using the username "
 "and password you have just created."
-msgstr ""
-
-# @ buddypress
-#: activity/entry.php:68
-msgid "Mark as Favorite"
-msgstr ""
-
-# @ gp_lang
-#: footer.php:85
-msgid "Центр гражданских инициатив \"Звезда Ора\"."
 msgstr ""
