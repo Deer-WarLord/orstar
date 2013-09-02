@@ -16,6 +16,8 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', true); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', '/var/lib/openshift/514221575973ca36a80000c2/app-root/runtime/repo/php/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', $_ENV['OPENSHIFT_APP_NAME']);
 
 /** MySQL database username */

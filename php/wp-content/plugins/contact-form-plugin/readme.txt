@@ -2,9 +2,9 @@
 Contributors: bestwebsoft
 Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
 Tags: Contact Form, text, contact, form, contacts, contact form, request, contact me, feedback form, feedback, contact button, contact form plugin, contacts form plugin, attachment, send, copy, attachment, send copy
-Requires at least: 2.9
+Requires at least: 3.0
 Tested up to: 3.6
-Stable tag: 3.52
+Stable tag: 3.54
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,7 @@ Contact Form allows you to add a feedback form to a post or a page in an easy ma
 * Romanian (ro_RO) (thanks to George Bejan and Cosmin Berescu)
 * Russian (ru_RU)
 * Serbian (sr_RS) (thanks to Georgijevic Team, www.georgijevic.info)
+* Slovak (sk_SK) (thanks to <a href="mailto:book.ing@zoznam.sk">Book Ing</a>)
 * Spanish (es_ES) (thanks to Jesús Parra)
 * Swedish (sv_SE) (thanks to Martin Tonek, <a href="mailto:joakim@limewoodmedia.com">Joakim Lindskog</a>, <a href="mailto:maarten@vandendriest.com">Maarten van den Driest</a> - www.crossanddot.nl)
 * Turkish (tr_TR) (thanks to <a href="mailto:d-bulent@hotmail.com ">Devrim Bulent Ibis</a>, www.devrimhoca.com)
@@ -73,7 +74,7 @@ We can fix some things for free for the users who provide translation of our plu
 1. Upload the `Contact Form` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin using the 'Plugins' menu in your WordPress admin panel.
 3. You can adjust the necessary settings using your WordPress admin panel in "Settings" > "Contact Form".
-4. Create a page or a post and insert the shortcode [contact_form] into the text.
+4. Create a page or a post and insert the shortcode [bestwebsoft_contact_form] into the text.
 
 == Frequently Asked Questions ==
 
@@ -87,7 +88,7 @@ The address specified during WordPress installation will be used by the Contact 
 
 = How can I add Contact Form to my website? =
 
-You should put the shortcode [contact_form] into your page or post.
+You should put the shortcode [bestwebsoft_contact_form] into your page or post.
 
 = I chose a user via the plugin settings and got this error: "Please enter a valid email address. Settings are not saved." =
 
@@ -123,6 +124,17 @@ Here is an example for the German language files.
 6. Plugin extra settings in WordPress admin panel with additional fields.
 
 == Changelog ==
+
+= V3.54 - 30.08.2013 =
+* Update : Function for displaying BWS plugins section placed in a separate file and has own language files.
+* Update : Compatibility test with 20 most popular WordPress plugins. 
+
+= V3.53 - 20.08.2013 =
+* Bugfix : We fixed the bug related to 'docx' mime type.
+* Update : We changed plugin settings page displaying.
+* NEW : Added an ability to delete an attachment file from the server after the email is sent.
+* NEW : The Slovak language file is added.
+* Update : The French language file is updated. 
 
 = V3.52 - 13.08.2013 =
 * Update : The Japanese language file is updated.
@@ -361,6 +373,12 @@ Here is an example for the German language files.
 * Ability to add Contact Form into a post. Ability to adjust displaying of the form via shortcode is added.
 
 == Upgrade Notice ==
+
+= V3.54 =
+Function for displaying BWS plugins section placed in a separate file and has own language files. Compatibility test with 20 most popular WordPress plugins. 
+
+= V3.53 =
+We fixed the bug related to 'docx' mime type. We changed plugin settings page displaying. Added an ability to delete an attachment file from the server after the email is sent. The Slovak language file is added. The French language file is updated.
 
 = V3.52 =
 The Japanese language file is updated. We fixed the bug related to XSS attack.

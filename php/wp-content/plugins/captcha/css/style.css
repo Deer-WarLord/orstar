@@ -48,3 +48,38 @@
 .cptch_block {
 	direction: ltr;
 }
+table.bws_pro_version {	
+    background: #E0E0E0;
+    border: 1px solid #AAAAAA;
+    margin-bottom: 5px;
+    width: auto !important;
+    float: left;
+}
+table.bws_pro_version th,
+table.bws_pro_version td {
+	color: #555555;
+}
+.bws_pro_version_tooltip:before {
+    border-color: transparent #FFFFFF transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    content: "";
+    height: 0;
+    left: -18px;
+    position: absolute;
+    top: 16px;
+    width: 0;
+}
+.bws_pro_version_tooltip {
+    background: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+    float: right;
+    left: 550px;
+    margin-top: 20px;
+    padding: 10px;
+    position: absolute;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    width: 380px;
+}
