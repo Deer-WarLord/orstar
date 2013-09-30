@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: captcha\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-30 13:11+0300\n"
-"PO-Revision-Date: 2013-08-30 13:11+0300\n"
+"POT-Creation-Date: 2013-09-06 15:10+0300\n"
+"PO-Revision-Date: 2013-09-06 15:10+0300\n"
 "Last-Translator: \n"
 "Language-Team: SM Mehdi Akram <mehdi.akram@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: captcha.php:32
-#: captcha.php:213
+#: captcha.php:215
 msgid "Captcha Settings"
 msgstr "ক্যাপচা সেটিংস"
 
@@ -31,7 +31,7 @@ msgid "Login form"
 msgstr "লগইন ফর্ম"
 
 #: captcha.php:42
-#: captcha.php:251
+#: captcha.php:253
 msgid "Registration form"
 msgstr "রেজিষ্ট্রেশন ফর্ম"
 
@@ -48,7 +48,7 @@ msgid "Lost password form"
 msgstr "পাসওয়ার্ড হারানোর ফর্ম"
 
 #: captcha.php:44
-#: captcha.php:252
+#: captcha.php:254
 msgid "Comments form"
 msgstr "মন্তব্য ফর্ম"
 
@@ -101,253 +101,253 @@ msgstr "অনবরত জিজ্ঞাসিত প্রশ্ন"
 msgid "Support"
 msgstr "সমর্থন"
 
-#: captcha.php:202
+#: captcha.php:204
 msgid "Please select one item in the block Arithmetic and Complexity for CAPTCHA"
 msgstr "ক্যাপচার জন্য ব্লক গাণিতিক এবং জটিলতা একটি আইটেম নির্বাচন করুন"
 
-#: captcha.php:206
+#: captcha.php:208
 msgid "Options saved."
 msgstr "অপশন সংরক্ষণ"
 
-#: captcha.php:219
-#: captcha.php:248
+#: captcha.php:221
+#: captcha.php:250
 msgid "Enable CAPTCHA for:"
 msgstr "যাদের জন্য ক্যাপচা সক্রিয় করবেন:"
 
-#: captcha.php:233
 #: captcha.php:235
-#: captcha.php:238
+#: captcha.php:237
+#: captcha.php:240
 msgid "Contact form"
 msgstr "কন্টাক্ট ফর্ম"
 
-#: captcha.php:233
 #: captcha.php:235
-#: captcha.php:238
-msgid "(powered by"
+#: captcha.php:237
+#: captcha.php:240
+msgid "powered by"
 msgstr ""
 
-#: captcha.php:235
+#: captcha.php:237
 msgid "Activate contact form"
 msgstr "কন্টাক্ট ফর্ম সক্রিয়"
 
-#: captcha.php:238
+#: captcha.php:240
 msgid "Download contact form"
 msgstr "কন্টাক্ট ফর্ম ডাউনলোড"
 
-#: captcha.php:240
+#: captcha.php:242
 #, fuzzy
 msgid "If you would like to customize this plugin for a custom form, please see"
 msgstr "আপনি একটি কাস্টম ফর্মি এর জন্য এই প্লাগইন কাস্টমাইজ করতে চান, তাহলে আমাদের সাথে যোগাযোগ করুন"
 
-#: captcha.php:253
+#: captcha.php:255
 msgid "\"Create a Group\" form"
 msgstr ""
 
-#: captcha.php:258
+#: captcha.php:260
 msgid "This functionality is available in the Pro version of the plugin. For more details, please follow the link"
 msgstr ""
 
-#: captcha.php:265
+#: captcha.php:267
 msgid "Title for CAPTCHA in the form"
 msgstr "ক্যাপচা ফর্ম এর টাইটেল"
 
-#: captcha.php:269
+#: captcha.php:271
 msgid "Arithmetic actions for CAPTCHA"
 msgstr "ক্যাপচার জন্য গাণিতিক কর্ম"
 
-#: captcha.php:278
+#: captcha.php:280
 msgid "CAPTCHA complexity level"
 msgstr "ক্যাপচা জটিলতার ধাপ"
 
-#: captcha.php:288
+#: captcha.php:290
 msgid "Save Changes"
 msgstr "পরিবর্তণ সংরক্ষন"
 
-#: captcha.php:333
-#: captcha.php:339
-#: captcha.php:513
-#: captcha.php:520
-#: captcha.php:532
-#: captcha.php:539
+#: captcha.php:335
+#: captcha.php:341
+#: captcha.php:515
+#: captcha.php:522
+#: captcha.php:534
+#: captcha.php:541
 msgid "ERROR"
 msgstr "ত্রুটি"
 
-#: captcha.php:333
-#: captcha.php:356
-#: captcha.php:477
-#: captcha.php:513
-#: captcha.php:532
-#: captcha.php:558
+#: captcha.php:335
+#: captcha.php:358
+#: captcha.php:479
+#: captcha.php:515
+#: captcha.php:534
+#: captcha.php:560
 msgid "Please fill the form."
 msgstr "এই ফরমটি পূরণ করুন"
 
-#: captcha.php:339
-#: captcha.php:367
-#: captcha.php:520
-#: captcha.php:539
+#: captcha.php:341
+#: captcha.php:369
+#: captcha.php:522
+#: captcha.php:541
 msgid "Please enter a valid CAPTCHA value."
 msgstr "দয়া করে সঠিক ক্যাপচা লিখুন।"
 
-#: captcha.php:483
-#: captcha.php:565
+#: captcha.php:485
+#: captcha.php:567
 msgid "Error: You have entered an incorrect CAPTCHA value. Click the BACK button on your browser, and try again."
 msgstr "ত্রুটি: আপনি একটি ভুল ক্যাপচা দিয়েছেন। আপনার ব্রাউজারের ব্যাক বোতাম ক্লিক করুন এবং আবার চেষ্টা করুন।"
 
-#: captcha.php:577
-#: captcha.php:810
+#: captcha.php:579
+#: captcha.php:812
 msgid "zero"
 msgstr "শুন্য"
 
-#: captcha.php:578
-#: captcha.php:811
-#: captcha.php:1023
+#: captcha.php:580
+#: captcha.php:813
+#: captcha.php:1026
 msgid "one"
 msgstr "এক"
 
-#: captcha.php:579
-#: captcha.php:812
+#: captcha.php:581
+#: captcha.php:814
 msgid "two"
 msgstr "দুই"
 
-#: captcha.php:580
-#: captcha.php:813
+#: captcha.php:582
+#: captcha.php:815
 msgid "three"
 msgstr "তিন"
 
-#: captcha.php:581
-#: captcha.php:814
+#: captcha.php:583
+#: captcha.php:816
 msgid "four"
 msgstr "চার"
 
-#: captcha.php:582
-#: captcha.php:815
+#: captcha.php:584
+#: captcha.php:817
 msgid "five"
 msgstr "পাঁচ"
 
-#: captcha.php:583
-#: captcha.php:816
-#: captcha.php:1023
+#: captcha.php:585
+#: captcha.php:818
+#: captcha.php:1026
 msgid "six"
 msgstr "ছয়"
 
-#: captcha.php:584
-#: captcha.php:817
-#: captcha.php:1011
-#: captcha.php:1017
+#: captcha.php:586
+#: captcha.php:819
+#: captcha.php:1014
+#: captcha.php:1020
 msgid "seven"
 msgstr "সাত"
 
-#: captcha.php:585
-#: captcha.php:818
-#: captcha.php:1014
+#: captcha.php:587
+#: captcha.php:820
+#: captcha.php:1017
 msgid "eight"
 msgstr "আট"
 
-#: captcha.php:586
-#: captcha.php:819
+#: captcha.php:588
+#: captcha.php:821
 msgid "nine"
 msgstr "নয়"
 
-#: captcha.php:589
-#: captcha.php:822
+#: captcha.php:591
+#: captcha.php:824
 msgid "eleven"
 msgstr "এগার"
 
-#: captcha.php:590
-#: captcha.php:823
+#: captcha.php:592
+#: captcha.php:825
 msgid "twelve"
 msgstr "বার"
 
-#: captcha.php:591
-#: captcha.php:824
+#: captcha.php:593
+#: captcha.php:826
 msgid "thirteen"
 msgstr "তের"
 
-#: captcha.php:592
-#: captcha.php:825
+#: captcha.php:594
+#: captcha.php:827
 msgid "fourteen"
 msgstr "চৌদ্দ"
 
-#: captcha.php:593
-#: captcha.php:826
+#: captcha.php:595
+#: captcha.php:828
 msgid "fifteen"
 msgstr "পনের"
 
-#: captcha.php:594
-#: captcha.php:827
+#: captcha.php:596
+#: captcha.php:829
 msgid "sixteen"
 msgstr "ষোল"
 
-#: captcha.php:595
-#: captcha.php:828
+#: captcha.php:597
+#: captcha.php:830
 msgid "seventeen"
 msgstr "সতের"
 
-#: captcha.php:596
-#: captcha.php:829
+#: captcha.php:598
+#: captcha.php:831
 msgid "eighteen"
 msgstr "আঠারো"
 
-#: captcha.php:597
-#: captcha.php:830
+#: captcha.php:599
+#: captcha.php:832
 msgid "nineteen"
 msgstr "উনিশ"
 
-#: captcha.php:600
-#: captcha.php:833
+#: captcha.php:602
+#: captcha.php:835
 msgid "ten"
 msgstr "দশ"
 
-#: captcha.php:601
-#: captcha.php:834
+#: captcha.php:603
+#: captcha.php:836
 msgid "twenty"
 msgstr "বিশ"
 
-#: captcha.php:602
-#: captcha.php:835
+#: captcha.php:604
+#: captcha.php:837
 msgid "thirty"
 msgstr "ত্রিশ"
 
-#: captcha.php:603
-#: captcha.php:836
+#: captcha.php:605
+#: captcha.php:838
 msgid "forty"
 msgstr "চল্লিশ"
 
-#: captcha.php:604
-#: captcha.php:837
+#: captcha.php:606
+#: captcha.php:839
 msgid "fifty"
 msgstr "পঞ্চাশ"
 
-#: captcha.php:605
-#: captcha.php:838
+#: captcha.php:607
+#: captcha.php:840
 msgid "sixty"
 msgstr "ষাট"
 
-#: captcha.php:606
-#: captcha.php:839
+#: captcha.php:608
+#: captcha.php:841
 msgid "seventy"
 msgstr "সত্তোর"
 
-#: captcha.php:607
-#: captcha.php:840
+#: captcha.php:609
+#: captcha.php:842
 msgid "eighty"
 msgstr "আশি"
 
-#: captcha.php:608
-#: captcha.php:841
+#: captcha.php:610
+#: captcha.php:843
 msgid "ninety"
 msgstr "নব্বয়"
 
-#: captcha.php:695
-#: captcha.php:928
+#: captcha.php:697
+#: captcha.php:930
 msgid "and"
 msgstr "এবং"
 
-#: captcha.php:715
+#: captcha.php:717
 msgid "Encryption password is not set"
 msgstr "এনক্রিপশন পাসওয়ার্ড সেট করা হয় নাই"
 
-#: captcha.php:735
+#: captcha.php:737
 msgid "Decryption password is not set"
 msgstr "ডিক্রিপশন পাসওয়ার্ড সেট করা হয় নাই"
 

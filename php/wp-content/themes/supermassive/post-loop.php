@@ -76,22 +76,7 @@
 			<!-- BEGIN POST -->
 			
 			<div <?php post_class('post-loop '.$gp_settings['preload']); ?>>
-		
-				
-				<!-- BEGIN IMAGE -->
-				
-				<?php if(has_post_thumbnail() OR get_post_meta($post->ID, 'ghostpool_thumbnail', true)) { ?>
-					<div class="post-thumbnail <?php echo $gp_settings['shadow']; ?><?php if($gp_settings['image_wrap'] == "Enable") { ?> wrap<?php } ?>" style="background-position: center <?php echo ($gp_settings['image_height'] - 16); ?>px;">
-						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-							<?php $image = vt_resize(get_post_thumbnail_id(), get_post_meta($post->ID, 'ghostpool_thumbnail', true), $gp_settings['image_width'], $gp_settings['image_height'], true); ?>
-							<img src="<?php echo $image['url']; ?>" width="<?php echo $gp_settings['image_width']; ?>" alt="<?php if(get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true)) { echo get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true); } else { echo get_the_title(); } ?>" class="<?php echo $gp_settings['reflection']; ?>" />			
-						</a>
-					</div><?php if($gp_settings['image_wrap'] == "Disable") { ?><div class="clear"></div><?php } ?>
-				<?php } ?>
-				
-				<!-- END IMAGE -->
-					
-				
+
 				<!-- BEGIN POST TEXT -->
 								
 				<div class="post-text"<?php if((has_post_thumbnail() OR get_post_meta($post->ID, 'ghostpool_thumbnail', true)) && $gp_settings['image_wrap'] == "Enable") { ?> style="margin-left: <?php echo $gp_settings['image_width'] + 20; ?>px;"<?php } ?>>
@@ -123,7 +108,19 @@
 					<?php } ?>	
 					
 					<!-- END POST META -->
-					
+
+                    <!-- BEGIN IMAGE -->
+
+                    <?php if(has_post_thumbnail() OR get_post_meta($post->ID, 'ghostpool_thumbnail', true)) { ?>
+                    <div class="post-thumbnail <?php echo $gp_settings['shadow']; ?><?php if($gp_settings['image_wrap'] == "Enable") { ?> wrap<?php } ?>" style="background-position: center <?php echo ($gp_settings['image_height'] - 16); ?>px;">
+                        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+                            <?php $image = vt_resize(get_post_thumbnail_id(), get_post_meta($post->ID, 'ghostpool_thumbnail', true), $gp_settings['image_width'], $gp_settings['image_height'], true); ?>
+                            <img src="<?php echo $image['url']; ?>" width="<?php echo $gp_settings['image_width']; ?>" alt="<?php if(get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true)) { echo get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true); } else { echo get_the_title(); } ?>" class="<?php echo $gp_settings['reflection']; ?>" />
+                        </a>
+                        </div><?php if($gp_settings['image_wrap'] == "Disable") { ?><div class="clear"></div><?php } ?>
+                    <?php } ?>
+
+                    <!-- END IMAGE -->
 							
 					<!-- BEGIN POST CONTENT -->
 							

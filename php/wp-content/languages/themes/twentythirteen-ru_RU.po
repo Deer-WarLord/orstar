@@ -4,17 +4,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Twenty Thirteen 1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/twentythirteen\n"
-"POT-Creation-Date: 2013-08-01 18:14:17+00:00\n"
+"POT-Creation-Date: 2013-08-01 18:14:18+00:00\n"
+"PO-Revision-Date: 2013-09-11 23:13+0400\n"
+"Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
+"Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2013-08-03 03:28+0400\n"
-"Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
-"Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
 "X-Generator: Poedit 1.5.7\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n%10==1 && n%100!=11) ? 3 : "
 "((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
-"Language: ru_RU\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2\n"
 "X-Poedit-Basepath: S:\\home\\wordpress\\trunk\\wp-content\\themes"
@@ -22,8 +22,8 @@ msgstr ""
 "X-Poedit-SearchPath-0: S:\\home\\wordpress\\trunk\\wp-content\\themes"
 "\\twentythirteen\n"
 
-#: 404.php:16 content-none.php:12
-msgid "Nothing Found"
+#: 404.php:16
+msgid "Not found"
 msgstr "Не найдено"
 
 #: 404.php:21
@@ -136,6 +136,10 @@ msgstr "1 комментарий"
 #: content-video.php:32 content.php:47
 msgid "View all % comments"
 msgstr "Комментарии (%)"
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "Не найдено"
 
 #: content-none.php:18
 msgid ""

@@ -3,8 +3,8 @@ Contributors: bestwebsoft
 Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
 Tags: captcha, match captcha, text captcha, spam, antispam, login, registration, comment, lost password, capcha, catcha, captha
 Requires at least: 3.0
-Tested up to: 3.6
-Stable tag: 3.7.9
+Tested up to: 3.6.1
+Stable tag: 3.8.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,9 @@ This plugin allows you to implement super security captcha form into web forms.
 
 == Description ==
 
-The Captcha plugin allows you to protect your website from spam by means of math logic and you can use this captcha for login, registration, password recovery, comments forms. The Russian, German and Dutch languages are added.
+The Captcha plugin allows you to implement a super security captcha form into web forms. It protects your website from spam by means of math logic, easily understood by human beings. You will not have to spend your precious time on annoying attempts to understand hard-to-read words, combinations of letters or pictures that make your eyes pop up. All you need is to do one of the three basic maths actions - add, subtract and multiply.
+This captcha can be used for login, registration, password recovery, comments forms.
+There is also a premium version of the plugin, allowing compatibility with BuddyPress (Registration form, Comments form, "Create a Group" form).
 
 <a href="http://wordpress.org/extend/plugins/captcha/faq/" target="_blank">FAQ</a>
 <a href="http://support.bestwebsoft.com" target="_blank">Support</a>
@@ -148,6 +150,16 @@ You could add this line to the variable and display this variable in the require
 5. Login form with Captcha.
 
 == Changelog ==
+
+= V3.8.2 - 23.09.2013 =
+* Bugfix : Captcha protection is improved by changing hidden values in every session.
+
+= V3.8.1 - 13.09.2013 =
+* Update : The French language file is updated. 
+* Update : We updated all functionality for wordpress 3.6.1.
+
+= V3.8.0 - 06.09.2013 =
+* Update : The German language file is updated in the plugin.
 
 = V3.7.9 - 30.08.2013 =
 * Update : The German language file is updated in the plugin.
@@ -355,6 +367,15 @@ You could add this line to the variable and display this variable in the require
 * Select functionality of mathematical actions and level of their difficulty are implemented.
 
 == Upgrade Notice ==
+
+= V3.8.2 =
+Captcha protection is improved by changing hidden values in every session.
+
+= V3.8.1 =
+The French language file is updated. We updated all functionality for wordpress 3.6.1.
+
+= V3.8.0 =
+The German language file is updated in the plugin.
 
 = V3.7.9 =
 The German language file is updated in the plugin. Function for displaying BWS plugins section placed in a separate file and has own language files.

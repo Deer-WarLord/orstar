@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: captcha\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-30 13:12+0300\n"
-"PO-Revision-Date: 2013-08-30 13:12+0300\n"
+"POT-Creation-Date: 2013-09-06 15:11+0300\n"
+"PO-Revision-Date: 2013-09-06 15:11+0300\n"
 "Last-Translator: \n"
 "Language-Team: Outshine Solutions <ash.pr@outshinesolutions.com>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: captcha.php:32
-#: captcha.php:213
+#: captcha.php:215
 #, fuzzy
 msgid "Captcha Settings"
 msgstr "Captcha विकल्प"
@@ -31,7 +31,7 @@ msgid "Login form"
 msgstr "परिवर्तन सहेजें"
 
 #: captcha.php:42
-#: captcha.php:251
+#: captcha.php:253
 #, fuzzy
 msgid "Registration form"
 msgstr " पंजीकरण प्रपत्र"
@@ -50,7 +50,7 @@ msgid "Lost password form"
 msgstr "पासवर्ड प्रपत्र खो दिया है"
 
 #: captcha.php:44
-#: captcha.php:252
+#: captcha.php:254
 msgid "Comments form"
 msgstr "टिप्पणियां फार्म"
 
@@ -105,259 +105,259 @@ msgstr "अक्सर पूछे जाने वाले प्रश्�
 msgid "Support"
 msgstr "समर्थन"
 
-#: captcha.php:202
+#: captcha.php:204
 #, fuzzy
 msgid "Please select one item in the block Arithmetic and Complexity for CAPTCHA"
 msgstr "CAPTCHA के लिए ब्लॉक अंकगणित कार्यों और इस में एक बिंदु का चयन करें"
 
-#: captcha.php:206
+#: captcha.php:208
 msgid "Options saved."
 msgstr "विकल्प बचाया."
 
-#: captcha.php:219
-#: captcha.php:248
+#: captcha.php:221
+#: captcha.php:250
 #, fuzzy
 msgid "Enable CAPTCHA for:"
 msgstr "CAPTCHA सक्षम:"
 
-#: captcha.php:233
 #: captcha.php:235
-#: captcha.php:238
+#: captcha.php:237
+#: captcha.php:240
 msgid "Contact form"
 msgstr "संपर्क फ़ॉर्म"
 
-#: captcha.php:233
 #: captcha.php:235
-#: captcha.php:238
-msgid "(powered by"
+#: captcha.php:237
+#: captcha.php:240
+msgid "powered by"
 msgstr ""
 
-#: captcha.php:235
+#: captcha.php:237
 msgid "Activate contact form"
 msgstr "संपर्क प्रपत्र सक्रिय"
 
-#: captcha.php:238
+#: captcha.php:240
 msgid "Download contact form"
 msgstr "संपर्क फॉर्म डाउनलोड करें"
 
-#: captcha.php:240
+#: captcha.php:242
 #, fuzzy
 msgid "If you would like to customize this plugin for a custom form, please see"
 msgstr "اگر می خواهید این افزونه را به عنوان یک فرم اختصاصی سفارشی سازی کنید، لطفاً از طریق <a href=\"Mailto:plugin@bestwebsoft.com\">plugin@bestwebsoft.com</a> با ما تماس بگیرید یا اینکه فرم تماس موجود در سایت ما را پُر کنید"
 
-#: captcha.php:253
+#: captcha.php:255
 msgid "\"Create a Group\" form"
 msgstr ""
 
-#: captcha.php:258
+#: captcha.php:260
 msgid "This functionality is available in the Pro version of the plugin. For more details, please follow the link"
 msgstr ""
 
-#: captcha.php:265
+#: captcha.php:267
 #, fuzzy
 msgid "Title for CAPTCHA in the form"
 msgstr "CAPTCHA के लिए लेबल"
 
-#: captcha.php:269
+#: captcha.php:271
 msgid "Arithmetic actions for CAPTCHA"
 msgstr "CAPTCHA के लिए अंकगणित कार्रवाई"
 
-#: captcha.php:278
+#: captcha.php:280
 msgid "CAPTCHA complexity level"
 msgstr ""
 
-#: captcha.php:288
+#: captcha.php:290
 msgid "Save Changes"
 msgstr "परिवर्तन सहेजें"
 
-#: captcha.php:333
-#: captcha.php:339
-#: captcha.php:513
-#: captcha.php:520
-#: captcha.php:532
-#: captcha.php:539
+#: captcha.php:335
+#: captcha.php:341
+#: captcha.php:515
+#: captcha.php:522
+#: captcha.php:534
+#: captcha.php:541
 msgid "ERROR"
 msgstr "त्रुटि"
 
-#: captcha.php:333
-#: captcha.php:356
-#: captcha.php:477
-#: captcha.php:513
-#: captcha.php:532
-#: captcha.php:558
+#: captcha.php:335
+#: captcha.php:358
+#: captcha.php:479
+#: captcha.php:515
+#: captcha.php:534
+#: captcha.php:560
 msgid "Please fill the form."
 msgstr ""
 
-#: captcha.php:339
-#: captcha.php:367
-#: captcha.php:520
-#: captcha.php:539
+#: captcha.php:341
+#: captcha.php:369
+#: captcha.php:522
+#: captcha.php:541
 #, fuzzy
 msgid "Please enter a valid CAPTCHA value."
 msgstr "CAPTCHA पूरा करें."
 
-#: captcha.php:483
-#: captcha.php:565
+#: captcha.php:485
+#: captcha.php:567
 #, fuzzy
 msgid "Error: You have entered an incorrect CAPTCHA value. Click the BACK button on your browser, and try again."
 msgstr "त्रुटि: आप गलत CAPTCHA मुहावरा में प्रवेश किया.अपने ब्राउज़र के वापस बटन दबाएँ और फिर कोशिश करें."
 
-#: captcha.php:577
-#: captcha.php:810
+#: captcha.php:579
+#: captcha.php:812
 msgid "zero"
 msgstr "शून्य"
 
-#: captcha.php:578
-#: captcha.php:811
-#: captcha.php:1023
+#: captcha.php:580
+#: captcha.php:813
+#: captcha.php:1026
 msgid "one"
 msgstr "एक"
 
-#: captcha.php:579
-#: captcha.php:812
+#: captcha.php:581
+#: captcha.php:814
 msgid "two"
 msgstr "दो"
 
-#: captcha.php:580
-#: captcha.php:813
+#: captcha.php:582
+#: captcha.php:815
 msgid "three"
 msgstr "तीन"
 
-#: captcha.php:581
-#: captcha.php:814
+#: captcha.php:583
+#: captcha.php:816
 msgid "four"
 msgstr "चार"
 
-#: captcha.php:582
-#: captcha.php:815
+#: captcha.php:584
+#: captcha.php:817
 msgid "five"
 msgstr "पांच"
 
-#: captcha.php:583
-#: captcha.php:816
-#: captcha.php:1023
+#: captcha.php:585
+#: captcha.php:818
+#: captcha.php:1026
 msgid "six"
 msgstr "छह"
 
-#: captcha.php:584
-#: captcha.php:817
-#: captcha.php:1011
-#: captcha.php:1017
+#: captcha.php:586
+#: captcha.php:819
+#: captcha.php:1014
+#: captcha.php:1020
 msgid "seven"
 msgstr "सात"
 
-#: captcha.php:585
-#: captcha.php:818
-#: captcha.php:1014
+#: captcha.php:587
+#: captcha.php:820
+#: captcha.php:1017
 msgid "eight"
 msgstr "आठ"
 
-#: captcha.php:586
-#: captcha.php:819
+#: captcha.php:588
+#: captcha.php:821
 msgid "nine"
 msgstr "नौ"
 
-#: captcha.php:589
-#: captcha.php:822
+#: captcha.php:591
+#: captcha.php:824
 msgid "eleven"
 msgstr "ग्यारह"
 
-#: captcha.php:590
-#: captcha.php:823
+#: captcha.php:592
+#: captcha.php:825
 msgid "twelve"
 msgstr "बारह"
 
-#: captcha.php:591
-#: captcha.php:824
+#: captcha.php:593
+#: captcha.php:826
 msgid "thirteen"
 msgstr "तेरह"
 
-#: captcha.php:592
-#: captcha.php:825
+#: captcha.php:594
+#: captcha.php:827
 msgid "fourteen"
 msgstr "चौदह"
 
-#: captcha.php:593
-#: captcha.php:826
+#: captcha.php:595
+#: captcha.php:828
 msgid "fifteen"
 msgstr "पंद्रह"
 
-#: captcha.php:594
-#: captcha.php:827
+#: captcha.php:596
+#: captcha.php:829
 msgid "sixteen"
 msgstr "सोलह"
 
-#: captcha.php:595
-#: captcha.php:828
+#: captcha.php:597
+#: captcha.php:830
 msgid "seventeen"
 msgstr "सत्रह"
 
-#: captcha.php:596
-#: captcha.php:829
+#: captcha.php:598
+#: captcha.php:831
 msgid "eighteen"
 msgstr "अठारह"
 
-#: captcha.php:597
-#: captcha.php:830
+#: captcha.php:599
+#: captcha.php:832
 msgid "nineteen"
 msgstr "उन्नीस"
 
-#: captcha.php:600
-#: captcha.php:833
+#: captcha.php:602
+#: captcha.php:835
 msgid "ten"
 msgstr "दस"
 
-#: captcha.php:601
-#: captcha.php:834
+#: captcha.php:603
+#: captcha.php:836
 msgid "twenty"
 msgstr "बीस"
 
-#: captcha.php:602
-#: captcha.php:835
+#: captcha.php:604
+#: captcha.php:837
 msgid "thirty"
 msgstr "तीस"
 
-#: captcha.php:603
-#: captcha.php:836
+#: captcha.php:605
+#: captcha.php:838
 msgid "forty"
 msgstr "चालीस"
 
-#: captcha.php:604
-#: captcha.php:837
+#: captcha.php:606
+#: captcha.php:839
 msgid "fifty"
 msgstr "पचास"
 
-#: captcha.php:605
-#: captcha.php:838
+#: captcha.php:607
+#: captcha.php:840
 msgid "sixty"
 msgstr "साठ"
 
-#: captcha.php:606
-#: captcha.php:839
+#: captcha.php:608
+#: captcha.php:841
 msgid "seventy"
 msgstr "सत्तर"
 
-#: captcha.php:607
-#: captcha.php:840
+#: captcha.php:609
+#: captcha.php:842
 msgid "eighty"
 msgstr "अस्सी"
 
-#: captcha.php:608
-#: captcha.php:841
+#: captcha.php:610
+#: captcha.php:843
 msgid "ninety"
 msgstr "नब्बे"
 
-#: captcha.php:695
-#: captcha.php:928
+#: captcha.php:697
+#: captcha.php:930
 msgid "and"
 msgstr "और"
 
-#: captcha.php:715
+#: captcha.php:717
 #, fuzzy
 msgid "Encryption password is not set"
 msgstr "Decoding के पासवर्ड सेट नहीं है"
 
-#: captcha.php:735
+#: captcha.php:737
 #, fuzzy
 msgid "Decryption password is not set"
 msgstr "Decoding के पासवर्ड सेट नहीं है"

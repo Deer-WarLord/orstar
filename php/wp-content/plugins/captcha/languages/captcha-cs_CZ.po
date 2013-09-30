@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: captcha\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-30 13:11+0300\n"
-"PO-Revision-Date: 2013-08-30 13:11+0300\n"
+"POT-Creation-Date: 2013-09-06 15:10+0300\n"
+"PO-Revision-Date: 2013-09-06 15:10+0300\n"
 "Last-Translator: \n"
 "Language-Team: Tomas Vesely, Crysman <crysman@seznam.cz>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: captcha.php:32
-#: captcha.php:213
+#: captcha.php:215
 msgid "Captcha Settings"
 msgstr "nastavení CAPTCHA"
 
@@ -32,7 +32,7 @@ msgid "Login form"
 msgstr "Přihlašovací formulář"
 
 #: captcha.php:42
-#: captcha.php:251
+#: captcha.php:253
 msgid "Registration form"
 msgstr "Registrační formulář"
 
@@ -49,7 +49,7 @@ msgid "Lost password form"
 msgstr "Formulář při ztrátě hesla"
 
 #: captcha.php:44
-#: captcha.php:252
+#: captcha.php:254
 msgid "Comments form"
 msgstr "Formulář pro odeslání komentáře"
 
@@ -102,253 +102,253 @@ msgstr "FAQ - často kladdené otázky"
 msgid "Support"
 msgstr "Podpora"
 
-#: captcha.php:202
+#: captcha.php:204
 msgid "Please select one item in the block Arithmetic and Complexity for CAPTCHA"
 msgstr "Prosím vyberte jednu položku v bloku aritmetických funkcí  a obtížnosti CAPTCHA"
 
-#: captcha.php:206
+#: captcha.php:208
 msgid "Options saved."
 msgstr "Nastavení uloženo"
 
-#: captcha.php:219
-#: captcha.php:248
+#: captcha.php:221
+#: captcha.php:250
 msgid "Enable CAPTCHA for:"
 msgstr "Povolit CAPTCHA pro:"
 
-#: captcha.php:233
 #: captcha.php:235
-#: captcha.php:238
+#: captcha.php:237
+#: captcha.php:240
 msgid "Contact form"
 msgstr "Kontaktní formulář"
 
-#: captcha.php:233
 #: captcha.php:235
-#: captcha.php:238
-msgid "(powered by"
+#: captcha.php:237
+#: captcha.php:240
+msgid "powered by"
 msgstr ""
 
-#: captcha.php:235
+#: captcha.php:237
 msgid "Activate contact form"
 msgstr "Aktivovat kontaktní formulář"
 
-#: captcha.php:238
+#: captcha.php:240
 msgid "Download contact form"
 msgstr "Stáhnout kontaktní formulář"
 
-#: captcha.php:240
+#: captcha.php:242
 #, fuzzy
 msgid "If you would like to customize this plugin for a custom form, please see"
 msgstr "Pokud budete chtít přizpůsobit tento plugin pro své potřeby, kontaktujte nás prosím skrze"
 
-#: captcha.php:253
+#: captcha.php:255
 msgid "\"Create a Group\" form"
 msgstr ""
 
-#: captcha.php:258
+#: captcha.php:260
 msgid "This functionality is available in the Pro version of the plugin. For more details, please follow the link"
 msgstr ""
 
-#: captcha.php:265
+#: captcha.php:267
 msgid "Title for CAPTCHA in the form"
 msgstr "Nadpis pro CAPTCHA ve formuláři"
 
-#: captcha.php:269
+#: captcha.php:271
 msgid "Arithmetic actions for CAPTCHA"
 msgstr "Aritmetické operace pro CAPTCHA"
 
-#: captcha.php:278
+#: captcha.php:280
 msgid "CAPTCHA complexity level"
 msgstr "míra komplexity CAPTCHA"
 
-#: captcha.php:288
+#: captcha.php:290
 msgid "Save Changes"
 msgstr "Uložit změny"
 
-#: captcha.php:333
-#: captcha.php:339
-#: captcha.php:513
-#: captcha.php:520
-#: captcha.php:532
-#: captcha.php:539
+#: captcha.php:335
+#: captcha.php:341
+#: captcha.php:515
+#: captcha.php:522
+#: captcha.php:534
+#: captcha.php:541
 msgid "ERROR"
 msgstr "CHYBA"
 
-#: captcha.php:333
-#: captcha.php:356
-#: captcha.php:477
-#: captcha.php:513
-#: captcha.php:532
-#: captcha.php:558
+#: captcha.php:335
+#: captcha.php:358
+#: captcha.php:479
+#: captcha.php:515
+#: captcha.php:534
+#: captcha.php:560
 msgid "Please fill the form."
 msgstr "Prosím, vyplňte formulář."
 
-#: captcha.php:339
-#: captcha.php:367
-#: captcha.php:520
-#: captcha.php:539
+#: captcha.php:341
+#: captcha.php:369
+#: captcha.php:522
+#: captcha.php:541
 msgid "Please enter a valid CAPTCHA value."
 msgstr "Prosím vyplňte správnou CAPTCHA hodnotu."
 
-#: captcha.php:483
-#: captcha.php:565
+#: captcha.php:485
+#: captcha.php:567
 msgid "Error: You have entered an incorrect CAPTCHA value. Click the BACK button on your browser, and try again."
 msgstr "Chyba: Zadali jste nesprávnou hodnotu CAPTCHA. Stiskněte ve Vašem prohlížeči tlačítko ZPĚT a zkuste to znovu."
 
-#: captcha.php:577
-#: captcha.php:810
+#: captcha.php:579
+#: captcha.php:812
 msgid "zero"
 msgstr "nula"
 
-#: captcha.php:578
-#: captcha.php:811
-#: captcha.php:1023
+#: captcha.php:580
+#: captcha.php:813
+#: captcha.php:1026
 msgid "one"
 msgstr "jedna"
 
-#: captcha.php:579
-#: captcha.php:812
+#: captcha.php:581
+#: captcha.php:814
 msgid "two"
 msgstr "dva"
 
-#: captcha.php:580
-#: captcha.php:813
+#: captcha.php:582
+#: captcha.php:815
 msgid "three"
 msgstr "tři"
 
-#: captcha.php:581
-#: captcha.php:814
+#: captcha.php:583
+#: captcha.php:816
 msgid "four"
 msgstr "čtyři"
 
-#: captcha.php:582
-#: captcha.php:815
+#: captcha.php:584
+#: captcha.php:817
 msgid "five"
 msgstr "pět"
 
-#: captcha.php:583
-#: captcha.php:816
-#: captcha.php:1023
+#: captcha.php:585
+#: captcha.php:818
+#: captcha.php:1026
 msgid "six"
 msgstr "šest"
 
-#: captcha.php:584
-#: captcha.php:817
-#: captcha.php:1011
-#: captcha.php:1017
+#: captcha.php:586
+#: captcha.php:819
+#: captcha.php:1014
+#: captcha.php:1020
 msgid "seven"
 msgstr "sedm"
 
-#: captcha.php:585
-#: captcha.php:818
-#: captcha.php:1014
+#: captcha.php:587
+#: captcha.php:820
+#: captcha.php:1017
 msgid "eight"
 msgstr "osm"
 
-#: captcha.php:586
-#: captcha.php:819
+#: captcha.php:588
+#: captcha.php:821
 msgid "nine"
 msgstr "devět"
 
-#: captcha.php:589
-#: captcha.php:822
+#: captcha.php:591
+#: captcha.php:824
 msgid "eleven"
 msgstr "jedenáct"
 
-#: captcha.php:590
-#: captcha.php:823
+#: captcha.php:592
+#: captcha.php:825
 msgid "twelve"
 msgstr "dvanáct"
 
-#: captcha.php:591
-#: captcha.php:824
+#: captcha.php:593
+#: captcha.php:826
 msgid "thirteen"
 msgstr "třináct"
 
-#: captcha.php:592
-#: captcha.php:825
+#: captcha.php:594
+#: captcha.php:827
 msgid "fourteen"
 msgstr "čtrnáct"
 
-#: captcha.php:593
-#: captcha.php:826
+#: captcha.php:595
+#: captcha.php:828
 msgid "fifteen"
 msgstr "patnáct"
 
-#: captcha.php:594
-#: captcha.php:827
+#: captcha.php:596
+#: captcha.php:829
 msgid "sixteen"
 msgstr "šestnáct"
 
-#: captcha.php:595
-#: captcha.php:828
+#: captcha.php:597
+#: captcha.php:830
 msgid "seventeen"
 msgstr "sedmnáct"
 
-#: captcha.php:596
-#: captcha.php:829
+#: captcha.php:598
+#: captcha.php:831
 msgid "eighteen"
 msgstr "osmnáct"
 
-#: captcha.php:597
-#: captcha.php:830
+#: captcha.php:599
+#: captcha.php:832
 msgid "nineteen"
 msgstr "devatenáct"
 
-#: captcha.php:600
-#: captcha.php:833
+#: captcha.php:602
+#: captcha.php:835
 msgid "ten"
 msgstr "deset"
 
-#: captcha.php:601
-#: captcha.php:834
+#: captcha.php:603
+#: captcha.php:836
 msgid "twenty"
 msgstr "dvacet"
 
-#: captcha.php:602
-#: captcha.php:835
+#: captcha.php:604
+#: captcha.php:837
 msgid "thirty"
 msgstr "třicet"
 
-#: captcha.php:603
-#: captcha.php:836
+#: captcha.php:605
+#: captcha.php:838
 msgid "forty"
 msgstr "čtyřicet"
 
-#: captcha.php:604
-#: captcha.php:837
+#: captcha.php:606
+#: captcha.php:839
 msgid "fifty"
 msgstr "padesát"
 
-#: captcha.php:605
-#: captcha.php:838
+#: captcha.php:607
+#: captcha.php:840
 msgid "sixty"
 msgstr "šedesát"
 
-#: captcha.php:606
-#: captcha.php:839
+#: captcha.php:608
+#: captcha.php:841
 msgid "seventy"
 msgstr "sedmdesát"
 
-#: captcha.php:607
-#: captcha.php:840
+#: captcha.php:609
+#: captcha.php:842
 msgid "eighty"
 msgstr "osmdesát"
 
-#: captcha.php:608
-#: captcha.php:841
+#: captcha.php:610
+#: captcha.php:843
 msgid "ninety"
 msgstr "devadesát"
 
-#: captcha.php:695
-#: captcha.php:928
+#: captcha.php:697
+#: captcha.php:930
 msgid "and"
 msgstr "a"
 
-#: captcha.php:715
+#: captcha.php:717
 msgid "Encryption password is not set"
 msgstr "kódovací heslo není zadáno"
 
-#: captcha.php:735
+#: captcha.php:737
 msgid "Decryption password is not set"
 msgstr "dekódovací heslo není zadáno"
 
