@@ -162,31 +162,6 @@ function gp_related_posts($atts, $content = null) {
 			
 			<div <?php post_class('post-loop'.$preload.$first_column.$columns); ?> style="width: <?php echo $col_width; ?>%;">
 
-
-				<!-- BEGIN IMAGE -->
-				
-				<?php if((has_post_thumbnail() OR get_post_meta($post->ID, 'ghostpool_thumbnail', true)) && $images == "true") { ?>	
-					<div class="post-thumbnail<?php if($image_wrap == "true") { ?> wrap<?php } ?>">
-				
-						<?php if($link == "image" OR $link == "both") { ?>
-							<a href="<?php if(get_post_meta($post->ID, 'ghostpool_custom_url', true)) { echo get_post_meta($post->ID, 'ghostpool_custom_url', true); } else { the_permalink(); } ?>">
-						<?php } ?>
-																		
-							<?php $image = vt_resize(get_post_thumbnail_id(), get_post_meta($post->ID, 'ghostpool_thumbnail', true), $image_width, $image_height, true); ?>
-							
-							<img src="<?php echo $image['url']; ?>" width="<?php echo $image_width; ?>" alt="<?php if(get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true)) { echo get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true); } else { echo get_the_title(); } ?>" />		
-						
-						<?php if($link == "image" OR $link == "both") { ?></a><?php } ?>
-						
-					</div>					
-									
-					<?php if($image_wrap == "false") { ?><div class="clear"></div><?php } ?>
-				
-				<?php } ?>
-				
-				<!-- END IMAGE -->
-				
-				
 				<!-- BEGIN POST TEXT -->
 									
 				<div class="post-text"<?php if((has_post_thumbnail() OR get_post_meta($post->ID, 'ghostpool_thumbnail', true)) && $images == "true" && $image_wrap == "true") { ?> style="margin-left: <?php echo $image_width + 20; ?>px;"<?php } ?>>
@@ -216,8 +191,30 @@ function gp_related_posts($atts, $content = null) {
 					<?php } ?>
 					
 					<!-- END TITLE -->
-					
-					
+
+                    <!-- BEGIN IMAGE -->
+
+                    <?php if((has_post_thumbnail() OR get_post_meta($post->ID, 'ghostpool_thumbnail', true)) && $images == "true") { ?>
+                        <div class="post-thumbnail<?php if($image_wrap == "true") { ?> wrap<?php } ?>">
+
+                            <?php if($link == "image" OR $link == "both") { ?>
+                            <a href="<?php if(get_post_meta($post->ID, 'ghostpool_custom_url', true)) { echo get_post_meta($post->ID, 'ghostpool_custom_url', true); } else { the_permalink(); } ?>">
+                                <?php } ?>
+
+                                <?php $image = vt_resize(get_post_thumbnail_id(), get_post_meta($post->ID, 'ghostpool_thumbnail', true), $image_width, $image_height, true); ?>
+
+                                <img src="<?php echo $image['url']; ?>" width="<?php echo $image_width; ?>" alt="<?php if(get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true)) { echo get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true); } else { echo get_the_title(); } ?>" />
+
+                                <?php if($link == "image" OR $link == "both") { ?></a><?php } ?>
+
+                        </div>
+
+                        <?php if($image_wrap == "false") { ?><div class="clear"></div><?php } ?>
+
+                    <?php } ?>
+
+                    <!-- END IMAGE -->
+
 					<!-- BEGIN POST CONTENT -->
 														
 					<?php if($content_display == "full") { ?>	

@@ -159,36 +159,7 @@ function gp_blog($atts, $content = null) {
 
 			<div <?php post_class('post-loop'.$preload.$first_column.$columns.$shadow_reflection_padding); ?> style="width: <?php echo $col_width; ?>%;">
 						
-								
-				<!-- BEGIN IMAGE -->
-				
-				<?php if((has_post_thumbnail() OR get_post_meta($post->ID, 'ghostpool_thumbnail', true)) && $images == "true") { ?>					
-					
-					<div class="post-thumbnail <?php echo $shadow; ?><?php if($image_wrap == "true") { ?> wrap<?php } ?>" style="background-position: center <?php echo ($image_height - 16); ?>px;">
 
-						<?php if(($link == "image" OR $link == "both") && get_post_meta($post->ID, 'ghostpool_link_type', true) != "None") { ?>
-							<a href="<?php if(get_post_meta($post->ID, 'ghostpool_link_type', true) == "Lightbox Video") { ?>file=<?php echo get_post_meta($post->ID, 'ghostpool_custom_url', true); } elseif(get_post_meta($post->ID, 'ghostpool_link_type', true) == "Lightbox Image") { if(get_post_meta($post->ID, 'ghostpool_custom_url', true)) { echo get_post_meta($post->ID, 'ghostpool_custom_url', true); } else { echo wp_get_attachment_url(get_post_thumbnail_id($post->ID)); }} else { if(get_post_meta($post->ID, 'ghostpool_custom_url', true)) { echo get_post_meta($post->ID, 'ghostpool_custom_url', true); } else { the_permalink(); }} ?>"<?php if(get_post_meta($post->ID, 'ghostpool_link_type', true) != "Page") { ?> rel="prettyPhoto[<?php echo $name; the_ID(); ?>]"<?php } ?>>
-						<?php } ?>
-						
-							<?php if($link == "image" OR $link == "both") { ?>
-								<?php if(get_post_meta($post->ID, 'ghostpool_link_type', true) == "Lightbox Image") { ?><span class="hover-image"></span><?php } elseif(get_post_meta($post->ID, 'ghostpool_link_type', true) == "Lightbox Video") { ?><span class="hover-video"></span><?php } ?>
-							<?php } ?>
-							
-							<?php $image = vt_resize(get_post_thumbnail_id(), get_post_meta($post->ID, 'ghostpool_thumbnail', true), $image_width, $image_height, true); ?>
-							
-							<img src="<?php echo $image['url']; ?>" width="<?php echo $image_width; ?>" alt="<?php if(get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true)) { echo get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true); } else { echo get_the_title(); } ?>" class="<?php echo $reflection; ?>" />		
-						
-						<?php if(($link == "image" OR $link == "both") && get_post_meta($post->ID, 'ghostpool_link_type', true) != "None") { ?></a><?php } ?>
-						
-					</div>					
-									
-					<?php if($image_wrap == "false") { ?><div class="clear"></div><?php } ?>
-				
-				<?php } ?>
-				
-				<!-- END IMAGE -->
-	
-				
 				<!-- BEGIN LIGHTBOX IMAGES -->
 				
 				<?php $args = array('post_type' => 'attachment', 'post_parent' => $post->ID, 'numberposts' => -1, 'orderby' => 'menu_order', 'order' => 'asc', 'post__not_in' => array(get_post_thumbnail_id())); $attachments = get_children($args); if($attachments) { foreach ($attachments as $attachment) { ?>
@@ -229,7 +200,35 @@ function gp_blog($atts, $content = null) {
 					<?php } ?>	
 					
 					<!-- END POST META -->
-					
+
+                    <!-- BEGIN IMAGE -->
+
+                    <?php if((has_post_thumbnail() OR get_post_meta($post->ID, 'ghostpool_thumbnail', true)) && $images == "true") { ?>
+
+                        <div class="post-thumbnail <?php echo $shadow; ?><?php if($image_wrap == "true") { ?> wrap<?php } ?>" style="background-position: center <?php echo ($image_height - 16); ?>px;">
+
+                            <?php if(($link == "image" OR $link == "both") && get_post_meta($post->ID, 'ghostpool_link_type', true) != "None") { ?>
+                            <a href="<?php if(get_post_meta($post->ID, 'ghostpool_link_type', true) == "Lightbox Video") { ?>file=<?php echo get_post_meta($post->ID, 'ghostpool_custom_url', true); } elseif(get_post_meta($post->ID, 'ghostpool_link_type', true) == "Lightbox Image") { if(get_post_meta($post->ID, 'ghostpool_custom_url', true)) { echo get_post_meta($post->ID, 'ghostpool_custom_url', true); } else { echo wp_get_attachment_url(get_post_thumbnail_id($post->ID)); }} else { if(get_post_meta($post->ID, 'ghostpool_custom_url', true)) { echo get_post_meta($post->ID, 'ghostpool_custom_url', true); } else { the_permalink(); }} ?>"<?php if(get_post_meta($post->ID, 'ghostpool_link_type', true) != "Page") { ?> rel="prettyPhoto[<?php echo $name; the_ID(); ?>]"<?php } ?>>
+                                <?php } ?>
+
+                                <?php if($link == "image" OR $link == "both") { ?>
+                                    <?php if(get_post_meta($post->ID, 'ghostpool_link_type', true) == "Lightbox Image") { ?><span class="hover-image"></span><?php } elseif(get_post_meta($post->ID, 'ghostpool_link_type', true) == "Lightbox Video") { ?><span class="hover-video"></span><?php } ?>
+                                <?php } ?>
+
+                                <?php $image = vt_resize(get_post_thumbnail_id(), get_post_meta($post->ID, 'ghostpool_thumbnail', true), $image_width, $image_height, true); ?>
+
+                                <img src="<?php echo $image['url']; ?>" width="<?php echo $image_width; ?>" alt="<?php if(get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true)) { echo get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true); } else { echo get_the_title(); } ?>" class="<?php echo $reflection; ?>" />
+
+                                <?php if(($link == "image" OR $link == "both") && get_post_meta($post->ID, 'ghostpool_link_type', true) != "None") { ?></a><?php } ?>
+
+                        </div>
+
+                        <?php if($image_wrap == "false") { ?><div class="clear"></div><?php } ?>
+
+                    <?php } ?>
+
+                    <!-- END IMAGE -->
+
 					
 					<!-- BEGIN POST CONTENT -->
 					
